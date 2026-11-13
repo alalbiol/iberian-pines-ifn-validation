@@ -5,7 +5,7 @@ import subprocess
 REPOSITORY = 'alalbiol/iberian-pines-ifn-validation'
 DESCRIPTION = ('Reproducible biomass forecasts for five Iberian pines, '
                'validated against Spanish National Forest Inventories (IFN3/IFN4).')
-HOMEPAGE = 'https://github.com/alalbiol/iberian-pines-ifn-validation#readme'
+HOMEPAGE = 'https://www.eotdl.com/datasets/iberian-pines-ifn-validation'
 TOPICS = ['forestry', 'biomass', 'forest-inventory', 'pine', 'ifn3', 'ifn4',
           'reproducible-research', 'python']
 

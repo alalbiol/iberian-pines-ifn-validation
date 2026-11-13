@@ -17,6 +17,9 @@ This repository accompanies the manuscript *Regional transfer and inventory-anch
 
 **Publication status:** The manuscript is currently under revision. A link to the published article and its full citation will be added here after publication.
 
+**Released asset:** [GitHub v1.0.0](https://github.com/alalbiol/iberian-pines-ifn-validation/releases/tag/v1.0.0) corresponds to **[EOTDL dataset version 1](https://www.eotdl.com/datasets/iberian-pines-ifn-validation)**. The exact source commit is `dc6d77f407f4e0273e15fac18acf86791cded1a6`. All 115 uploaded payload files were verified against this commit. See [the release record](provenance/releases/v1.0.0.json) for the dataset ID and manifest checksum.
+
+
 We test two different forecasting situations using Spain’s National Forest Inventory (IFN): predicting biomass when only stand age and species are known, and forecasting the next inventory from a measured tree list. Model components are fitted in designated provinces and evaluated in other provinces.
 
 ![Observed and forecast biomass from measured trees](analysis/figures/fig3_measured_tree.png)
@@ -91,7 +94,7 @@ The downloader retrieves and extracts **42 databases**: 19 IFN4 files covering 2
 
 Use `--list` to inspect sources, or `--verify-only` to check files already present. The full inventory-analysis workflow additionally needs `mdbtools`; see [REPRODUCING.md](REPRODUCING.md). `MDB_EXPORT` can override the `mdb-export` executable.
 
-This is a working research snapshot, not yet an archived release. It includes manuscript-related working-tree changes from the source project on 12 November 2026; the provenance file records both the base commit and per-file hashes. No publication DOI or repository archive DOI has been assigned here.
+Release v1.0.0 is available as EOTDL dataset version 1. The provenance file records the original project snapshot and per-file hashes. Neither a publication DOI nor a repository archive DOI has been assigned here.
 
 ## Citation and reuse
 

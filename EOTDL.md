@@ -16,6 +16,10 @@ analysis source. It does not contain the raw IFN databases or linked-tree caches
 The raw-data route, including `scripts/download_inventories.py`, is described in REPRODUCING.md. It is not a neural-network model
 entry, and the held-out forecast tables should not be described as training data.
 
+## Published version
+
+GitHub release `v1.0.0` (commit `dc6d77f407f4e0273e15fac18acf86791cded1a6`) corresponds to EOTDL dataset version **1**. The uploaded manifest was downloaded from EOTDL and all 115 payload hashes matched that commit. See `provenance/releases/v1.0.0.json` for the permanent mapping. Changes on `main` after this tag are not part of the original upload.
+
 ## Prepare and check locally
 
 In the Python 3.11 analysis environment:
@@ -85,5 +89,4 @@ Preparation does not assign a DOI, upload a dataset, or publish the GitHub repos
 
 After authenticating with `gh auth login -h github.com`, run
 `python scripts/update_github_about.py` to set the repository description,
-website, and topics. The website points to this repository’s README until
-a public EOTDL dataset URL is available.
+website, and topics. The website points to the public EOTDL dataset page.

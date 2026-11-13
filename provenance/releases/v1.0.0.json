@@ -1,0 +1,12 @@
+{
+  "dataset_name": "iberian-pines-ifn-validation",
+  "dataset_id": "6af6fa28dbc0af5e134f7df8",
+  "eotdl_version": 1,
+  "github_commit": "dc6d77f407f4e0273e15fac18acf86791cded1a6",
+  "github_tag": "v1.0.0",
+  "manifest_sha256": "7932244fa4b8829dc8ce26744a295b0df5ea6c26d6f655c1678ce43c0e83ad12",
+  "payload_files": 115,
+  "github_release_url": "https://github.com/alalbiol/iberian-pines-ifn-validation/releases/tag/v1.0.0",
+  "eotdl_url": "https://www.eotdl.com/datasets/iberian-pines-ifn-validation",
+  "verified_date": "2026-11-13"
+}

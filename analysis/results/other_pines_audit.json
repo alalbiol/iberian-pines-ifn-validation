@@ -1,0 +1,108 @@
+{
+  "design": "IFN4 main pine species, even-aged, direct or reliable age, live >=7.5cm trees, >=80% pine basal area; all locally available databases",
+  "databases": 16,
+  "species": {
+    "Pinus halepensis": {
+      "age_screen": 134,
+      "pine_dominated_measured": 72,
+      "direct_age": 62,
+      "direct_age_planted": 53,
+      "direct_age_under_25": 25,
+      "direct_age_25plus": 37,
+      "direct_age_age_range": [
+        10.0,
+        50.0
+      ],
+      "direct_age_by_province": {
+        "16": 19,
+        "2": 17,
+        "25": 10,
+        "19": 7,
+        "8": 5,
+        "43": 2,
+        "17": 1,
+        "45": 1
+      },
+      "direct_age_source_counts": {
+        "5": 32,
+        "8": 30
+      }
+    },
+    "Pinus nigra": {
+      "age_screen": 37,
+      "pine_dominated_measured": 26,
+      "direct_age": 26,
+      "direct_age_planted": 26,
+      "direct_age_under_25": 0,
+      "direct_age_25plus": 26,
+      "direct_age_age_range": [
+        28.0,
+        57.0
+      ],
+      "direct_age_by_province": {
+        "25": 11,
+        "16": 9,
+        "28": 5,
+        "8": 1
+      },
+      "direct_age_source_counts": {
+        "5": 18,
+        "8": 8
+      }
+    },
+    "Pinus pinea": {
+      "age_screen": 71,
+      "pine_dominated_measured": 48,
+      "direct_age": 42,
+      "direct_age_planted": 39,
+      "direct_age_under_25": 26,
+      "direct_age_25plus": 16,
+      "direct_age_age_range": [
+        9.0,
+        50.0
+      ],
+      "direct_age_by_province": {
+        "6": 21,
+        "13": 8,
+        "2": 3,
+        "45": 3,
+        "16": 3,
+        "5": 1,
+        "29": 1,
+        "37": 1,
+        "49": 1
+      },
+      "direct_age_source_counts": {
+        "5": 31,
+        "8": 11
+      }
+    },
+    "Pinus sylvestris": {
+      "age_screen": 297,
+      "pine_dominated_measured": 234,
+      "direct_age": 207,
+      "direct_age_planted": 200,
+      "direct_age_under_25": 34,
+      "direct_age_25plus": 173,
+      "direct_age_age_range": [
+        4.0,
+        60.0
+      ],
+      "direct_age_by_province": {
+        "32": 88,
+        "27": 50,
+        "28": 49,
+        "25": 6,
+        "5": 5,
+        "37": 4,
+        "49": 3,
+        "17": 1,
+        "36": 1
+      },
+      "direct_age_source_counts": {
+        "8": 138,
+        "5": 69
+      }
+    }
+  }
+}

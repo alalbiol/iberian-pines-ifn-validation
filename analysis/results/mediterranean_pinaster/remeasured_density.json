@@ -1,0 +1,195 @@
+{
+  "design": "Same-plot IFN3 to IFN4 pine >=80% basal area both cycles, >=2 strict pine links; Madrid/Salamanca fit; other provinces test",
+  "fit_n": 106,
+  "heldout_n": 534,
+  "fit_by_province": {
+    "Madrid": 65,
+    "Salamanca": 41
+  },
+  "heldout_by_province": {
+    "Cuenca": 128,
+    "Cáceres": 102,
+    "Ciudad Real": 99,
+    "Albacete": 86,
+    "Guadalajara": 71,
+    "Toledo": 48
+  },
+  "heldout_interval_years": [
+    14.64,
+    17.8
+  ],
+  "fit_median_annual_log_rate": -0.018852258636201744,
+  "fit_density_rate_parameters": {
+    "annual_log_rate_at_500_stems_ha": -0.024238194627615603,
+    "slope_per_log_density": -0.017229335573780015
+  },
+  "heldout_results": {
+    "persistence": {
+      "n": 534,
+      "bias_stems_ha": 143.751,
+      "mae_stems_ha": 216.479,
+      "rmse_stems_ha": 330.638,
+      "median_prediction_over_observed": 1.205
+    },
+    "constant_annual_rate": {
+      "n": 534,
+      "bias_stems_ha": -3.71,
+      "mae_stems_ha": 177.794,
+      "rmse_stems_ha": 255.774,
+      "median_prediction_over_observed": 0.892
+    },
+    "density_dependent_rate": {
+      "n": 534,
+      "bias_stems_ha": -66.045,
+      "mae_stems_ha": 186.685,
+      "rmse_stems_ha": 262.664,
+      "median_prediction_over_observed": 0.855
+    }
+  },
+  "heldout_province_results": {
+    "Albacete": {
+      "persistence": {
+        "n": 86,
+        "bias_stems_ha": 47.243,
+        "mae_stems_ha": 134.504,
+        "rmse_stems_ha": 207.274,
+        "median_prediction_over_observed": 1.083
+      },
+      "constant_annual_rate": {
+        "n": 86,
+        "bias_stems_ha": -61.253,
+        "mae_stems_ha": 135.104,
+        "rmse_stems_ha": 193.388,
+        "median_prediction_over_observed": 0.795
+      },
+      "density_dependent_rate": {
+        "n": 86,
+        "bias_stems_ha": -82.264,
+        "mae_stems_ha": 141.529,
+        "rmse_stems_ha": 209.65,
+        "median_prediction_over_observed": 0.833
+      }
+    },
+    "Ciudad Real": {
+      "persistence": {
+        "n": 99,
+        "bias_stems_ha": 294.926,
+        "mae_stems_ha": 310.099,
+        "rmse_stems_ha": 433.416,
+        "median_prediction_over_observed": 2.296
+      },
+      "constant_annual_rate": {
+        "n": 99,
+        "bias_stems_ha": 140.975,
+        "mae_stems_ha": 220.421,
+        "rmse_stems_ha": 301.821,
+        "median_prediction_over_observed": 1.708
+      },
+      "density_dependent_rate": {
+        "n": 99,
+        "bias_stems_ha": 72.723,
+        "mae_stems_ha": 200.733,
+        "rmse_stems_ha": 248.845,
+        "median_prediction_over_observed": 1.647
+      }
+    },
+    "Cuenca": {
+      "persistence": {
+        "n": 128,
+        "bias_stems_ha": 74.307,
+        "mae_stems_ha": 149.587,
+        "rmse_stems_ha": 232.731,
+        "median_prediction_over_observed": 1.104
+      },
+      "constant_annual_rate": {
+        "n": 128,
+        "bias_stems_ha": -64.86,
+        "mae_stems_ha": 147.321,
+        "rmse_stems_ha": 213.043,
+        "median_prediction_over_observed": 0.799
+      },
+      "density_dependent_rate": {
+        "n": 128,
+        "bias_stems_ha": -111.305,
+        "mae_stems_ha": 170.779,
+        "rmse_stems_ha": 247.056,
+        "median_prediction_over_observed": 0.808
+      }
+    },
+    "Cáceres": {
+      "persistence": {
+        "n": 102,
+        "bias_stems_ha": 199.524,
+        "mae_stems_ha": 295.442,
+        "rmse_stems_ha": 416.012,
+        "median_prediction_over_observed": 1.346
+      },
+      "constant_annual_rate": {
+        "n": 102,
+        "bias_stems_ha": 27.419,
+        "mae_stems_ha": 203.674,
+        "rmse_stems_ha": 288.702,
+        "median_prediction_over_observed": 1.019
+      },
+      "density_dependent_rate": {
+        "n": 102,
+        "bias_stems_ha": -78.297,
+        "mae_stems_ha": 214.577,
+        "rmse_stems_ha": 297.009,
+        "median_prediction_over_observed": 0.926
+      }
+    },
+    "Guadalajara": {
+      "persistence": {
+        "n": 71,
+        "bias_stems_ha": 49.525,
+        "mae_stems_ha": 191.084,
+        "rmse_stems_ha": 271.192,
+        "median_prediction_over_observed": 1.107
+      },
+      "constant_annual_rate": {
+        "n": 71,
+        "bias_stems_ha": -106.39,
+        "mae_stems_ha": 186.712,
+        "rmse_stems_ha": 278.113,
+        "median_prediction_over_observed": 0.796
+      },
+      "density_dependent_rate": {
+        "n": 71,
+        "bias_stems_ha": -168.037,
+        "mae_stems_ha": 222.392,
+        "rmse_stems_ha": 337.852,
+        "median_prediction_over_observed": 0.737
+      }
+    },
+    "Toledo": {
+      "persistence": {
+        "n": 48,
+        "bias_stems_ha": 210.907,
+        "mae_stems_ha": 218.411,
+        "rmse_stems_ha": 361.665,
+        "median_prediction_over_observed": 1.179
+      },
+      "constant_annual_rate": {
+        "n": 48,
+        "bias_stems_ha": 49.779,
+        "mae_stems_ha": 179.433,
+        "rmse_stems_ha": 245.668,
+        "median_prediction_over_observed": 0.878
+      },
+      "density_dependent_rate": {
+        "n": 48,
+        "bias_stems_ha": -25.603,
+        "mae_stems_ha": 168.944,
+        "rmse_stems_ha": 204.979,
+        "median_prediction_over_observed": 0.852
+      }
+    }
+  },
+  "heldout_observed_change": {
+    "median_n3_stems_ha": 462.893,
+    "median_n4_stems_ha": 324.393,
+    "median_n4_over_n3": 0.83,
+    "share_with_net_increase": 0.272
+  }
+}

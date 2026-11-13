@@ -1,0 +1,1163 @@
+{
+  "design": "Strict surviving IFN3→IFN4 trees; plot-equal robust fit on prespecified provinces, other provinces held out; DBH cm and height m",
+  "species": {
+    "Pinus sylvestris": {
+      "fit_provinces": [
+        "25",
+        "28"
+      ],
+      "diameter": {
+        "fit_trees": 8105,
+        "fit_plots": 547,
+        "heldout_trees": 14132,
+        "heldout_plots": 1216,
+        "fit_constant_annual_rate": 0.2225178375411636,
+        "size_density_parameters": [
+          -1.4182876662817079,
+          -0.03624704379507389,
+          -0.1710713850316293
+        ],
+        "heldout_results": {
+          "size_density_model": {
+            "trees": 14132,
+            "plots": 1216,
+            "bias": -0.362,
+            "mae": 2.123,
+            "rmse": 2.776
+          },
+          "fit_constant_rate": {
+            "trees": 14132,
+            "plots": 1216,
+            "bias": -0.429,
+            "mae": 2.122,
+            "rmse": 2.799
+          },
+          "no_growth": {
+            "trees": 14132,
+            "plots": 1216,
+            "bias": -3.772,
+            "mae": 3.792,
+            "rmse": 4.67
+          }
+        },
+        "heldout_by_province": {
+          "05": {
+            "trees": 1086,
+            "plots": 60,
+            "bias": -1.402,
+            "mae": 3.066,
+            "rmse": 3.897
+          },
+          "08": {
+            "trees": 2738,
+            "plots": 309,
+            "bias": 0.209,
+            "mae": 1.772,
+            "rmse": 2.213
+          },
+          "10": {
+            "trees": 84,
+            "plots": 5,
+            "bias": -3.639,
+            "mae": 4.163,
+            "rmse": 4.903
+          },
+          "15": {
+            "trees": 21,
+            "plots": 6,
+            "bias": -2.524,
+            "mae": 3.268,
+            "rmse": 3.994
+          },
+          "16": {
+            "trees": 2194,
+            "plots": 198,
+            "bias": 0.728,
+            "mae": 1.999,
+            "rmse": 2.485
+          },
+          "17": {
+            "trees": 1500,
+            "plots": 172,
+            "bias": -0.168,
+            "mae": 1.793,
+            "rmse": 2.335
+          },
+          "19": {
+            "trees": 2440,
+            "plots": 172,
+            "bias": 0.516,
+            "mae": 1.932,
+            "rmse": 2.482
+          },
+          "23": {
+            "trees": 1,
+            "plots": 1,
+            "bias": 0.659,
+            "mae": 0.659,
+            "rmse": 0.659
+          },
+          "27": {
+            "trees": 1123,
+            "plots": 49,
+            "bias": -2.021,
+            "mae": 2.375,
+            "rmse": 3.051
+          },
+          "29": {
+            "trees": 16,
+            "plots": 4,
+            "bias": -2.945,
+            "mae": 3.793,
+            "rmse": 4.364
+          },
+          "32": {
+            "trees": 1166,
+            "plots": 64,
+            "bias": -1.783,
+            "mae": 2.159,
+            "rmse": 2.822
+          },
+          "36": {
+            "trees": 1,
+            "plots": 1,
+            "bias": -0.57,
+            "mae": 0.57,
+            "rmse": 0.57
+          },
+          "37": {
+            "trees": 285,
+            "plots": 29,
+            "bias": -3.717,
+            "mae": 4.405,
+            "rmse": 5.485
+          },
+          "43": {
+            "trees": 713,
+            "plots": 85,
+            "bias": 0.693,
+            "mae": 1.612,
+            "rmse": 1.958
+          },
+          "45": {
+            "trees": 40,
+            "plots": 2,
+            "bias": -0.214,
+            "mae": 1.919,
+            "rmse": 2.665
+          },
+          "49": {
+            "trees": 724,
+            "plots": 59,
+            "bias": -1.993,
+            "mae": 2.613,
+            "rmse": 3.373
+          }
+        },
+        "negative_observed_increment_fraction": 0.0104
+      },
+      "height": {
+        "fit_trees": 8105,
+        "fit_plots": 547,
+        "heldout_trees": 14132,
+        "heldout_plots": 1216,
+        "fit_constant_annual_rate": 0.1009407043048469,
+        "size_density_parameters": [
+          -2.1531796530652496,
+          -0.1322694616859551,
+          -0.22913629332625024,
+          0.05130826840236677
+        ],
+        "heldout_results": {
+          "size_density_model": {
+            "trees": 14132,
+            "plots": 1216,
+            "bias": -0.434,
+            "mae": 1.543,
+            "rmse": 2.009
+          },
+          "fit_constant_rate": {
+            "trees": 14132,
+            "plots": 1216,
+            "bias": -0.654,
+            "mae": 1.58,
+            "rmse": 2.075
+          },
+          "no_growth": {
+            "trees": 14132,
+            "plots": 1216,
+            "bias": -2.171,
+            "mae": 2.284,
+            "rmse": 2.914
+          }
+        },
+        "heldout_by_province": {
+          "05": {
+            "trees": 1086,
+            "plots": 60,
+            "bias": -1.377,
+            "mae": 2.094,
+            "rmse": 2.676
+          },
+          "08": {
+            "trees": 2738,
+            "plots": 309,
+            "bias": 0.364,
+            "mae": 1.258,
+            "rmse": 1.563
+          },
+          "10": {
+            "trees": 84,
+            "plots": 5,
+            "bias": -3.189,
+            "mae": 3.542,
+            "rmse": 3.819
+          },
+          "15": {
+            "trees": 21,
+            "plots": 6,
+            "bias": -1.616,
+            "mae": 1.844,
+            "rmse": 2.322
+          },
+          "16": {
+            "trees": 2194,
+            "plots": 198,
+            "bias": 0.059,
+            "mae": 1.19,
+            "rmse": 1.554
+          },
+          "17": {
+            "trees": 1500,
+            "plots": 172,
+            "bias": -0.182,
+            "mae": 1.485,
+            "rmse": 1.887
+          },
+          "19": {
+            "trees": 2440,
+            "plots": 172,
+            "bias": 0.102,
+            "mae": 1.266,
+            "rmse": 1.602
+          },
+          "23": {
+            "trees": 1,
+            "plots": 1,
+            "bias": 0.443,
+            "mae": 0.443,
+            "rmse": 0.443
+          },
+          "27": {
+            "trees": 1123,
+            "plots": 49,
+            "bias": -2.262,
+            "mae": 2.513,
+            "rmse": 2.964
+          },
+          "29": {
+            "trees": 16,
+            "plots": 4,
+            "bias": -2.911,
+            "mae": 3.387,
+            "rmse": 3.631
+          },
+          "32": {
+            "trees": 1166,
+            "plots": 64,
+            "bias": -1.548,
+            "mae": 1.955,
+            "rmse": 2.375
+          },
+          "36": {
+            "trees": 1,
+            "plots": 1,
+            "bias": 0.523,
+            "mae": 0.523,
+            "rmse": 0.523
+          },
+          "37": {
+            "trees": 285,
+            "plots": 29,
+            "bias": -2.217,
+            "mae": 2.616,
+            "rmse": 3.296
+          },
+          "43": {
+            "trees": 713,
+            "plots": 85,
+            "bias": 0.526,
+            "mae": 1.052,
+            "rmse": 1.325
+          },
+          "45": {
+            "trees": 40,
+            "plots": 2,
+            "bias": -0.494,
+            "mae": 0.66,
+            "rmse": 0.84
+          },
+          "49": {
+            "trees": 724,
+            "plots": 59,
+            "bias": -1.071,
+            "mae": 1.588,
+            "rmse": 2.143
+          }
+        },
+        "negative_observed_increment_fraction": 0.0738
+      }
+    },
+    "Pinus pinea": {
+      "fit_provinces": [
+        "06",
+        "28"
+      ],
+      "diameter": {
+        "fit_trees": 2136,
+        "fit_plots": 245,
+        "heldout_trees": 6106,
+        "heldout_plots": 933,
+        "fit_constant_annual_rate": 0.3777077285921627,
+        "size_density_parameters": [
+          -0.981684486913155,
+          -0.05133662241657413,
+          -0.03540891754368781
+        ],
+        "heldout_results": {
+          "size_density_model": {
+            "trees": 6106,
+            "plots": 933,
+            "bias": 0.989,
+            "mae": 2.933,
+            "rmse": 3.636
+          },
+          "fit_constant_rate": {
+            "trees": 6106,
+            "plots": 933,
+            "bias": 1.066,
+            "mae": 2.974,
+            "rmse": 3.675
+          },
+          "no_growth": {
+            "trees": 6106,
+            "plots": 933,
+            "bias": -4.947,
+            "mae": 4.957,
+            "rmse": 6.104
+          }
+        },
+        "heldout_by_province": {
+          "02": {
+            "trees": 252,
+            "plots": 32,
+            "bias": 2.801,
+            "mae": 3.622,
+            "rmse": 4.054
+          },
+          "05": {
+            "trees": 594,
+            "plots": 80,
+            "bias": -0.272,
+            "mae": 3.303,
+            "rmse": 4.324
+          },
+          "08": {
+            "trees": 813,
+            "plots": 148,
+            "bias": 2.356,
+            "mae": 2.881,
+            "rmse": 3.409
+          },
+          "10": {
+            "trees": 222,
+            "plots": 24,
+            "bias": 0.268,
+            "mae": 2.145,
+            "rmse": 2.852
+          },
+          "11": {
+            "trees": 263,
+            "plots": 37,
+            "bias": 1.392,
+            "mae": 3.228,
+            "rmse": 3.653
+          },
+          "13": {
+            "trees": 403,
+            "plots": 54,
+            "bias": 0.452,
+            "mae": 2.581,
+            "rmse": 3.217
+          },
+          "14": {
+            "trees": 897,
+            "plots": 148,
+            "bias": 0.014,
+            "mae": 2.947,
+            "rmse": 3.779
+          },
+          "16": {
+            "trees": 397,
+            "plots": 40,
+            "bias": 2.294,
+            "mae": 3.089,
+            "rmse": 3.608
+          },
+          "17": {
+            "trees": 886,
+            "plots": 166,
+            "bias": 1.009,
+            "mae": 2.251,
+            "rmse": 2.813
+          },
+          "19": {
+            "trees": 20,
+            "plots": 1,
+            "bias": 3.49,
+            "mae": 3.49,
+            "rmse": 3.706
+          },
+          "23": {
+            "trees": 608,
+            "plots": 98,
+            "bias": -0.33,
+            "mae": 3.352,
+            "rmse": 4.269
+          },
+          "29": {
+            "trees": 154,
+            "plots": 22,
+            "bias": 2.585,
+            "mae": 3.325,
+            "rmse": 3.859
+          },
+          "32": {
+            "trees": 10,
+            "plots": 4,
+            "bias": -6.043,
+            "mae": 6.043,
+            "rmse": 6.773
+          },
+          "36": {
+            "trees": 1,
+            "plots": 1,
+            "bias": -1.692,
+            "mae": 1.692,
+            "rmse": 1.692
+          },
+          "37": {
+            "trees": 12,
+            "plots": 2,
+            "bias": -1.392,
+            "mae": 2.747,
+            "rmse": 3.624
+          },
+          "43": {
+            "trees": 6,
+            "plots": 2,
+            "bias": 4.716,
+            "mae": 4.716,
+            "rmse": 4.946
+          },
+          "45": {
+            "trees": 195,
+            "plots": 30,
+            "bias": 1.437,
+            "mae": 3.098,
+            "rmse": 3.688
+          },
+          "49": {
+            "trees": 373,
+            "plots": 44,
+            "bias": 1.757,
+            "mae": 2.992,
+            "rmse": 3.475
+          }
+        },
+        "negative_observed_increment_fraction": 0.0019
+      },
+      "height": {
+        "fit_trees": 2136,
+        "fit_plots": 245,
+        "heldout_trees": 6106,
+        "heldout_plots": 933,
+        "fit_constant_annual_rate": 0.12855260582930056,
+        "size_density_parameters": [
+          -1.881898680027767,
+          -0.016127655835421643,
+          -0.2578094726548059,
+          0.14961384272780695
+        ],
+        "heldout_results": {
+          "size_density_model": {
+            "trees": 6106,
+            "plots": 933,
+            "bias": 0.499,
+            "mae": 1.234,
+            "rmse": 1.561
+          },
+          "fit_constant_rate": {
+            "trees": 6106,
+            "plots": 933,
+            "bias": 0.293,
+            "mae": 1.136,
+            "rmse": 1.452
+          },
+          "no_growth": {
+            "trees": 6106,
+            "plots": 933,
+            "bias": -1.753,
+            "mae": 1.817,
+            "rmse": 2.251
+          }
+        },
+        "heldout_by_province": {
+          "02": {
+            "trees": 252,
+            "plots": 32,
+            "bias": 0.703,
+            "mae": 1.146,
+            "rmse": 1.377
+          },
+          "05": {
+            "trees": 594,
+            "plots": 80,
+            "bias": 0.374,
+            "mae": 1.162,
+            "rmse": 1.491
+          },
+          "08": {
+            "trees": 813,
+            "plots": 148,
+            "bias": 0.918,
+            "mae": 1.295,
+            "rmse": 1.579
+          },
+          "10": {
+            "trees": 222,
+            "plots": 24,
+            "bias": 0.415,
+            "mae": 0.993,
+            "rmse": 1.197
+          },
+          "11": {
+            "trees": 263,
+            "plots": 37,
+            "bias": 0.074,
+            "mae": 1.292,
+            "rmse": 1.659
+          },
+          "13": {
+            "trees": 403,
+            "plots": 54,
+            "bias": 0.413,
+            "mae": 1.321,
+            "rmse": 1.743
+          },
+          "14": {
+            "trees": 897,
+            "plots": 148,
+            "bias": 0.448,
+            "mae": 1.113,
+            "rmse": 1.433
+          },
+          "16": {
+            "trees": 397,
+            "plots": 40,
+            "bias": 0.978,
+            "mae": 1.268,
+            "rmse": 1.556
+          },
+          "17": {
+            "trees": 886,
+            "plots": 166,
+            "bias": -0.001,
+            "mae": 1.268,
+            "rmse": 1.653
+          },
+          "19": {
+            "trees": 20,
+            "plots": 1,
+            "bias": 1.255,
+            "mae": 1.255,
+            "rmse": 1.326
+          },
+          "23": {
+            "trees": 608,
+            "plots": 98,
+            "bias": 0.34,
+            "mae": 1.231,
+            "rmse": 1.528
+          },
+          "29": {
+            "trees": 154,
+            "plots": 22,
+            "bias": 0.737,
+            "mae": 1.297,
+            "rmse": 1.554
+          },
+          "32": {
+            "trees": 10,
+            "plots": 4,
+            "bias": -3.935,
+            "mae": 3.935,
+            "rmse": 4.934
+          },
+          "36": {
+            "trees": 1,
+            "plots": 1,
+            "bias": 0.964,
+            "mae": 0.964,
+            "rmse": 0.964
+          },
+          "37": {
+            "trees": 12,
+            "plots": 2,
+            "bias": 0.496,
+            "mae": 1.245,
+            "rmse": 1.363
+          },
+          "43": {
+            "trees": 6,
+            "plots": 2,
+            "bias": 2.116,
+            "mae": 2.116,
+            "rmse": 2.13
+          },
+          "45": {
+            "trees": 195,
+            "plots": 30,
+            "bias": 0.77,
+            "mae": 1.031,
+            "rmse": 1.247
+          },
+          "49": {
+            "trees": 373,
+            "plots": 44,
+            "bias": 0.958,
+            "mae": 1.452,
+            "rmse": 1.742
+          }
+        },
+        "negative_observed_increment_fraction": 0.0272
+      }
+    },
+    "Pinus halepensis": {
+      "fit_provinces": [
+        "02",
+        "08"
+      ],
+      "diameter": {
+        "fit_trees": 5455,
+        "fit_plots": 771,
+        "heldout_trees": 9365,
+        "heldout_plots": 1122,
+        "fit_constant_annual_rate": 0.2811992385786801,
+        "size_density_parameters": [
+          -1.3288614663739589,
+          0.11103420757867741,
+          -0.12032793811474538
+        ],
+        "heldout_results": {
+          "size_density_model": {
+            "trees": 9365,
+            "plots": 1122,
+            "bias": 0.267,
+            "mae": 2.353,
+            "rmse": 2.99
+          },
+          "fit_constant_rate": {
+            "trees": 9365,
+            "plots": 1122,
+            "bias": 0.507,
+            "mae": 2.462,
+            "rmse": 3.085
+          },
+          "no_growth": {
+            "trees": 9365,
+            "plots": 1122,
+            "bias": -3.817,
+            "mae": 3.834,
+            "rmse": 4.901
+          }
+        },
+        "heldout_by_province": {
+          "11": {
+            "trees": 124,
+            "plots": 12,
+            "bias": 0.047,
+            "mae": 3.237,
+            "rmse": 3.925
+          },
+          "13": {
+            "trees": 9,
+            "plots": 3,
+            "bias": -2.3,
+            "mae": 2.3,
+            "rmse": 2.543
+          },
+          "14": {
+            "trees": 54,
+            "plots": 5,
+            "bias": 1.319,
+            "mae": 3.053,
+            "rmse": 3.561
+          },
+          "16": {
+            "trees": 1658,
+            "plots": 245,
+            "bias": -0.062,
+            "mae": 2.262,
+            "rmse": 2.977
+          },
+          "17": {
+            "trees": 1154,
+            "plots": 118,
+            "bias": -0.795,
+            "mae": 2.506,
+            "rmse": 3.125
+          },
+          "19": {
+            "trees": 525,
+            "plots": 64,
+            "bias": 0.56,
+            "mae": 2.142,
+            "rmse": 2.683
+          },
+          "23": {
+            "trees": 1175,
+            "plots": 167,
+            "bias": -0.355,
+            "mae": 2.75,
+            "rmse": 3.571
+          },
+          "25": {
+            "trees": 784,
+            "plots": 94,
+            "bias": 1.484,
+            "mae": 2.239,
+            "rmse": 2.639
+          },
+          "28": {
+            "trees": 295,
+            "plots": 24,
+            "bias": -0.825,
+            "mae": 1.758,
+            "rmse": 2.319
+          },
+          "29": {
+            "trees": 953,
+            "plots": 114,
+            "bias": 0.492,
+            "mae": 2.812,
+            "rmse": 3.537
+          },
+          "43": {
+            "trees": 2598,
+            "plots": 272,
+            "bias": 0.833,
+            "mae": 2.084,
+            "rmse": 2.566
+          },
+          "45": {
+            "trees": 36,
+            "plots": 4,
+            "bias": 1.045,
+            "mae": 2.29,
+            "rmse": 2.611
+          }
+        },
+        "negative_observed_increment_fraction": 0.0055
+      },
+      "height": {
+        "fit_trees": 5455,
+        "fit_plots": 771,
+        "heldout_trees": 9365,
+        "heldout_plots": 1122,
+        "fit_constant_annual_rate": 0.09266944545125047,
+        "size_density_parameters": [
+          -2.243302512177598,
+          0.373685375207522,
+          -0.5358422022468806,
+          -0.09724066370905196
+        ],
+        "heldout_results": {
+          "size_density_model": {
+            "trees": 9365,
+            "plots": 1122,
+            "bias": -0.041,
+            "mae": 1.232,
+            "rmse": 1.588
+          },
+          "fit_constant_rate": {
+            "trees": 9365,
+            "plots": 1122,
+            "bias": -0.175,
+            "mae": 1.226,
+            "rmse": 1.595
+          },
+          "no_growth": {
+            "trees": 9365,
+            "plots": 1122,
+            "bias": -1.6,
+            "mae": 1.677,
+            "rmse": 2.254
+          }
+        },
+        "heldout_by_province": {
+          "11": {
+            "trees": 124,
+            "plots": 12,
+            "bias": 0.182,
+            "mae": 1.331,
+            "rmse": 1.55
+          },
+          "13": {
+            "trees": 9,
+            "plots": 3,
+            "bias": -0.426,
+            "mae": 0.529,
+            "rmse": 0.562
+          },
+          "14": {
+            "trees": 54,
+            "plots": 5,
+            "bias": 1.764,
+            "mae": 1.989,
+            "rmse": 2.19
+          },
+          "16": {
+            "trees": 1658,
+            "plots": 245,
+            "bias": -0.149,
+            "mae": 1.049,
+            "rmse": 1.366
+          },
+          "17": {
+            "trees": 1154,
+            "plots": 118,
+            "bias": -0.41,
+            "mae": 1.431,
+            "rmse": 1.862
+          },
+          "19": {
+            "trees": 525,
+            "plots": 64,
+            "bias": -0.091,
+            "mae": 1.129,
+            "rmse": 1.455
+          },
+          "23": {
+            "trees": 1175,
+            "plots": 167,
+            "bias": -0.496,
+            "mae": 1.553,
+            "rmse": 2.028
+          },
+          "25": {
+            "trees": 784,
+            "plots": 94,
+            "bias": 0.769,
+            "mae": 1.035,
+            "rmse": 1.199
+          },
+          "28": {
+            "trees": 295,
+            "plots": 24,
+            "bias": -1.862,
+            "mae": 2.066,
+            "rmse": 2.467
+          },
+          "29": {
+            "trees": 953,
+            "plots": 114,
+            "bias": 0.173,
+            "mae": 1.344,
+            "rmse": 1.649
+          },
+          "43": {
+            "trees": 2598,
+            "plots": 272,
+            "bias": 0.256,
+            "mae": 1.039,
+            "rmse": 1.296
+          },
+          "45": {
+            "trees": 36,
+            "plots": 4,
+            "bias": -0.898,
+            "mae": 1.49,
+            "rmse": 2.011
+          }
+        },
+        "negative_observed_increment_fraction": 0.0429
+      }
+    },
+    "Pinus nigra": {
+      "fit_provinces": [
+        "16",
+        "25"
+      ],
+      "diameter": {
+        "fit_trees": 9562,
+        "fit_plots": 1030,
+        "heldout_trees": 8867,
+        "heldout_plots": 998,
+        "fit_constant_annual_rate": 0.17649634267252734,
+        "size_density_parameters": [
+          -1.6846908355090597,
+          -0.16823265415061028,
+          -0.13226239593037942
+        ],
+        "heldout_results": {
+          "size_density_model": {
+            "trees": 8867,
+            "plots": 998,
+            "bias": -0.484,
+            "mae": 1.902,
+            "rmse": 2.482
+          },
+          "fit_constant_rate": {
+            "trees": 8867,
+            "plots": 998,
+            "bias": -0.488,
+            "mae": 1.898,
+            "rmse": 2.485
+          },
+          "no_growth": {
+            "trees": 8867,
+            "plots": 998,
+            "bias": -3.312,
+            "mae": 3.337,
+            "rmse": 4.111
+          }
+        },
+        "heldout_by_province": {
+          "02": {
+            "trees": 1272,
+            "plots": 148,
+            "bias": -0.086,
+            "mae": 1.838,
+            "rmse": 2.319
+          },
+          "05": {
+            "trees": 197,
+            "plots": 21,
+            "bias": -2.07,
+            "mae": 3.125,
+            "rmse": 3.999
+          },
+          "08": {
+            "trees": 1399,
+            "plots": 181,
+            "bias": -0.645,
+            "mae": 1.804,
+            "rmse": 2.368
+          },
+          "10": {
+            "trees": 6,
+            "plots": 2,
+            "bias": -3.915,
+            "mae": 5.635,
+            "rmse": 6.408
+          },
+          "17": {
+            "trees": 285,
+            "plots": 50,
+            "bias": -1.102,
+            "mae": 2.104,
+            "rmse": 2.749
+          },
+          "19": {
+            "trees": 2250,
+            "plots": 237,
+            "bias": -0.1,
+            "mae": 1.695,
+            "rmse": 2.218
+          },
+          "23": {
+            "trees": 2318,
+            "plots": 210,
+            "bias": -0.434,
+            "mae": 1.98,
+            "rmse": 2.533
+          },
+          "28": {
+            "trees": 260,
+            "plots": 22,
+            "bias": -1.62,
+            "mae": 1.946,
+            "rmse": 2.536
+          },
+          "29": {
+            "trees": 15,
+            "plots": 3,
+            "bias": -2.137,
+            "mae": 2.31,
+            "rmse": 3.999
+          },
+          "32": {
+            "trees": 17,
+            "plots": 3,
+            "bias": -1.499,
+            "mae": 1.683,
+            "rmse": 2.289
+          },
+          "37": {
+            "trees": 47,
+            "plots": 6,
+            "bias": -4.096,
+            "mae": 4.484,
+            "rmse": 5.032
+          },
+          "43": {
+            "trees": 657,
+            "plots": 94,
+            "bias": -0.281,
+            "mae": 1.649,
+            "rmse": 2.069
+          },
+          "49": {
+            "trees": 144,
+            "plots": 21,
+            "bias": -3.125,
+            "mae": 3.373,
+            "rmse": 4.109
+          }
+        },
+        "negative_observed_increment_fraction": 0.026
+      },
+      "height": {
+        "fit_trees": 9562,
+        "fit_plots": 1030,
+        "heldout_trees": 8867,
+        "heldout_plots": 998,
+        "fit_constant_annual_rate": 0.076751802782552,
+        "size_density_parameters": [
+          -2.408835100664844,
+          0.2115540147655431,
+          -0.6070239985463675,
+          -0.011225024936819287
+        ],
+        "heldout_results": {
+          "size_density_model": {
+            "trees": 8867,
+            "plots": 998,
+            "bias": -0.489,
+            "mae": 1.271,
+            "rmse": 1.672
+          },
+          "fit_constant_rate": {
+            "trees": 8867,
+            "plots": 998,
+            "bias": -0.652,
+            "mae": 1.305,
+            "rmse": 1.732
+          },
+          "no_growth": {
+            "trees": 8867,
+            "plots": 998,
+            "bias": -1.879,
+            "mae": 1.974,
+            "rmse": 2.474
+          }
+        },
+        "heldout_by_province": {
+          "02": {
+            "trees": 1272,
+            "plots": 148,
+            "bias": 0.027,
+            "mae": 1.054,
+            "rmse": 1.319
+          },
+          "05": {
+            "trees": 197,
+            "plots": 21,
+            "bias": -1.173,
+            "mae": 1.851,
+            "rmse": 2.265
+          },
+          "08": {
+            "trees": 1399,
+            "plots": 181,
+            "bias": -0.17,
+            "mae": 1.129,
+            "rmse": 1.478
+          },
+          "10": {
+            "trees": 6,
+            "plots": 2,
+            "bias": -0.987,
+            "mae": 2.236,
+            "rmse": 2.492
+          },
+          "17": {
+            "trees": 285,
+            "plots": 50,
+            "bias": -0.648,
+            "mae": 1.28,
+            "rmse": 1.699
+          },
+          "19": {
+            "trees": 2250,
+            "plots": 237,
+            "bias": -0.429,
+            "mae": 1.154,
+            "rmse": 1.534
+          },
+          "23": {
+            "trees": 2318,
+            "plots": 210,
+            "bias": -0.758,
+            "mae": 1.46,
+            "rmse": 1.889
+          },
+          "28": {
+            "trees": 260,
+            "plots": 22,
+            "bias": -1.542,
+            "mae": 1.682,
+            "rmse": 1.913
+          },
+          "29": {
+            "trees": 15,
+            "plots": 3,
+            "bias": -1.561,
+            "mae": 1.561,
+            "rmse": 1.716
+          },
+          "32": {
+            "trees": 17,
+            "plots": 3,
+            "bias": -1.79,
+            "mae": 1.859,
+            "rmse": 2.047
+          },
+          "37": {
+            "trees": 47,
+            "plots": 6,
+            "bias": -2.409,
+            "mae": 2.836,
+            "rmse": 3.098
+          },
+          "43": {
+            "trees": 657,
+            "plots": 94,
+            "bias": -0.208,
+            "mae": 1.048,
+            "rmse": 1.415
+          },
+          "49": {
+            "trees": 144,
+            "plots": 21,
+            "bias": -1.93,
+            "mae": 2.2,
+            "rmse": 2.944
+          }
+        },
+        "negative_observed_increment_fraction": 0.0723
+      }
+    }
+  }
+}

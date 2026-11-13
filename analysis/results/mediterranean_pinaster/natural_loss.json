@@ -1,0 +1,79 @@
+{
+  "design": "No recorded cuts, ambiguous outcomes excluded; Madrid+Salamanca fit, other provinces test; 888 dead plus 444 not found as natural loss",
+  "fit_n": 44,
+  "heldout_n": 276,
+  "fit_by_province": {
+    "Madrid": 34,
+    "Salamanca": 10
+  },
+  "heldout_by_province": {
+    "Cuenca": 72,
+    "Albacete": 66,
+    "Cáceres": 52,
+    "Guadalajara": 37,
+    "Ciudad Real": 27,
+    "Toledo": 22
+  },
+  "fit_annual_loss_rate": 0.009546805705617193,
+  "heldout_results": {
+    "constant_natural_loss_rate": {
+      "n": 276,
+      "bias_stems_ha": 15.511,
+      "mae_stems_ha": 67.812,
+      "rmse_stems_ha": 109.664,
+      "observed_mean_stems_ha": 59.327
+    },
+    "zero_loss": {
+      "n": 276,
+      "bias_stems_ha": -59.327,
+      "mae_stems_ha": 59.327,
+      "rmse_stems_ha": 143.133,
+      "observed_mean_stems_ha": 59.327
+    }
+  },
+  "heldout_province_results": {
+    "Albacete": {
+      "n": 66,
+      "bias_stems_ha": 34.81,
+      "mae_stems_ha": 45.873,
+      "rmse_stems_ha": 59.292,
+      "observed_mean_stems_ha": 19.011
+    },
+    "Ciudad Real": {
+      "n": 27,
+      "bias_stems_ha": 7.447,
+      "mae_stems_ha": 66.507,
+      "rmse_stems_ha": 79.693,
+      "observed_mean_stems_ha": 73.879
+    },
+    "Cuenca": {
+      "n": 72,
+      "bias_stems_ha": 21.423,
+      "mae_stems_ha": 55.019,
+      "rmse_stems_ha": 74.782,
+      "observed_mean_stems_ha": 51.075
+    },
+    "Cáceres": {
+      "n": 52,
+      "bias_stems_ha": -49.01,
+      "mae_stems_ha": 108.029,
+      "rmse_stems_ha": 196.148,
+      "observed_mean_stems_ha": 136.974
+    },
+    "Guadalajara": {
+      "n": 37,
+      "bias_stems_ha": 53.715,
+      "mae_stems_ha": 83.414,
+      "rmse_stems_ha": 105.598,
+      "observed_mean_stems_ha": 37.884
+    },
+    "Toledo": {
+      "n": 22,
+      "bias_stems_ha": 36.418,
+      "mae_stems_ha": 55.803,
+      "rmse_stems_ha": 67.359,
+      "observed_mean_stems_ha": 41.959
+    }
+  },
+  "heldout_share_any_natural_loss": 0.471
+}

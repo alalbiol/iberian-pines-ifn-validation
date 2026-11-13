@@ -1,0 +1,439 @@
+{
+  "design": "Strict IFN3→IFN4 known surviving pine trees; province-held-out projected survivor-cohort AGB; shared Ruiz-Peinado allometry and IFN expansion at both dates",
+  "species": {
+    "Pinus sylvestris": {
+      "fit_dbh_residual_mean_cm": 0.112,
+      "fit_dbh_residual_sd_cm": 2.2201,
+      "heldout_trees": 14132,
+      "heldout_plots": 1216,
+      "heldout_model": {
+        "plots": 1216,
+        "bias_mg_ha": -1.244,
+        "mae_mg_ha": 4.224,
+        "rmse_mg_ha": 7.556
+      },
+      "heldout_initial_agb": {
+        "plots": 1216,
+        "bias_mg_ha": -7.914,
+        "mae_mg_ha": 8.424,
+        "rmse_mg_ha": 13.997
+      },
+      "heldout_by_province": {
+        "05": {
+          "plots": 60,
+          "bias_mg_ha": -6.531,
+          "mae_mg_ha": 9.678,
+          "rmse_mg_ha": 14.643
+        },
+        "08": {
+          "plots": 309,
+          "bias_mg_ha": 0.577,
+          "mae_mg_ha": 2.274,
+          "rmse_mg_ha": 3.382
+        },
+        "10": {
+          "plots": 5,
+          "bias_mg_ha": -13.251,
+          "mae_mg_ha": 13.251,
+          "rmse_mg_ha": 21.907
+        },
+        "15": {
+          "plots": 6,
+          "bias_mg_ha": -1.171,
+          "mae_mg_ha": 1.731,
+          "rmse_mg_ha": 2.946
+        },
+        "16": {
+          "plots": 198,
+          "bias_mg_ha": 1.167,
+          "mae_mg_ha": 3.332,
+          "rmse_mg_ha": 5.084
+        },
+        "17": {
+          "plots": 172,
+          "bias_mg_ha": -0.405,
+          "mae_mg_ha": 2.77,
+          "rmse_mg_ha": 4.686
+        },
+        "19": {
+          "plots": 172,
+          "bias_mg_ha": 0.766,
+          "mae_mg_ha": 4.168,
+          "rmse_mg_ha": 5.98
+        },
+        "23": {
+          "plots": 1,
+          "bias_mg_ha": 0.192,
+          "mae_mg_ha": 0.192,
+          "rmse_mg_ha": 0.192
+        },
+        "27": {
+          "plots": 49,
+          "bias_mg_ha": -14.557,
+          "mae_mg_ha": 14.722,
+          "rmse_mg_ha": 19.85
+        },
+        "29": {
+          "plots": 4,
+          "bias_mg_ha": -4.872,
+          "mae_mg_ha": 5.269,
+          "rmse_mg_ha": 8.307
+        },
+        "32": {
+          "plots": 64,
+          "bias_mg_ha": -7.36,
+          "mae_mg_ha": 7.734,
+          "rmse_mg_ha": 10.981
+        },
+        "36": {
+          "plots": 1,
+          "bias_mg_ha": 1.147,
+          "mae_mg_ha": 1.147,
+          "rmse_mg_ha": 1.147
+        },
+        "37": {
+          "plots": 29,
+          "bias_mg_ha": -6.171,
+          "mae_mg_ha": 6.499,
+          "rmse_mg_ha": 9.707
+        },
+        "43": {
+          "plots": 85,
+          "bias_mg_ha": 1.129,
+          "mae_mg_ha": 2.333,
+          "rmse_mg_ha": 3.306
+        },
+        "45": {
+          "plots": 2,
+          "bias_mg_ha": -0.422,
+          "mae_mg_ha": 0.422,
+          "rmse_mg_ha": 0.569
+        },
+        "49": {
+          "plots": 59,
+          "bias_mg_ha": -3.936,
+          "mae_mg_ha": 5.029,
+          "rmse_mg_ha": 8.796
+        }
+      }
+    },
+    "Pinus pinea": {
+      "fit_dbh_residual_mean_cm": -0.4276,
+      "fit_dbh_residual_sd_cm": 2.787,
+      "heldout_trees": 6106,
+      "heldout_plots": 933,
+      "heldout_model": {
+        "plots": 933,
+        "bias_mg_ha": 2.111,
+        "mae_mg_ha": 4.502,
+        "rmse_mg_ha": 7.916
+      },
+      "heldout_initial_agb": {
+        "plots": 933,
+        "bias_mg_ha": -6.929,
+        "mae_mg_ha": 7.673,
+        "rmse_mg_ha": 11.541
+      },
+      "heldout_by_province": {
+        "02": {
+          "plots": 32,
+          "bias_mg_ha": 4.604,
+          "mae_mg_ha": 6.369,
+          "rmse_mg_ha": 8.757
+        },
+        "05": {
+          "plots": 80,
+          "bias_mg_ha": 0.715,
+          "mae_mg_ha": 4.258,
+          "rmse_mg_ha": 6.354
+        },
+        "08": {
+          "plots": 148,
+          "bias_mg_ha": 4.23,
+          "mae_mg_ha": 4.823,
+          "rmse_mg_ha": 11.899
+        },
+        "10": {
+          "plots": 24,
+          "bias_mg_ha": 1.2,
+          "mae_mg_ha": 3.265,
+          "rmse_mg_ha": 4.6
+        },
+        "11": {
+          "plots": 37,
+          "bias_mg_ha": 1.815,
+          "mae_mg_ha": 6.561,
+          "rmse_mg_ha": 9.297
+        },
+        "13": {
+          "plots": 54,
+          "bias_mg_ha": 1.227,
+          "mae_mg_ha": 4.354,
+          "rmse_mg_ha": 7.03
+        },
+        "14": {
+          "plots": 148,
+          "bias_mg_ha": 1.065,
+          "mae_mg_ha": 3.912,
+          "rmse_mg_ha": 5.704
+        },
+        "16": {
+          "plots": 40,
+          "bias_mg_ha": 6.625,
+          "mae_mg_ha": 7.593,
+          "rmse_mg_ha": 10.709
+        },
+        "17": {
+          "plots": 166,
+          "bias_mg_ha": 1.239,
+          "mae_mg_ha": 3.202,
+          "rmse_mg_ha": 5.279
+        },
+        "19": {
+          "plots": 1,
+          "bias_mg_ha": 21.98,
+          "mae_mg_ha": 21.98,
+          "rmse_mg_ha": 21.98
+        },
+        "23": {
+          "plots": 98,
+          "bias_mg_ha": 0.274,
+          "mae_mg_ha": 4.513,
+          "rmse_mg_ha": 7.267
+        },
+        "29": {
+          "plots": 22,
+          "bias_mg_ha": 3.928,
+          "mae_mg_ha": 5.423,
+          "rmse_mg_ha": 7.514
+        },
+        "32": {
+          "plots": 4,
+          "bias_mg_ha": -6.163,
+          "mae_mg_ha": 6.429,
+          "rmse_mg_ha": 8.642
+        },
+        "36": {
+          "plots": 1,
+          "bias_mg_ha": -0.743,
+          "mae_mg_ha": 0.743,
+          "rmse_mg_ha": 0.743
+        },
+        "37": {
+          "plots": 2,
+          "bias_mg_ha": -0.668,
+          "mae_mg_ha": 1.594,
+          "rmse_mg_ha": 1.728
+        },
+        "43": {
+          "plots": 2,
+          "bias_mg_ha": 2.924,
+          "mae_mg_ha": 2.924,
+          "rmse_mg_ha": 2.937
+        },
+        "45": {
+          "plots": 30,
+          "bias_mg_ha": 3.643,
+          "mae_mg_ha": 5.741,
+          "rmse_mg_ha": 8.996
+        },
+        "49": {
+          "plots": 44,
+          "bias_mg_ha": 2.847,
+          "mae_mg_ha": 4.097,
+          "rmse_mg_ha": 6.338
+        }
+      }
+    },
+    "Pinus halepensis": {
+      "fit_dbh_residual_mean_cm": -0.1565,
+      "fit_dbh_residual_sd_cm": 2.7597,
+      "heldout_trees": 9365,
+      "heldout_plots": 1122,
+      "heldout_model": {
+        "plots": 1122,
+        "bias_mg_ha": 0.258,
+        "mae_mg_ha": 4.365,
+        "rmse_mg_ha": 6.791
+      },
+      "heldout_initial_agb": {
+        "plots": 1122,
+        "bias_mg_ha": -7.731,
+        "mae_mg_ha": 8.066,
+        "rmse_mg_ha": 12.719
+      },
+      "heldout_by_province": {
+        "11": {
+          "plots": 12,
+          "bias_mg_ha": 0.023,
+          "mae_mg_ha": 8.325,
+          "rmse_mg_ha": 11.107
+        },
+        "13": {
+          "plots": 3,
+          "bias_mg_ha": 0.955,
+          "mae_mg_ha": 1.192,
+          "rmse_mg_ha": 1.82
+        },
+        "14": {
+          "plots": 5,
+          "bias_mg_ha": 5.052,
+          "mae_mg_ha": 6.425,
+          "rmse_mg_ha": 8.76
+        },
+        "16": {
+          "plots": 245,
+          "bias_mg_ha": 0.191,
+          "mae_mg_ha": 3.128,
+          "rmse_mg_ha": 4.49
+        },
+        "17": {
+          "plots": 118,
+          "bias_mg_ha": -3.063,
+          "mae_mg_ha": 5.342,
+          "rmse_mg_ha": 7.707
+        },
+        "19": {
+          "plots": 64,
+          "bias_mg_ha": 0.842,
+          "mae_mg_ha": 3.735,
+          "rmse_mg_ha": 5.927
+        },
+        "23": {
+          "plots": 167,
+          "bias_mg_ha": -1.086,
+          "mae_mg_ha": 5.105,
+          "rmse_mg_ha": 7.698
+        },
+        "25": {
+          "plots": 94,
+          "bias_mg_ha": 3.171,
+          "mae_mg_ha": 3.569,
+          "rmse_mg_ha": 5.527
+        },
+        "28": {
+          "plots": 24,
+          "bias_mg_ha": -6.857,
+          "mae_mg_ha": 7.952,
+          "rmse_mg_ha": 11.441
+        },
+        "29": {
+          "plots": 114,
+          "bias_mg_ha": 1.525,
+          "mae_mg_ha": 5.877,
+          "rmse_mg_ha": 9.548
+        },
+        "43": {
+          "plots": 272,
+          "bias_mg_ha": 1.441,
+          "mae_mg_ha": 3.903,
+          "rmse_mg_ha": 5.836
+        },
+        "45": {
+          "plots": 4,
+          "bias_mg_ha": 0.947,
+          "mae_mg_ha": 3.938,
+          "rmse_mg_ha": 5.045
+        }
+      }
+    },
+    "Pinus nigra": {
+      "fit_dbh_residual_mean_cm": -0.2381,
+      "fit_dbh_residual_sd_cm": 1.9577,
+      "heldout_trees": 8867,
+      "heldout_plots": 998,
+      "heldout_model": {
+        "plots": 998,
+        "bias_mg_ha": -1.198,
+        "mae_mg_ha": 4.127,
+        "rmse_mg_ha": 7.086
+      },
+      "heldout_initial_agb": {
+        "plots": 998,
+        "bias_mg_ha": -8.114,
+        "mae_mg_ha": 8.626,
+        "rmse_mg_ha": 13.625
+      },
+      "heldout_by_province": {
+        "02": {
+          "plots": 148,
+          "bias_mg_ha": 0.56,
+          "mae_mg_ha": 3.382,
+          "rmse_mg_ha": 5.866
+        },
+        "05": {
+          "plots": 21,
+          "bias_mg_ha": -5.638,
+          "mae_mg_ha": 8.194,
+          "rmse_mg_ha": 9.72
+        },
+        "08": {
+          "plots": 181,
+          "bias_mg_ha": -0.174,
+          "mae_mg_ha": 3.462,
+          "rmse_mg_ha": 5.392
+        },
+        "10": {
+          "plots": 2,
+          "bias_mg_ha": -6.703,
+          "mae_mg_ha": 6.703,
+          "rmse_mg_ha": 8.633
+        },
+        "17": {
+          "plots": 50,
+          "bias_mg_ha": -2.003,
+          "mae_mg_ha": 2.713,
+          "rmse_mg_ha": 4.156
+        },
+        "19": {
+          "plots": 237,
+          "bias_mg_ha": -0.368,
+          "mae_mg_ha": 3.929,
+          "rmse_mg_ha": 6.686
+        },
+        "23": {
+          "plots": 210,
+          "bias_mg_ha": -2.484,
+          "mae_mg_ha": 4.987,
+          "rmse_mg_ha": 8.483
+        },
+        "28": {
+          "plots": 22,
+          "bias_mg_ha": -7.216,
+          "mae_mg_ha": 7.739,
+          "rmse_mg_ha": 11.448
+        },
+        "29": {
+          "plots": 3,
+          "bias_mg_ha": -0.63,
+          "mae_mg_ha": 1.35,
+          "rmse_mg_ha": 1.823
+        },
+        "32": {
+          "plots": 3,
+          "bias_mg_ha": -4.9,
+          "mae_mg_ha": 4.9,
+          "rmse_mg_ha": 7.072
+        },
+        "37": {
+          "plots": 6,
+          "bias_mg_ha": -15.38,
+          "mae_mg_ha": 16.445,
+          "rmse_mg_ha": 22.673
+        },
+        "43": {
+          "plots": 94,
+          "bias_mg_ha": -0.128,
+          "mae_mg_ha": 2.737,
+          "rmse_mg_ha": 3.948
+        },
+        "49": {
+          "plots": 21,
+          "bias_mg_ha": -6.033,
+          "mae_mg_ha": 6.98,
+          "rmse_mg_ha": 12.849
+        }
+      }
+    }
+  }
+}

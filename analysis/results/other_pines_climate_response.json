@@ -1,0 +1,1266 @@
+{
+  "climate_source": "TerraClimate monthly 1987-2023; plot-normalized annual anomaly",
+  "response": "surviving-tree annual DBH increment; reference baseline frozen size-density model",
+  "climate_feature_by_species": {
+    "Pinus sylvestris": "hyd_pr",
+    "Pinus pinea": "sepjun_wb",
+    "Pinus halepensis": "sepjun_wb",
+    "Pinus nigra": "spring_pr"
+  },
+  "species": {
+    "Pinus sylvestris": {
+      "fit_provinces": [
+        "25",
+        "28"
+      ],
+      "fit_trees": 8105,
+      "fit_plots": 547,
+      "heldout_trees": 14132,
+      "heldout_plots": 1216,
+      "fit_climate_z_5_50_95_pct": [
+        -0.1967,
+        -0.0633,
+        0.2455
+      ],
+      "beta_per_annual_climate_sd": 0.76624,
+      "within_province_beta_diagnostic": 0.0,
+      "bootstrap_95_pct": [
+        0.49206,
+        1.0
+      ],
+      "heldout_baseline": {
+        "trees": 14132,
+        "plots": 1216,
+        "tree_rmse_cm": 2.7757,
+        "tree_mae_cm": 2.1235,
+        "tree_bias_cm": -0.3621,
+        "plot_rmse_cm": 2.5263
+      },
+      "heldout_with_climate": {
+        "trees": 14132,
+        "plots": 1216,
+        "tree_rmse_cm": 2.7559,
+        "tree_mae_cm": 2.0954,
+        "tree_bias_cm": -0.5172,
+        "plot_rmse_cm": 2.5279
+      },
+      "heldout_within_province_diagnostic": {
+        "trees": 14132,
+        "plots": 1216,
+        "tree_rmse_cm": 2.7757,
+        "tree_mae_cm": 2.1235,
+        "tree_bias_cm": -0.3621,
+        "plot_rmse_cm": 2.5263
+      },
+      "heldout_rmse_change_pct": -0.713,
+      "by_heldout_province": {
+        "05": {
+          "baseline": {
+            "trees": 1086,
+            "plots": 60,
+            "tree_rmse_cm": 3.8971,
+            "tree_mae_cm": 3.0662,
+            "tree_bias_cm": -1.4016,
+            "plot_rmse_cm": 3.5448
+          },
+          "with_climate": {
+            "trees": 1086,
+            "plots": 60,
+            "tree_rmse_cm": 3.845,
+            "tree_mae_cm": 3.0266,
+            "tree_bias_cm": -1.3071,
+            "plot_rmse_cm": 3.4596
+          }
+        },
+        "08": {
+          "baseline": {
+            "trees": 2738,
+            "plots": 309,
+            "tree_rmse_cm": 2.213,
+            "tree_mae_cm": 1.7722,
+            "tree_bias_cm": 0.2088,
+            "plot_rmse_cm": 2.0176
+          },
+          "with_climate": {
+            "trees": 2738,
+            "plots": 309,
+            "tree_rmse_cm": 2.2107,
+            "tree_mae_cm": 1.7583,
+            "tree_bias_cm": -0.0364,
+            "plot_rmse_cm": 2.0278
+          }
+        },
+        "10": {
+          "baseline": {
+            "trees": 84,
+            "plots": 5,
+            "tree_rmse_cm": 4.9028,
+            "tree_mae_cm": 4.1631,
+            "tree_bias_cm": -3.6394,
+            "plot_rmse_cm": 3.8722
+          },
+          "with_climate": {
+            "trees": 84,
+            "plots": 5,
+            "tree_rmse_cm": 4.8698,
+            "tree_mae_cm": 4.1216,
+            "tree_bias_cm": -3.5878,
+            "plot_rmse_cm": 3.8023
+          }
+        },
+        "15": {
+          "baseline": {
+            "trees": 21,
+            "plots": 6,
+            "tree_rmse_cm": 3.9937,
+            "tree_mae_cm": 3.2683,
+            "tree_bias_cm": -2.5245,
+            "plot_rmse_cm": 3.2512
+          },
+          "with_climate": {
+            "trees": 21,
+            "plots": 6,
+            "tree_rmse_cm": 3.9305,
+            "tree_mae_cm": 3.2258,
+            "tree_bias_cm": -2.4295,
+            "plot_rmse_cm": 3.2059
+          }
+        },
+        "16": {
+          "baseline": {
+            "trees": 2194,
+            "plots": 198,
+            "tree_rmse_cm": 2.4848,
+            "tree_mae_cm": 1.9988,
+            "tree_bias_cm": 0.728,
+            "plot_rmse_cm": 2.35
+          },
+          "with_climate": {
+            "trees": 2194,
+            "plots": 198,
+            "tree_rmse_cm": 2.4103,
+            "tree_mae_cm": 1.9021,
+            "tree_bias_cm": 0.3934,
+            "plot_rmse_cm": 2.3422
+          }
+        },
+        "17": {
+          "baseline": {
+            "trees": 1500,
+            "plots": 172,
+            "tree_rmse_cm": 2.335,
+            "tree_mae_cm": 1.793,
+            "tree_bias_cm": -0.1679,
+            "plot_rmse_cm": 2.245
+          },
+          "with_climate": {
+            "trees": 1500,
+            "plots": 172,
+            "tree_rmse_cm": 2.3791,
+            "tree_mae_cm": 1.8213,
+            "tree_bias_cm": -0.4815,
+            "plot_rmse_cm": 2.3235
+          }
+        },
+        "19": {
+          "baseline": {
+            "trees": 2440,
+            "plots": 172,
+            "tree_rmse_cm": 2.4817,
+            "tree_mae_cm": 1.932,
+            "tree_bias_cm": 0.5158,
+            "plot_rmse_cm": 2.1945
+          },
+          "with_climate": {
+            "trees": 2440,
+            "plots": 172,
+            "tree_rmse_cm": 2.4588,
+            "tree_mae_cm": 1.8743,
+            "tree_bias_cm": 0.2723,
+            "plot_rmse_cm": 2.2164
+          }
+        },
+        "23": {
+          "baseline": {
+            "trees": 1,
+            "plots": 1,
+            "tree_rmse_cm": 0.6594,
+            "tree_mae_cm": 0.6594,
+            "tree_bias_cm": 0.6594,
+            "plot_rmse_cm": 0.6594
+          },
+          "with_climate": {
+            "trees": 1,
+            "plots": 1,
+            "tree_rmse_cm": 1.0506,
+            "tree_mae_cm": 1.0506,
+            "tree_bias_cm": 1.0506,
+            "plot_rmse_cm": 1.0506
+          }
+        },
+        "27": {
+          "baseline": {
+            "trees": 1123,
+            "plots": 49,
+            "tree_rmse_cm": 3.0509,
+            "tree_mae_cm": 2.3752,
+            "tree_bias_cm": -2.0211,
+            "plot_rmse_cm": 2.8295
+          },
+          "with_climate": {
+            "trees": 1123,
+            "plots": 49,
+            "tree_rmse_cm": 3.0616,
+            "tree_mae_cm": 2.3849,
+            "tree_bias_cm": -2.0354,
+            "plot_rmse_cm": 2.8399
+          }
+        },
+        "29": {
+          "baseline": {
+            "trees": 16,
+            "plots": 4,
+            "tree_rmse_cm": 4.3636,
+            "tree_mae_cm": 3.7931,
+            "tree_bias_cm": -2.9448,
+            "plot_rmse_cm": 5.3302
+          },
+          "with_climate": {
+            "trees": 16,
+            "plots": 4,
+            "tree_rmse_cm": 4.3651,
+            "tree_mae_cm": 3.8022,
+            "tree_bias_cm": -2.9321,
+            "plot_rmse_cm": 5.3331
+          }
+        },
+        "32": {
+          "baseline": {
+            "trees": 1166,
+            "plots": 64,
+            "tree_rmse_cm": 2.8222,
+            "tree_mae_cm": 2.1586,
+            "tree_bias_cm": -1.7831,
+            "plot_rmse_cm": 3.014
+          },
+          "with_climate": {
+            "trees": 1166,
+            "plots": 64,
+            "tree_rmse_cm": 2.8,
+            "tree_mae_cm": 2.1373,
+            "tree_bias_cm": -1.7456,
+            "plot_rmse_cm": 2.986
+          }
+        },
+        "36": {
+          "baseline": {
+            "trees": 1,
+            "plots": 1,
+            "tree_rmse_cm": 0.57,
+            "tree_mae_cm": 0.57,
+            "tree_bias_cm": -0.57,
+            "plot_rmse_cm": 0.57
+          },
+          "with_climate": {
+            "trees": 1,
+            "plots": 1,
+            "tree_rmse_cm": 0.61,
+            "tree_mae_cm": 0.61,
+            "tree_bias_cm": -0.61,
+            "plot_rmse_cm": 0.61
+          }
+        },
+        "37": {
+          "baseline": {
+            "trees": 285,
+            "plots": 29,
+            "tree_rmse_cm": 5.4854,
+            "tree_mae_cm": 4.4048,
+            "tree_bias_cm": -3.7167,
+            "plot_rmse_cm": 5.0298
+          },
+          "with_climate": {
+            "trees": 285,
+            "plots": 29,
+            "tree_rmse_cm": 5.3283,
+            "tree_mae_cm": 4.2316,
+            "tree_bias_cm": -3.4803,
+            "plot_rmse_cm": 4.8836
+          }
+        },
+        "43": {
+          "baseline": {
+            "trees": 713,
+            "plots": 85,
+            "tree_rmse_cm": 1.9581,
+            "tree_mae_cm": 1.6121,
+            "tree_bias_cm": 0.6933,
+            "plot_rmse_cm": 1.9101
+          },
+          "with_climate": {
+            "trees": 713,
+            "plots": 85,
+            "tree_rmse_cm": 2.0414,
+            "tree_mae_cm": 1.6975,
+            "tree_bias_cm": 0.8187,
+            "plot_rmse_cm": 1.9526
+          }
+        },
+        "45": {
+          "baseline": {
+            "trees": 40,
+            "plots": 2,
+            "tree_rmse_cm": 2.6648,
+            "tree_mae_cm": 1.9192,
+            "tree_bias_cm": -0.2141,
+            "plot_rmse_cm": 4.5521
+          },
+          "with_climate": {
+            "trees": 40,
+            "plots": 2,
+            "tree_rmse_cm": 2.6962,
+            "tree_mae_cm": 1.8903,
+            "tree_bias_cm": -0.4573,
+            "plot_rmse_cm": 4.719
+          }
+        },
+        "49": {
+          "baseline": {
+            "trees": 724,
+            "plots": 59,
+            "tree_rmse_cm": 3.373,
+            "tree_mae_cm": 2.6128,
+            "tree_bias_cm": -1.9933,
+            "plot_rmse_cm": 3.3156
+          },
+          "with_climate": {
+            "trees": 724,
+            "plots": 59,
+            "tree_rmse_cm": 3.3791,
+            "tree_mae_cm": 2.6157,
+            "tree_bias_cm": -2.0008,
+            "plot_rmse_cm": 3.3116
+          }
+        }
+      }
+    },
+    "Pinus pinea": {
+      "fit_provinces": [
+        "06",
+        "28"
+      ],
+      "fit_trees": 2136,
+      "fit_plots": 245,
+      "heldout_trees": 6106,
+      "heldout_plots": 933,
+      "fit_climate_z_5_50_95_pct": [
+        0.1014,
+        0.1785,
+        0.2238
+      ],
+      "beta_per_annual_climate_sd": 0.20406,
+      "within_province_beta_diagnostic": 0.0,
+      "bootstrap_95_pct": [
+        0.0,
+        0.65333
+      ],
+      "heldout_baseline": {
+        "trees": 6106,
+        "plots": 933,
+        "tree_rmse_cm": 3.6364,
+        "tree_mae_cm": 2.9332,
+        "tree_bias_cm": 0.9887,
+        "plot_rmse_cm": 3.6233
+      },
+      "heldout_with_climate": {
+        "trees": 6106,
+        "plots": 933,
+        "tree_rmse_cm": 3.5738,
+        "tree_mae_cm": 2.8608,
+        "tree_bias_cm": 0.8013,
+        "plot_rmse_cm": 3.6105
+      },
+      "heldout_within_province_diagnostic": {
+        "trees": 6106,
+        "plots": 933,
+        "tree_rmse_cm": 3.6364,
+        "tree_mae_cm": 2.9332,
+        "tree_bias_cm": 0.9887,
+        "plot_rmse_cm": 3.6233
+      },
+      "heldout_rmse_change_pct": -1.721,
+      "by_heldout_province": {
+        "02": {
+          "baseline": {
+            "trees": 252,
+            "plots": 32,
+            "tree_rmse_cm": 4.0538,
+            "tree_mae_cm": 3.6223,
+            "tree_bias_cm": 2.8009,
+            "plot_rmse_cm": 3.9641
+          },
+          "with_climate": {
+            "trees": 252,
+            "plots": 32,
+            "tree_rmse_cm": 3.9522,
+            "tree_mae_cm": 3.5028,
+            "tree_bias_cm": 2.6529,
+            "plot_rmse_cm": 3.8703
+          }
+        },
+        "05": {
+          "baseline": {
+            "trees": 594,
+            "plots": 80,
+            "tree_rmse_cm": 4.3243,
+            "tree_mae_cm": 3.3033,
+            "tree_bias_cm": -0.2721,
+            "plot_rmse_cm": 4.0787
+          },
+          "with_climate": {
+            "trees": 594,
+            "plots": 80,
+            "tree_rmse_cm": 4.3327,
+            "tree_mae_cm": 3.2848,
+            "tree_bias_cm": -0.4418,
+            "plot_rmse_cm": 4.1165
+          }
+        },
+        "08": {
+          "baseline": {
+            "trees": 813,
+            "plots": 148,
+            "tree_rmse_cm": 3.4089,
+            "tree_mae_cm": 2.881,
+            "tree_bias_cm": 2.3563,
+            "plot_rmse_cm": 2.8706
+          },
+          "with_climate": {
+            "trees": 813,
+            "plots": 148,
+            "tree_rmse_cm": 3.1856,
+            "tree_mae_cm": 2.6622,
+            "tree_bias_cm": 2.0195,
+            "plot_rmse_cm": 2.7027
+          }
+        },
+        "10": {
+          "baseline": {
+            "trees": 222,
+            "plots": 24,
+            "tree_rmse_cm": 2.8517,
+            "tree_mae_cm": 2.1445,
+            "tree_bias_cm": 0.2676,
+            "plot_rmse_cm": 3.5128
+          },
+          "with_climate": {
+            "trees": 222,
+            "plots": 24,
+            "tree_rmse_cm": 2.885,
+            "tree_mae_cm": 2.2181,
+            "tree_bias_cm": 0.4681,
+            "plot_rmse_cm": 3.4259
+          }
+        },
+        "11": {
+          "baseline": {
+            "trees": 263,
+            "plots": 37,
+            "tree_rmse_cm": 3.6534,
+            "tree_mae_cm": 3.2284,
+            "tree_bias_cm": 1.3921,
+            "plot_rmse_cm": 3.4264
+          },
+          "with_climate": {
+            "trees": 263,
+            "plots": 37,
+            "tree_rmse_cm": 3.5591,
+            "tree_mae_cm": 3.1291,
+            "tree_bias_cm": 1.1597,
+            "plot_rmse_cm": 3.3264
+          }
+        },
+        "13": {
+          "baseline": {
+            "trees": 403,
+            "plots": 54,
+            "tree_rmse_cm": 3.2168,
+            "tree_mae_cm": 2.5809,
+            "tree_bias_cm": 0.4523,
+            "plot_rmse_cm": 3.1556
+          },
+          "with_climate": {
+            "trees": 403,
+            "plots": 54,
+            "tree_rmse_cm": 3.2027,
+            "tree_mae_cm": 2.5621,
+            "tree_bias_cm": 0.386,
+            "plot_rmse_cm": 3.1643
+          }
+        },
+        "14": {
+          "baseline": {
+            "trees": 897,
+            "plots": 148,
+            "tree_rmse_cm": 3.7792,
+            "tree_mae_cm": 2.9475,
+            "tree_bias_cm": 0.0135,
+            "plot_rmse_cm": 4.5064
+          },
+          "with_climate": {
+            "trees": 897,
+            "plots": 148,
+            "tree_rmse_cm": 3.7821,
+            "tree_mae_cm": 2.936,
+            "tree_bias_cm": -0.1416,
+            "plot_rmse_cm": 4.5687
+          }
+        },
+        "16": {
+          "baseline": {
+            "trees": 397,
+            "plots": 40,
+            "tree_rmse_cm": 3.6085,
+            "tree_mae_cm": 3.0891,
+            "tree_bias_cm": 2.2937,
+            "plot_rmse_cm": 3.1363
+          },
+          "with_climate": {
+            "trees": 397,
+            "plots": 40,
+            "tree_rmse_cm": 3.5686,
+            "tree_mae_cm": 3.0511,
+            "tree_bias_cm": 2.2236,
+            "plot_rmse_cm": 3.1007
+          }
+        },
+        "17": {
+          "baseline": {
+            "trees": 886,
+            "plots": 166,
+            "tree_rmse_cm": 2.8128,
+            "tree_mae_cm": 2.2506,
+            "tree_bias_cm": 1.0093,
+            "plot_rmse_cm": 2.707
+          },
+          "with_climate": {
+            "trees": 886,
+            "plots": 166,
+            "tree_rmse_cm": 2.7107,
+            "tree_mae_cm": 2.1528,
+            "tree_bias_cm": 0.6768,
+            "plot_rmse_cm": 2.7027
+          }
+        },
+        "19": {
+          "baseline": {
+            "trees": 20,
+            "plots": 1,
+            "tree_rmse_cm": 3.7056,
+            "tree_mae_cm": 3.4896,
+            "tree_bias_cm": 3.4896,
+            "plot_rmse_cm": 3.4896
+          },
+          "with_climate": {
+            "trees": 20,
+            "plots": 1,
+            "tree_rmse_cm": 3.5527,
+            "tree_mae_cm": 3.3267,
+            "tree_bias_cm": 3.3267,
+            "plot_rmse_cm": 3.3267
+          }
+        },
+        "23": {
+          "baseline": {
+            "trees": 608,
+            "plots": 98,
+            "tree_rmse_cm": 4.269,
+            "tree_mae_cm": 3.3519,
+            "tree_bias_cm": -0.3296,
+            "plot_rmse_cm": 4.5512
+          },
+          "with_climate": {
+            "trees": 608,
+            "plots": 98,
+            "tree_rmse_cm": 4.2738,
+            "tree_mae_cm": 3.3489,
+            "tree_bias_cm": -0.4248,
+            "plot_rmse_cm": 4.5945
+          }
+        },
+        "29": {
+          "baseline": {
+            "trees": 154,
+            "plots": 22,
+            "tree_rmse_cm": 3.8593,
+            "tree_mae_cm": 3.3249,
+            "tree_bias_cm": 2.5853,
+            "plot_rmse_cm": 3.7934
+          },
+          "with_climate": {
+            "trees": 154,
+            "plots": 22,
+            "tree_rmse_cm": 3.7089,
+            "tree_mae_cm": 3.1717,
+            "tree_bias_cm": 2.36,
+            "plot_rmse_cm": 3.6338
+          }
+        },
+        "32": {
+          "baseline": {
+            "trees": 10,
+            "plots": 4,
+            "tree_rmse_cm": 6.7728,
+            "tree_mae_cm": 6.0426,
+            "tree_bias_cm": -6.0426,
+            "plot_rmse_cm": 7.2305
+          },
+          "with_climate": {
+            "trees": 10,
+            "plots": 4,
+            "tree_rmse_cm": 6.7868,
+            "tree_mae_cm": 6.0584,
+            "tree_bias_cm": -6.0584,
+            "plot_rmse_cm": 7.2677
+          }
+        },
+        "36": {
+          "baseline": {
+            "trees": 1,
+            "plots": 1,
+            "tree_rmse_cm": 1.6924,
+            "tree_mae_cm": 1.6924,
+            "tree_bias_cm": -1.6924,
+            "plot_rmse_cm": 1.6924
+          },
+          "with_climate": {
+            "trees": 1,
+            "plots": 1,
+            "tree_rmse_cm": 1.6938,
+            "tree_mae_cm": 1.6938,
+            "tree_bias_cm": -1.6938,
+            "plot_rmse_cm": 1.6938
+          }
+        },
+        "37": {
+          "baseline": {
+            "trees": 12,
+            "plots": 2,
+            "tree_rmse_cm": 3.6237,
+            "tree_mae_cm": 2.7467,
+            "tree_bias_cm": -1.3924,
+            "plot_rmse_cm": 2.4197
+          },
+          "with_climate": {
+            "trees": 12,
+            "plots": 2,
+            "tree_rmse_cm": 3.656,
+            "tree_mae_cm": 2.7998,
+            "tree_bias_cm": -1.4707,
+            "plot_rmse_cm": 2.4687
+          }
+        },
+        "43": {
+          "baseline": {
+            "trees": 6,
+            "plots": 2,
+            "tree_rmse_cm": 4.946,
+            "tree_mae_cm": 4.7156,
+            "tree_bias_cm": 4.7156,
+            "plot_rmse_cm": 4.4958
+          },
+          "with_climate": {
+            "trees": 6,
+            "plots": 2,
+            "tree_rmse_cm": 4.8135,
+            "tree_mae_cm": 4.5817,
+            "tree_bias_cm": 4.5817,
+            "plot_rmse_cm": 4.368
+          }
+        },
+        "45": {
+          "baseline": {
+            "trees": 195,
+            "plots": 30,
+            "tree_rmse_cm": 3.6884,
+            "tree_mae_cm": 3.0982,
+            "tree_bias_cm": 1.4372,
+            "plot_rmse_cm": 3.2846
+          },
+          "with_climate": {
+            "trees": 195,
+            "plots": 30,
+            "tree_rmse_cm": 3.5708,
+            "tree_mae_cm": 2.9922,
+            "tree_bias_cm": 1.2483,
+            "plot_rmse_cm": 3.2622
+          }
+        },
+        "49": {
+          "baseline": {
+            "trees": 373,
+            "plots": 44,
+            "tree_rmse_cm": 3.4746,
+            "tree_mae_cm": 2.9922,
+            "tree_bias_cm": 1.7569,
+            "plot_rmse_cm": 2.8808
+          },
+          "with_climate": {
+            "trees": 373,
+            "plots": 44,
+            "tree_rmse_cm": 3.3616,
+            "tree_mae_cm": 2.8738,
+            "tree_bias_cm": 1.5075,
+            "plot_rmse_cm": 2.9148
+          }
+        }
+      }
+    },
+    "Pinus halepensis": {
+      "fit_provinces": [
+        "02",
+        "08"
+      ],
+      "fit_trees": 5455,
+      "fit_plots": 771,
+      "heldout_trees": 9365,
+      "heldout_plots": 1122,
+      "fit_climate_z_5_50_95_pct": [
+        -0.3455,
+        -0.188,
+        -0.1057
+      ],
+      "beta_per_annual_climate_sd": 0.0,
+      "within_province_beta_diagnostic": 0.3436,
+      "bootstrap_95_pct": [
+        0.0,
+        0.09423
+      ],
+      "heldout_baseline": {
+        "trees": 9365,
+        "plots": 1122,
+        "tree_rmse_cm": 2.9896,
+        "tree_mae_cm": 2.353,
+        "tree_bias_cm": 0.2674,
+        "plot_rmse_cm": 3.2383
+      },
+      "heldout_with_climate": {
+        "trees": 9365,
+        "plots": 1122,
+        "tree_rmse_cm": 2.9896,
+        "tree_mae_cm": 2.353,
+        "tree_bias_cm": 0.2674,
+        "plot_rmse_cm": 3.2383
+      },
+      "heldout_within_province_diagnostic": {
+        "trees": 9365,
+        "plots": 1122,
+        "tree_rmse_cm": 2.9868,
+        "tree_mae_cm": 2.3359,
+        "tree_bias_cm": 0.1086,
+        "plot_rmse_cm": 3.2773
+      },
+      "heldout_rmse_change_pct": 0.0,
+      "by_heldout_province": {
+        "11": {
+          "baseline": {
+            "trees": 124,
+            "plots": 12,
+            "tree_rmse_cm": 3.9247,
+            "tree_mae_cm": 3.2374,
+            "tree_bias_cm": 0.0474,
+            "plot_rmse_cm": 3.4786
+          },
+          "with_climate": {
+            "trees": 124,
+            "plots": 12,
+            "tree_rmse_cm": 3.9247,
+            "tree_mae_cm": 3.2374,
+            "tree_bias_cm": 0.0474,
+            "plot_rmse_cm": 3.4786
+          }
+        },
+        "13": {
+          "baseline": {
+            "trees": 9,
+            "plots": 3,
+            "tree_rmse_cm": 2.5426,
+            "tree_mae_cm": 2.2998,
+            "tree_bias_cm": -2.2998,
+            "plot_rmse_cm": 2.4361
+          },
+          "with_climate": {
+            "trees": 9,
+            "plots": 3,
+            "tree_rmse_cm": 2.5426,
+            "tree_mae_cm": 2.2998,
+            "tree_bias_cm": -2.2998,
+            "plot_rmse_cm": 2.4361
+          }
+        },
+        "14": {
+          "baseline": {
+            "trees": 54,
+            "plots": 5,
+            "tree_rmse_cm": 3.5612,
+            "tree_mae_cm": 3.0525,
+            "tree_bias_cm": 1.3193,
+            "plot_rmse_cm": 1.2115
+          },
+          "with_climate": {
+            "trees": 54,
+            "plots": 5,
+            "tree_rmse_cm": 3.5612,
+            "tree_mae_cm": 3.0525,
+            "tree_bias_cm": 1.3193,
+            "plot_rmse_cm": 1.2115
+          }
+        },
+        "16": {
+          "baseline": {
+            "trees": 1658,
+            "plots": 245,
+            "tree_rmse_cm": 2.9765,
+            "tree_mae_cm": 2.2615,
+            "tree_bias_cm": -0.0615,
+            "plot_rmse_cm": 3.4528
+          },
+          "with_climate": {
+            "trees": 1658,
+            "plots": 245,
+            "tree_rmse_cm": 2.9765,
+            "tree_mae_cm": 2.2615,
+            "tree_bias_cm": -0.0615,
+            "plot_rmse_cm": 3.4528
+          }
+        },
+        "17": {
+          "baseline": {
+            "trees": 1154,
+            "plots": 118,
+            "tree_rmse_cm": 3.1253,
+            "tree_mae_cm": 2.5065,
+            "tree_bias_cm": -0.7947,
+            "plot_rmse_cm": 2.9781
+          },
+          "with_climate": {
+            "trees": 1154,
+            "plots": 118,
+            "tree_rmse_cm": 3.1253,
+            "tree_mae_cm": 2.5065,
+            "tree_bias_cm": -0.7947,
+            "plot_rmse_cm": 2.9781
+          }
+        },
+        "19": {
+          "baseline": {
+            "trees": 525,
+            "plots": 64,
+            "tree_rmse_cm": 2.6833,
+            "tree_mae_cm": 2.1419,
+            "tree_bias_cm": 0.56,
+            "plot_rmse_cm": 2.7769
+          },
+          "with_climate": {
+            "trees": 525,
+            "plots": 64,
+            "tree_rmse_cm": 2.6833,
+            "tree_mae_cm": 2.1419,
+            "tree_bias_cm": 0.56,
+            "plot_rmse_cm": 2.7769
+          }
+        },
+        "23": {
+          "baseline": {
+            "trees": 1175,
+            "plots": 167,
+            "tree_rmse_cm": 3.5709,
+            "tree_mae_cm": 2.7495,
+            "tree_bias_cm": -0.3551,
+            "plot_rmse_cm": 3.8051
+          },
+          "with_climate": {
+            "trees": 1175,
+            "plots": 167,
+            "tree_rmse_cm": 3.5709,
+            "tree_mae_cm": 2.7495,
+            "tree_bias_cm": -0.3551,
+            "plot_rmse_cm": 3.8051
+          }
+        },
+        "25": {
+          "baseline": {
+            "trees": 784,
+            "plots": 94,
+            "tree_rmse_cm": 2.6394,
+            "tree_mae_cm": 2.2391,
+            "tree_bias_cm": 1.4842,
+            "plot_rmse_cm": 2.7378
+          },
+          "with_climate": {
+            "trees": 784,
+            "plots": 94,
+            "tree_rmse_cm": 2.6394,
+            "tree_mae_cm": 2.2391,
+            "tree_bias_cm": 1.4842,
+            "plot_rmse_cm": 2.7378
+          }
+        },
+        "28": {
+          "baseline": {
+            "trees": 295,
+            "plots": 24,
+            "tree_rmse_cm": 2.3192,
+            "tree_mae_cm": 1.7581,
+            "tree_bias_cm": -0.8248,
+            "plot_rmse_cm": 2.4729
+          },
+          "with_climate": {
+            "trees": 295,
+            "plots": 24,
+            "tree_rmse_cm": 2.3192,
+            "tree_mae_cm": 1.7581,
+            "tree_bias_cm": -0.8248,
+            "plot_rmse_cm": 2.4729
+          }
+        },
+        "29": {
+          "baseline": {
+            "trees": 953,
+            "plots": 114,
+            "tree_rmse_cm": 3.5366,
+            "tree_mae_cm": 2.8124,
+            "tree_bias_cm": 0.4917,
+            "plot_rmse_cm": 4.3941
+          },
+          "with_climate": {
+            "trees": 953,
+            "plots": 114,
+            "tree_rmse_cm": 3.5366,
+            "tree_mae_cm": 2.8124,
+            "tree_bias_cm": 0.4917,
+            "plot_rmse_cm": 4.3941
+          }
+        },
+        "43": {
+          "baseline": {
+            "trees": 2598,
+            "plots": 272,
+            "tree_rmse_cm": 2.5664,
+            "tree_mae_cm": 2.0841,
+            "tree_bias_cm": 0.8329,
+            "plot_rmse_cm": 2.4692
+          },
+          "with_climate": {
+            "trees": 2598,
+            "plots": 272,
+            "tree_rmse_cm": 2.5664,
+            "tree_mae_cm": 2.0841,
+            "tree_bias_cm": 0.8329,
+            "plot_rmse_cm": 2.4692
+          }
+        },
+        "45": {
+          "baseline": {
+            "trees": 36,
+            "plots": 4,
+            "tree_rmse_cm": 2.6113,
+            "tree_mae_cm": 2.2898,
+            "tree_bias_cm": 1.045,
+            "plot_rmse_cm": 1.1802
+          },
+          "with_climate": {
+            "trees": 36,
+            "plots": 4,
+            "tree_rmse_cm": 2.6113,
+            "tree_mae_cm": 2.2898,
+            "tree_bias_cm": 1.045,
+            "plot_rmse_cm": 1.1802
+          }
+        }
+      }
+    },
+    "Pinus nigra": {
+      "fit_provinces": [
+        "16",
+        "25"
+      ],
+      "fit_trees": 9562,
+      "fit_plots": 1030,
+      "heldout_trees": 8867,
+      "heldout_plots": 998,
+      "fit_climate_z_5_50_95_pct": [
+        -0.0307,
+        0.1218,
+        0.2329
+      ],
+      "beta_per_annual_climate_sd": 0.0,
+      "within_province_beta_diagnostic": 0.26289,
+      "bootstrap_95_pct": [
+        0.0,
+        0.17243
+      ],
+      "heldout_baseline": {
+        "trees": 8867,
+        "plots": 998,
+        "tree_rmse_cm": 2.4816,
+        "tree_mae_cm": 1.9019,
+        "tree_bias_cm": -0.4841,
+        "plot_rmse_cm": 2.4307
+      },
+      "heldout_with_climate": {
+        "trees": 8867,
+        "plots": 998,
+        "tree_rmse_cm": 2.4816,
+        "tree_mae_cm": 1.9019,
+        "tree_bias_cm": -0.4841,
+        "plot_rmse_cm": 2.4307
+      },
+      "heldout_within_province_diagnostic": {
+        "trees": 8867,
+        "plots": 998,
+        "tree_rmse_cm": 2.4738,
+        "tree_mae_cm": 1.9051,
+        "tree_bias_cm": -0.401,
+        "plot_rmse_cm": 2.4082
+      },
+      "heldout_rmse_change_pct": 0.0,
+      "by_heldout_province": {
+        "02": {
+          "baseline": {
+            "trees": 1272,
+            "plots": 148,
+            "tree_rmse_cm": 2.3188,
+            "tree_mae_cm": 1.838,
+            "tree_bias_cm": -0.0856,
+            "plot_rmse_cm": 2.1373
+          },
+          "with_climate": {
+            "trees": 1272,
+            "plots": 148,
+            "tree_rmse_cm": 2.3188,
+            "tree_mae_cm": 1.838,
+            "tree_bias_cm": -0.0856,
+            "plot_rmse_cm": 2.1373
+          }
+        },
+        "05": {
+          "baseline": {
+            "trees": 197,
+            "plots": 21,
+            "tree_rmse_cm": 3.9995,
+            "tree_mae_cm": 3.1252,
+            "tree_bias_cm": -2.0701,
+            "plot_rmse_cm": 4.9318
+          },
+          "with_climate": {
+            "trees": 197,
+            "plots": 21,
+            "tree_rmse_cm": 3.9995,
+            "tree_mae_cm": 3.1252,
+            "tree_bias_cm": -2.0701,
+            "plot_rmse_cm": 4.9318
+          }
+        },
+        "08": {
+          "baseline": {
+            "trees": 1399,
+            "plots": 181,
+            "tree_rmse_cm": 2.3685,
+            "tree_mae_cm": 1.8037,
+            "tree_bias_cm": -0.6447,
+            "plot_rmse_cm": 2.1913
+          },
+          "with_climate": {
+            "trees": 1399,
+            "plots": 181,
+            "tree_rmse_cm": 2.3685,
+            "tree_mae_cm": 1.8037,
+            "tree_bias_cm": -0.6447,
+            "plot_rmse_cm": 2.1913
+          }
+        },
+        "10": {
+          "baseline": {
+            "trees": 6,
+            "plots": 2,
+            "tree_rmse_cm": 6.4079,
+            "tree_mae_cm": 5.6349,
+            "tree_bias_cm": -3.9147,
+            "plot_rmse_cm": 5.3831
+          },
+          "with_climate": {
+            "trees": 6,
+            "plots": 2,
+            "tree_rmse_cm": 6.4079,
+            "tree_mae_cm": 5.6349,
+            "tree_bias_cm": -3.9147,
+            "plot_rmse_cm": 5.3831
+          }
+        },
+        "17": {
+          "baseline": {
+            "trees": 285,
+            "plots": 50,
+            "tree_rmse_cm": 2.7491,
+            "tree_mae_cm": 2.104,
+            "tree_bias_cm": -1.102,
+            "plot_rmse_cm": 2.4434
+          },
+          "with_climate": {
+            "trees": 285,
+            "plots": 50,
+            "tree_rmse_cm": 2.7491,
+            "tree_mae_cm": 2.104,
+            "tree_bias_cm": -1.102,
+            "plot_rmse_cm": 2.4434
+          }
+        },
+        "19": {
+          "baseline": {
+            "trees": 2250,
+            "plots": 237,
+            "tree_rmse_cm": 2.2177,
+            "tree_mae_cm": 1.6952,
+            "tree_bias_cm": -0.0998,
+            "plot_rmse_cm": 2.3215
+          },
+          "with_climate": {
+            "trees": 2250,
+            "plots": 237,
+            "tree_rmse_cm": 2.2177,
+            "tree_mae_cm": 1.6952,
+            "tree_bias_cm": -0.0998,
+            "plot_rmse_cm": 2.3215
+          }
+        },
+        "23": {
+          "baseline": {
+            "trees": 2318,
+            "plots": 210,
+            "tree_rmse_cm": 2.5327,
+            "tree_mae_cm": 1.9801,
+            "tree_bias_cm": -0.4342,
+            "plot_rmse_cm": 2.1697
+          },
+          "with_climate": {
+            "trees": 2318,
+            "plots": 210,
+            "tree_rmse_cm": 2.5327,
+            "tree_mae_cm": 1.9801,
+            "tree_bias_cm": -0.4342,
+            "plot_rmse_cm": 2.1697
+          }
+        },
+        "28": {
+          "baseline": {
+            "trees": 260,
+            "plots": 22,
+            "tree_rmse_cm": 2.5359,
+            "tree_mae_cm": 1.946,
+            "tree_bias_cm": -1.6201,
+            "plot_rmse_cm": 2.2129
+          },
+          "with_climate": {
+            "trees": 260,
+            "plots": 22,
+            "tree_rmse_cm": 2.5359,
+            "tree_mae_cm": 1.946,
+            "tree_bias_cm": -1.6201,
+            "plot_rmse_cm": 2.2129
+          }
+        },
+        "29": {
+          "baseline": {
+            "trees": 15,
+            "plots": 3,
+            "tree_rmse_cm": 3.9989,
+            "tree_mae_cm": 2.3102,
+            "tree_bias_cm": -2.1366,
+            "plot_rmse_cm": 8.4095
+          },
+          "with_climate": {
+            "trees": 15,
+            "plots": 3,
+            "tree_rmse_cm": 3.9989,
+            "tree_mae_cm": 2.3102,
+            "tree_bias_cm": -2.1366,
+            "plot_rmse_cm": 8.4095
+          }
+        },
+        "32": {
+          "baseline": {
+            "trees": 17,
+            "plots": 3,
+            "tree_rmse_cm": 2.2888,
+            "tree_mae_cm": 1.6828,
+            "tree_bias_cm": -1.4993,
+            "plot_rmse_cm": 1.1863
+          },
+          "with_climate": {
+            "trees": 17,
+            "plots": 3,
+            "tree_rmse_cm": 2.2888,
+            "tree_mae_cm": 1.6828,
+            "tree_bias_cm": -1.4993,
+            "plot_rmse_cm": 1.1863
+          }
+        },
+        "37": {
+          "baseline": {
+            "trees": 47,
+            "plots": 6,
+            "tree_rmse_cm": 5.0318,
+            "tree_mae_cm": 4.4845,
+            "tree_bias_cm": -4.0959,
+            "plot_rmse_cm": 6.3291
+          },
+          "with_climate": {
+            "trees": 47,
+            "plots": 6,
+            "tree_rmse_cm": 5.0318,
+            "tree_mae_cm": 4.4845,
+            "tree_bias_cm": -4.0959,
+            "plot_rmse_cm": 6.3291
+          }
+        },
+        "43": {
+          "baseline": {
+            "trees": 657,
+            "plots": 94,
+            "tree_rmse_cm": 2.069,
+            "tree_mae_cm": 1.6494,
+            "tree_bias_cm": -0.2807,
+            "plot_rmse_cm": 1.9957
+          },
+          "with_climate": {
+            "trees": 657,
+            "plots": 94,
+            "tree_rmse_cm": 2.069,
+            "tree_mae_cm": 1.6494,
+            "tree_bias_cm": -0.2807,
+            "plot_rmse_cm": 1.9957
+          }
+        },
+        "49": {
+          "baseline": {
+            "trees": 144,
+            "plots": 21,
+            "tree_rmse_cm": 4.1094,
+            "tree_mae_cm": 3.3725,
+            "tree_bias_cm": -3.125,
+            "plot_rmse_cm": 3.6475
+          },
+          "with_climate": {
+            "trees": 144,
+            "plots": 21,
+            "tree_rmse_cm": 4.1094,
+            "tree_mae_cm": 3.3725,
+            "tree_bias_cm": -3.125,
+            "plot_rmse_cm": 3.6475
+          }
+        }
+      }
+    }
+  }
+}

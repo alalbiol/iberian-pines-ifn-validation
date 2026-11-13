@@ -1,0 +1,61 @@
+{
+  "design": "All pine-dominated IFN4 plots; Madrid+Salamanca fit, other provinces held out; even-aged only for biomass ratio",
+  "hd_fit_n": 175,
+  "hd_heldout_n": 949,
+  "hd_parameters": {
+    "scale_cm_per_m_power": 6.932591731737465,
+    "height_above_1_3m_exponent": 0.631322281996406,
+    "density_exponent": -0.11555670416574702
+  },
+  "heldout_hd": {
+    "mediterranean_fit": {
+      "n": 949,
+      "bias_cm": 0.288,
+      "mae_cm": 3.981,
+      "rmse_cm": 5.091,
+      "median_predicted_over_measured": 1.006
+    },
+    "mediterranean_no_density": {
+      "n": 949,
+      "bias_cm": 0.188,
+      "mae_cm": 3.958,
+      "rmse_cm": 5.095,
+      "median_predicted_over_measured": 0.999
+    },
+    "galician_fit_transfer": {
+      "n": 949,
+      "bias_cm": -7.608,
+      "mae_cm": 8.187,
+      "rmse_cm": 9.44,
+      "median_predicted_over_measured": 0.753
+    }
+  },
+  "ratio_fit_n": 63,
+  "ratio_heldout_n": 225,
+  "ratio_parameters": {
+    "logit_at_500ha": 0.4181079317972758,
+    "log_density_slope": -0.8883217291048581
+  },
+  "heldout_ratio": {
+    "mediterranean_fit": {
+      "n": 225,
+      "bias": -0.013,
+      "mae": 0.059,
+      "rmse": 0.081
+    },
+    "galician_fit_transfer": {
+      "n": 225,
+      "bias": -0.046,
+      "mae": 0.075,
+      "rmse": 0.095
+    }
+  },
+  "heldout_by_province": {
+    "Extremadura": 316,
+    "Cuenca": 181,
+    "Albacete": 144,
+    "Ciudad Real": 119,
+    "Guadalajara": 116,
+    "Toledo": 73
+  }
+}

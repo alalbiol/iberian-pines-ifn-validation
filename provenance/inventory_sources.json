@@ -1,0 +1,533 @@
+{
+  "description": "Original IFN3/IFN4 database coverage used by the distributed pine analyses. Hashes are from the actual local study inputs, not inferred from current server contents.",
+  "recorded_date": "2026-11-13",
+  "files": [
+    {
+      "id": "ifn4-ifn4p15-coruna",
+      "cycle": "ifn4",
+      "label": "A Coruña",
+      "provinces": [
+        "15"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/Ifn4p15-coruna.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p15-coruna.accdb",
+      "sha256": "8ccda71ee06523c587d28a104068ce63b06d93092941a7f3e2bf9ccc00d562d7",
+      "bytes": 23547904
+    },
+    {
+      "id": "ifn4-ifn4_albacete",
+      "cycle": "ifn4",
+      "label": "Albacete",
+      "provinces": [
+        "02"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/ifn/ifn4/ifn4-albacete.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4_Albacete.accdb",
+      "sha256": "027b5671fe3008e53f0e7ea6e6f522263245a88958229f5a46d4babdbfc8319f",
+      "bytes": 9805824
+    },
+    {
+      "id": "ifn4-ifn4p05-avila",
+      "cycle": "ifn4",
+      "label": "Avila",
+      "provinces": [
+        "05"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/Ifn4p05-avila.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p05-avila.accdb",
+      "sha256": "4d6ef55fc9eb5e03ad6d3a4edcad6c96a8111ff67f889d7970662c49bd8b959f",
+      "bytes": 9408512
+    },
+    {
+      "id": "ifn4-ifn4p11",
+      "cycle": "ifn4",
+      "label": "Cádiz",
+      "provinces": [
+        "11"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/2025_12_Ifn4p11.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p11.accdb",
+      "sha256": "ba39cc1d4829dc58e3ac1d7d6b36777f038aef7385977bda06b58f881d1ec916",
+      "bytes": 7340032
+    },
+    {
+      "id": "ifn4-ifn4_cataluna",
+      "cycle": "ifn4",
+      "label": "Cataluña",
+      "provinces": [
+        "08",
+        "17",
+        "25",
+        "43"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/ifn/ifn4/ifn4_cataluna_tcm30-536603.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4_Cataluna.accdb",
+      "sha256": "08942a945ab080c5b457f042f5afe9a660ec330888b51745328dd44e0672613b",
+      "bytes": 57253888
+    },
+    {
+      "id": "ifn4-ifn4_ciudadreal",
+      "cycle": "ifn4",
+      "label": "Ciudad Real",
+      "provinces": [
+        "13"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/ifn/ifn4/ifn4-ciudadreal.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4_CiudadReal.accdb",
+      "sha256": "a56a3c909773f655863f1564f7cafc48bc07ad792eaabde4c76f6c011dd02ece",
+      "bytes": 7122944
+    },
+    {
+      "id": "ifn4-ifn4p14",
+      "cycle": "ifn4",
+      "label": "Córdoba",
+      "provinces": [
+        "14"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/2025_12_Ifn4p14.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p14.accdb",
+      "sha256": "c523aa9cfb41d16a1878641ab5763bd8ce5e57668d2308c15c9fe57206c8e86e",
+      "bytes": 6594560
+    },
+    {
+      "id": "ifn4-ifn4p_cuenca",
+      "cycle": "ifn4",
+      "label": "Cuenca",
+      "provinces": [
+        "16"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/ifn/ifn4/ifn4-cuenca.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p_Cuenca.accdb",
+      "sha256": "f8fce003ae7512133df71b898f8dd22ba3ec36b18f4872b5f257e7cd9ba8075c",
+      "bytes": 17674240
+    },
+    {
+      "id": "ifn4-ifn4_extremadura",
+      "cycle": "ifn4",
+      "label": "Extremadura",
+      "provinces": [
+        "06",
+        "10"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/ifn/ifn4/ifn4_extremadura_tcm30-536579.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4_Extremadura.accdb",
+      "sha256": "6ad287c723eda27df3935cdbd34c29d00c7284b1cbfd67f420bebb299b5e7678",
+      "bytes": 14856192
+    },
+    {
+      "id": "ifn4-ifn4_guadalajara",
+      "cycle": "ifn4",
+      "label": "Guadalajara",
+      "provinces": [
+        "19"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/ifn/ifn4/ifn4-guadalajara.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4_Guadalajara.accdb",
+      "sha256": "31227cdef7c8c91122ee4898b56dc8206d5ae0b84db813accb5971fd86a4b755",
+      "bytes": 13697024
+    },
+    {
+      "id": "ifn4-ifn4p23",
+      "cycle": "ifn4",
+      "label": "Jaén",
+      "provinces": [
+        "23"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/2025_12_ifn4p23.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/ifn4p23.accdb",
+      "sha256": "0918c49da145a2575e4e0e52cee3ca42466b6416b55013c27e5a9fa910162775",
+      "bytes": 10940416
+    },
+    {
+      "id": "ifn4-ifn4p27-lugo",
+      "cycle": "ifn4",
+      "label": "Lugo",
+      "provinces": [
+        "27"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/Ifn4p27-lugo.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p27-lugo.accdb",
+      "sha256": "4c74e6458b98348afcf0f4a3165f8f1bb112fcfcae4378ac99c3bdbef678768f",
+      "bytes": 20516864
+    },
+    {
+      "id": "ifn4-ifn4p28-madrid",
+      "cycle": "ifn4",
+      "label": "Madrid",
+      "provinces": [
+        "28"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/Ifn4p28-madrid.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p28-madrid.accdb",
+      "sha256": "db9b7519aee84f2e4de1408e868684e82193caf01a20eb0a32c171c398d89a9a",
+      "bytes": 12103680
+    },
+    {
+      "id": "ifn4-ifn4p29",
+      "cycle": "ifn4",
+      "label": "Málaga",
+      "provinces": [
+        "29"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/2025_12_Ifn4p29.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p29.accdb",
+      "sha256": "7d5484beff4e180dc0c1ee103ddb89ad979f2a107cf4223e32b13fb3be5ae191",
+      "bytes": 7352320
+    },
+    {
+      "id": "ifn4-ifn4p32-ourense",
+      "cycle": "ifn4",
+      "label": "Ourense",
+      "provinces": [
+        "32"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/Ifn4p32-ourense.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p32-ourense.accdb",
+      "sha256": "1592a8fdd4225a0df6597abdd5dfae480d10bccb293f7dbb3cbef6b90d09adcc",
+      "bytes": 14696448
+    },
+    {
+      "id": "ifn4-ifn4p36-pontevedra",
+      "cycle": "ifn4",
+      "label": "Pontevedra",
+      "provinces": [
+        "36"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/Ifn4p36-pontevedra.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p36-pontevedra.accdb",
+      "sha256": "9d2c016379cc327da780e36e9a55e1c5a1bb7bf83e145320ae1bd1a62a4c7d56",
+      "bytes": 12488704
+    },
+    {
+      "id": "ifn4-ifn4p37-salamanca",
+      "cycle": "ifn4",
+      "label": "Salamanca",
+      "provinces": [
+        "37"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/Ifn4p37-salamanca.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p37-salamanca.accdb",
+      "sha256": "13bab76108f8c331adadb137d8e07fd445394c0be5fc8532fdff355850f0550d",
+      "bytes": 5947392
+    },
+    {
+      "id": "ifn4-ifn4_toledo",
+      "cycle": "ifn4",
+      "label": "Toledo",
+      "provinces": [
+        "45"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/ifn/ifn4/ifn4-toledo.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4_Toledo.accdb",
+      "sha256": "02546c3e976752dd467d7e0559aabf1b5fda6e78d88e7a791c1fd142aed99468",
+      "bytes": 5447680
+    },
+    {
+      "id": "ifn4-ifn4p49-zamora",
+      "cycle": "ifn4",
+      "label": "Zamora",
+      "provinces": [
+        "49"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/Ifn4p49-zamora.accdb.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/temas/inventarios-nacionales/inventario-forestal-nacional/cuarto_inventario.html",
+      "destination": "ifn4/Ifn4p49-zamora.accdb",
+      "sha256": "dbe81fb8f1fe0d1335e863469a2f662291de731ba8a10f9b3f9ddeb63bcb9c6f",
+      "bytes": 6131712
+    },
+    {
+      "id": "ifn3-p02",
+      "cycle": "ifn3",
+      "provinces": [
+        "02"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p02.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p02/Ifn3p02.accdb",
+      "sha256": "4e59a1c77d982b3aba8b2c8a7c3f237fdc7a6a017685b985cad081a96095670d",
+      "bytes": 9314304
+    },
+    {
+      "id": "ifn3-p05",
+      "cycle": "ifn3",
+      "provinces": [
+        "05"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p05.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p05/Ifn3p05.accdb",
+      "sha256": "1a579dec2ca9be59e08803d4b88899e753921a758e51c949a643ad8df28a41d3",
+      "bytes": 9338880
+    },
+    {
+      "id": "ifn3-p06",
+      "cycle": "ifn3",
+      "provinces": [
+        "06"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p06.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p06/Ifn3p06.accdb",
+      "sha256": "303d39b03b41c5fec20715deb1bcacfb363004e5a8c75d67568c604da7c77339",
+      "bytes": 7987200
+    },
+    {
+      "id": "ifn3-p08",
+      "cycle": "ifn3",
+      "provinces": [
+        "08"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p08.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p08/Ifn3p08.accdb",
+      "sha256": "b9bba8ce8308cc797597d0c39b894c2411dcadc9b017a6f67a76e5a914d31e68",
+      "bytes": 28053504
+    },
+    {
+      "id": "ifn3-p10",
+      "cycle": "ifn3",
+      "provinces": [
+        "10"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p10.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p10/Ifn3p10.accdb",
+      "sha256": "286224424a75cb8952ab5098aeb41dee246379d890c0eb5af4bef1d94de2d4f9",
+      "bytes": 13164544
+    },
+    {
+      "id": "ifn3-p11",
+      "cycle": "ifn3",
+      "provinces": [
+        "11"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p11.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p11/Ifn3p11.accdb",
+      "sha256": "1177a4599aafbab636e3a9a40d4a2869db4a88b9f6e601041ec1f4241d36e542",
+      "bytes": 7159808
+    },
+    {
+      "id": "ifn3-p13",
+      "cycle": "ifn3",
+      "provinces": [
+        "13"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p13.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p13/Ifn3p13.accdb",
+      "sha256": "2417d47bf276e5e43482142a4e69b673885b6eafad20091c801bfb110cf90245",
+      "bytes": 7405568
+    },
+    {
+      "id": "ifn3-p14",
+      "cycle": "ifn3",
+      "provinces": [
+        "14"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p14.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p14/Ifn3p14.accdb",
+      "sha256": "d9c159f24097b5c28650d8fb42c43a26965a96d7548506b72d79d1bf5c48c8e6",
+      "bytes": 5738496
+    },
+    {
+      "id": "ifn3-p15",
+      "cycle": "ifn3",
+      "provinces": [
+        "15"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p15.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p15/Ifn3p15.accdb",
+      "sha256": "e996ba1f44a5dc1432eeaed397a568e4ee51d4aa667d00669a0f13de17576f03",
+      "bytes": 19935232
+    },
+    {
+      "id": "ifn3-p16",
+      "cycle": "ifn3",
+      "provinces": [
+        "16"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p16.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p16/Ifn3p16.accdb",
+      "sha256": "f5658933597829fbde76950a7aa99b3ff0361c372156578eb510b477e8e6085a",
+      "bytes": 17895424
+    },
+    {
+      "id": "ifn3-p17",
+      "cycle": "ifn3",
+      "provinces": [
+        "17"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p17.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p17/Ifn3p17.accdb",
+      "sha256": "ea0a42481ec5e886259582de75aa7cccfd3cb2ef9ee523815d18a2293e43e8b5",
+      "bytes": 27746304
+    },
+    {
+      "id": "ifn3-p19",
+      "cycle": "ifn3",
+      "provinces": [
+        "19"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p19.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p19/Ifn3p19.accdb",
+      "sha256": "b471387cb487b0656726b5674c5d85584326762ead0d02e7a59daf9a93c46046",
+      "bytes": 12234752
+    },
+    {
+      "id": "ifn3-p23",
+      "cycle": "ifn3",
+      "provinces": [
+        "23"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p23.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p23/Ifn3p23.accdb",
+      "sha256": "e974ae9601b5f6557fcb938b932f4ff662eba45b896309ef87cd5894a9f48ed6",
+      "bytes": 11042816
+    },
+    {
+      "id": "ifn3-p25",
+      "cycle": "ifn3",
+      "provinces": [
+        "25"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p25.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p25/Ifn3p25.accdb",
+      "sha256": "ce604db8db822961f3a79cf0720649a8b844c3008a2ca1807cf654e7f916ab54",
+      "bytes": 27607040
+    },
+    {
+      "id": "ifn3-p27",
+      "cycle": "ifn3",
+      "provinces": [
+        "27"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p27.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p27/Ifn3p27.accdb",
+      "sha256": "62448f121a82b502a7f077496fad2940a29b232b4b3835b285b76245c52ef368",
+      "bytes": 16089088
+    },
+    {
+      "id": "ifn3-p28",
+      "cycle": "ifn3",
+      "provinces": [
+        "28"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p28.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p28/Ifn3p28.accdb",
+      "sha256": "aef97ae0d97c7205e65852530882abc8b5429912e51fdbc67b3bf7f5965c85c2",
+      "bytes": 9904128
+    },
+    {
+      "id": "ifn3-p29",
+      "cycle": "ifn3",
+      "provinces": [
+        "29"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p29.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p29/Ifn3p29.accdb",
+      "sha256": "df22c7f0e240d14843237d1b0fd693b009e380043a5e4ec689a695fe6372e7a7",
+      "bytes": 7135232
+    },
+    {
+      "id": "ifn3-p32",
+      "cycle": "ifn3",
+      "provinces": [
+        "32"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p32.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p32/Ifn3p32.accdb",
+      "sha256": "002ed0ccd3443e623d9f3727c69f03f92b5b7bca3739e424f79dee81839c48b4",
+      "bytes": 9441280
+    },
+    {
+      "id": "ifn3-p36",
+      "cycle": "ifn3",
+      "provinces": [
+        "36"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p36.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p36/Ifn3p36.accdb",
+      "sha256": "2ee42eb6f125048294e696a9c41f5a1956a41c94e56bd4a94ffc91080204ed7b",
+      "bytes": 10498048
+    },
+    {
+      "id": "ifn3-p37",
+      "cycle": "ifn3",
+      "provinces": [
+        "37"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p37.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p37/Ifn3p37.accdb",
+      "sha256": "6dcab34f795943f5c4d9ca8fc9bfb820cc612f2556ffb15933001fa3de5be792",
+      "bytes": 7262208
+    },
+    {
+      "id": "ifn3-p43",
+      "cycle": "ifn3",
+      "provinces": [
+        "43"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p43.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p43/Ifn3p43.accdb",
+      "sha256": "4973655915adb2bad68b8cdfe57fd866680ee85210f1189b868a1ab62c825ee8",
+      "bytes": 11784192
+    },
+    {
+      "id": "ifn3-p45",
+      "cycle": "ifn3",
+      "provinces": [
+        "45"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p45.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p45/Ifn3p45.accdb",
+      "sha256": "2a861aed0b118c7ff5694ad84eea5797f6210045acf0b03bde6be88cd56c62f2",
+      "bytes": 5398528
+    },
+    {
+      "id": "ifn3-p49",
+      "cycle": "ifn3",
+      "provinces": [
+        "49"
+      ],
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/Ifn3p49.zip",
+      "source_page": "https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/informacion-disponible/ifn3_bbdd_descargas_htm.html",
+      "destination": "ifn3/p49/Ifn3p49.accdb",
+      "sha256": "ecbb1c1823baa45d288599aecb8c1ec406cc492d699cdfecd71520de4a6380fe",
+      "bytes": 7094272
+    }
+  ]
+}

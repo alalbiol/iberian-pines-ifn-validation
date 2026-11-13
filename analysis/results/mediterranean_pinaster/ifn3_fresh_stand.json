@@ -1,0 +1,197 @@
+{
+  "design": "IFN3 whorl-count age-source 5 pine-dominated stands outside fit provinces and with plot keys absent from all available IFN4 age records",
+  "ifn3_eligible_n": 154,
+  "excluded_ifn4_plot_key_overlap_n": 69,
+  "fresh_n": 85,
+  "fresh_by_province": {
+    "Ciudad Real": 47,
+    "Toledo": 23,
+    "Guadalajara": 10,
+    "Cáceres": 3,
+    "Badajoz": 1,
+    "Albacete": 1
+  },
+  "fresh_total_age_range": [
+    25.0,
+    40.0
+  ],
+  "fresh_height": {
+    "n": 85,
+    "bias_m": 0.82,
+    "mae_m": 2.294,
+    "rmse_m": 2.748,
+    "median_predicted_over_observed": 1.103
+  },
+  "default_large_stems_per_ha": 381.547449,
+  "fresh_large_stems_per_ha_median": 620.068,
+  "fresh_results": {
+    "defaults": {
+      "n": 85,
+      "bias_mg_ha": -3.294,
+      "mae_mg_ha": 29.536,
+      "rmse_mg_ha": 39.058,
+      "median_model_over_ifn": 1.072,
+      "ratio_iqr": [
+        0.744,
+        1.913
+      ]
+    },
+    "measured_height_and_density": {
+      "n": 85,
+      "bias_mg_ha": 3.583,
+      "mae_mg_ha": 11.408,
+      "rmse_mg_ha": 17.606,
+      "median_model_over_ifn": 1.128,
+      "ratio_iqr": [
+        0.936,
+        1.266
+      ]
+    }
+  },
+  "fresh_province_results": {
+    "Albacete": {
+      "defaults": {
+        "n": 1,
+        "bias_mg_ha": 17.901,
+        "mae_mg_ha": 17.901,
+        "rmse_mg_ha": 17.901,
+        "median_model_over_ifn": 1.53,
+        "ratio_iqr": [
+          1.53,
+          1.53
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 1,
+        "bias_mg_ha": -6.199,
+        "mae_mg_ha": 6.199,
+        "rmse_mg_ha": 6.199,
+        "median_model_over_ifn": 0.816,
+        "ratio_iqr": [
+          0.816,
+          0.816
+        ]
+      }
+    },
+    "Badajoz": {
+      "defaults": {
+        "n": 1,
+        "bias_mg_ha": -6.947,
+        "mae_mg_ha": 6.947,
+        "rmse_mg_ha": 6.947,
+        "median_model_over_ifn": 0.922,
+        "ratio_iqr": [
+          0.922,
+          0.922
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 1,
+        "bias_mg_ha": 21.758,
+        "mae_mg_ha": 21.758,
+        "rmse_mg_ha": 21.758,
+        "median_model_over_ifn": 1.246,
+        "ratio_iqr": [
+          1.246,
+          1.246
+        ]
+      }
+    },
+    "Ciudad Real": {
+      "defaults": {
+        "n": 47,
+        "bias_mg_ha": -12.546,
+        "mae_mg_ha": 32.572,
+        "rmse_mg_ha": 43.497,
+        "median_model_over_ifn": 0.823,
+        "ratio_iqr": [
+          0.631,
+          1.31
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 47,
+        "bias_mg_ha": 5.866,
+        "mae_mg_ha": 13.504,
+        "rmse_mg_ha": 20.344,
+        "median_model_over_ifn": 1.05,
+        "ratio_iqr": [
+          0.939,
+          1.275
+        ]
+      }
+    },
+    "Cáceres": {
+      "defaults": {
+        "n": 3,
+        "bias_mg_ha": -4.565,
+        "mae_mg_ha": 22.867,
+        "rmse_mg_ha": 27.746,
+        "median_model_over_ifn": 1.081,
+        "ratio_iqr": [
+          0.85,
+          2.037
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 3,
+        "bias_mg_ha": 15.347,
+        "mae_mg_ha": 15.347,
+        "rmse_mg_ha": 18.914,
+        "median_model_over_ifn": 1.283,
+        "ratio_iqr": [
+          1.208,
+          1.584
+        ]
+      }
+    },
+    "Guadalajara": {
+      "defaults": {
+        "n": 10,
+        "bias_mg_ha": 10.332,
+        "mae_mg_ha": 27.456,
+        "rmse_mg_ha": 35.777,
+        "median_model_over_ifn": 1.8,
+        "ratio_iqr": [
+          1.081,
+          4.726
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 10,
+        "bias_mg_ha": 1.149,
+        "mae_mg_ha": 3.246,
+        "rmse_mg_ha": 4.087,
+        "median_model_over_ifn": 1.091,
+        "ratio_iqr": [
+          0.97,
+          1.181
+        ]
+      }
+    },
+    "Toledo": {
+      "defaults": {
+        "n": 23,
+        "bias_mg_ha": 9.09,
+        "mae_mg_ha": 26.592,
+        "rmse_mg_ha": 33.144,
+        "median_model_over_ifn": 1.554,
+        "ratio_iqr": [
+          0.936,
+          2.11
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 23,
+        "bias_mg_ha": -1.922,
+        "mae_mg_ha": 9.936,
+        "rmse_mg_ha": 14.956,
+        "median_model_over_ifn": 1.145,
+        "ratio_iqr": [
+          0.884,
+          1.258
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,3335 @@
+{
+  "design": "IFN2→IFN3 and IFN3→IFN4 same-plot growth residual changes; leave-one-province-out; period intercept; within-province climate slope",
+  "candidate_features_predeclared": {
+    "Pinus sylvestris": [
+      "hyd_pr",
+      "sepjun_wb",
+      "spring_pr",
+      "hyd_wb"
+    ],
+    "Pinus pinea": [
+      "sepjun_wb",
+      "spring_pr",
+      "sepjun_pr",
+      "hyd_pr"
+    ],
+    "Pinus halepensis": [
+      "sepjun_wb",
+      "sepjun_pr",
+      "hyd_wb",
+      "spring_pr"
+    ],
+    "Pinus nigra": [
+      "spring_pr",
+      "sepjun_wb",
+      "hyd_pr",
+      "hyd_wb"
+    ]
+  },
+  "species": {
+    "Pinus sylvestris": {
+      "hyd_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1482,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.11763,
+          "heldout_baseline_rmse_cm_year": 0.14446,
+          "heldout_climate_rmse_cm_year": 0.14498,
+          "heldout_rmse_gain_pct": -0.361,
+          "province_bootstrap_gain_95_pct": [
+            -1.526,
+            0.825
+          ],
+          "improved_provinces": 5,
+          "fold_betas_5_50_95_pct": [
+            0.0146,
+            0.0949,
+            0.2827
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 53,
+              "beta": 0.09959,
+              "baseline_sse": 0.8592009198721167,
+              "climate_sse": 0.8638234537188191,
+              "baseline_bias": -0.035463307108315335,
+              "climate_bias": -0.038202443892418905
+            },
+            {
+              "province": "08",
+              "plots": 293,
+              "beta": 0.32008,
+              "baseline_sse": 5.57131270892859,
+              "climate_sse": 5.9387596578169175,
+              "baseline_bias": 0.011134227594300196,
+              "climate_bias": 0.03032805343717734
+            },
+            {
+              "province": "16",
+              "plots": 180,
+              "beta": 0.20435,
+              "baseline_sse": 4.056534332984035,
+              "climate_sse": 3.9225054679783486,
+              "baseline_bias": 0.041408647101156285,
+              "climate_bias": 0.026952151560181156
+            },
+            {
+              "province": "17",
+              "plots": 156,
+              "beta": 0.06064,
+              "baseline_sse": 3.5209854221416004,
+              "climate_sse": 3.4619577926576697,
+              "baseline_bias": -0.03414740754429628,
+              "climate_bias": -0.029284851114704285
+            },
+            {
+              "province": "19",
+              "plots": 161,
+              "beta": 0.22652,
+              "baseline_sse": 2.694047204281285,
+              "climate_sse": 2.654267085082082,
+              "baseline_bias": 0.02671507668273144,
+              "climate_bias": 0.01898290409416456
+            },
+            {
+              "province": "25",
+              "plots": 338,
+              "beta": 0.0883,
+              "baseline_sse": 6.512710030574128,
+              "climate_sse": 6.561962630250208,
+              "baseline_bias": 0.01500861404305879,
+              "climate_bias": 0.019759924010215462
+            },
+            {
+              "province": "28",
+              "plots": 177,
+              "beta": 0.0949,
+              "baseline_sse": 4.104303062041516,
+              "climate_sse": 4.157416933370548,
+              "baseline_bias": -0.01355066387252065,
+              "climate_bias": -0.022768785319626766
+            },
+            {
+              "province": "43",
+              "plots": 79,
+              "beta": 0.0,
+              "baseline_sse": 1.6415273206926178,
+              "climate_sse": 1.6415273206910224,
+              "baseline_bias": -0.021239419091216488,
+              "climate_bias": -0.02123941909275305
+            },
+            {
+              "province": "49",
+              "plots": 45,
+              "beta": 0.0366,
+              "baseline_sse": 1.9669513235838296,
+              "climate_sse": 1.9492541319982952,
+              "baseline_bias": -0.06788376636172182,
+              "climate_bias": -0.0663026683094381
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1269,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.1577,
+          "heldout_baseline_rmse_cm_year": 0.13265,
+          "heldout_climate_rmse_cm_year": 0.13274,
+          "heldout_rmse_gain_pct": -0.07,
+          "province_bootstrap_gain_95_pct": [
+            -0.951,
+            1.027
+          ],
+          "improved_provinces": 5,
+          "fold_betas_5_50_95_pct": [
+            0.0589,
+            0.1426,
+            0.2909
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 46,
+              "beta": 0.15001,
+              "baseline_sse": 0.6590006859965641,
+              "climate_sse": 0.6722727289516952,
+              "baseline_bias": -0.03732683867737073,
+              "climate_bias": -0.0416795220010607
+            },
+            {
+              "province": "08",
+              "plots": 253,
+              "beta": 0.2884,
+              "baseline_sse": 4.482140105109824,
+              "climate_sse": 4.642468505495235,
+              "baseline_bias": 0.004726688068437991,
+              "climate_bias": 0.021569833038403433
+            },
+            {
+              "province": "16",
+              "plots": 153,
+              "beta": 0.22581,
+              "baseline_sse": 2.827871797652366,
+              "climate_sse": 2.712508967207726,
+              "baseline_bias": 0.0398983213924062,
+              "climate_bias": 0.024507938060395622
+            },
+            {
+              "province": "17",
+              "plots": 138,
+              "beta": 0.11474,
+              "baseline_sse": 2.609387413488343,
+              "climate_sse": 2.5339313424926897,
+              "baseline_bias": -0.029096641937315322,
+              "climate_bias": -0.020023581119853372
+            },
+            {
+              "province": "19",
+              "plots": 143,
+              "beta": 0.29262,
+              "baseline_sse": 1.9778252862333718,
+              "climate_sse": 1.964298142303575,
+              "baseline_bias": 0.020240030169242425,
+              "climate_bias": 0.009261240606256134
+            },
+            {
+              "province": "25",
+              "plots": 296,
+              "beta": 0.10973,
+              "baseline_sse": 5.012244353412292,
+              "climate_sse": 5.045263076427513,
+              "baseline_bias": 0.010752579029121582,
+              "climate_bias": 0.016400219248157315
+            },
+            {
+              "province": "28",
+              "plots": 149,
+              "beta": 0.14265,
+              "baseline_sse": 2.32257772057898,
+              "climate_sse": 2.381126685797128,
+              "baseline_bias": -0.00940141029383058,
+              "climate_bias": -0.023031961602697867
+            },
+            {
+              "province": "43",
+              "plots": 59,
+              "beta": 0.03416,
+              "baseline_sse": 1.1120620594109305,
+              "climate_sse": 1.1070317131580778,
+              "baseline_bias": -0.00830787242359951,
+              "climate_bias": -0.011168660248277095
+            },
+            {
+              "province": "49",
+              "plots": 32,
+              "beta": 0.09609,
+              "baseline_sse": 1.3246542877106808,
+              "climate_sse": 1.3002511313962777,
+              "baseline_bias": -0.04261305084189414,
+              "climate_bias": -0.03900912030671769
+            }
+          ]
+        }
+      },
+      "sepjun_wb": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1482,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.32025,
+          "heldout_baseline_rmse_cm_year": 0.14446,
+          "heldout_climate_rmse_cm_year": 0.14776,
+          "heldout_rmse_gain_pct": -2.287,
+          "province_bootstrap_gain_95_pct": [
+            -6.966,
+            1.998
+          ],
+          "improved_provinces": 4,
+          "fold_betas_5_50_95_pct": [
+            0.2335,
+            0.2997,
+            0.5179
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 53,
+              "beta": 0.30891,
+              "baseline_sse": 0.8592009198721167,
+              "climate_sse": 0.8894246506617997,
+              "baseline_bias": -0.035463307108315335,
+              "climate_bias": -0.04543619255960253
+            },
+            {
+              "province": "08",
+              "plots": 293,
+              "beta": 0.60175,
+              "baseline_sse": 5.57131270892859,
+              "climate_sse": 7.197810836228949,
+              "baseline_bias": 0.011134227594300196,
+              "climate_bias": 0.06763703494678854
+            },
+            {
+              "province": "16",
+              "plots": 180,
+              "beta": 0.36141,
+              "baseline_sse": 4.056534332984035,
+              "climate_sse": 3.78175287294675,
+              "baseline_bias": 0.041408647101156285,
+              "climate_bias": 0.00550366857705616
+            },
+            {
+              "province": "17",
+              "plots": 156,
+              "beta": 0.2997,
+              "baseline_sse": 3.5209854221416004,
+              "climate_sse": 3.296972929622018,
+              "baseline_bias": -0.03414740754429628,
+              "climate_bias": 0.00013640160489181152
+            },
+            {
+              "province": "19",
+              "plots": 161,
+              "beta": 0.39224,
+              "baseline_sse": 2.694047204281285,
+              "climate_sse": 2.5931242936238963,
+              "baseline_bias": 0.02671507668273144,
+              "climate_bias": 0.00546785043165088
+            },
+            {
+              "province": "25",
+              "plots": 338,
+              "beta": 0.22366,
+              "baseline_sse": 6.512710030574128,
+              "climate_sse": 6.626246943523504,
+              "baseline_bias": 0.01500861404305879,
+              "climate_bias": 0.026958100907114892
+            },
+            {
+              "province": "28",
+              "plots": 177,
+              "beta": 0.27826,
+              "baseline_sse": 4.104303062041516,
+              "climate_sse": 4.462362541291414,
+              "baseline_bias": -0.01355066387252065,
+              "climate_bias": -0.04914874766249215
+            },
+            {
+              "province": "43",
+              "plots": 79,
+              "beta": 0.24836,
+              "baseline_sse": 1.6415273206926178,
+              "climate_sse": 1.6656016229654054,
+              "baseline_bias": -0.021239419091216488,
+              "climate_bias": -0.04010890128584017
+            },
+            {
+              "province": "49",
+              "plots": 45,
+              "beta": 0.25259,
+              "baseline_sse": 1.9669513235838296,
+              "climate_sse": 1.8453921353913265,
+              "baseline_bias": -0.06788376636172182,
+              "climate_bias": -0.05524939770191101
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1269,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.27601,
+          "heldout_baseline_rmse_cm_year": 0.13265,
+          "heldout_climate_rmse_cm_year": 0.13458,
+          "heldout_rmse_gain_pct": -1.46,
+          "province_bootstrap_gain_95_pct": [
+            -4.951,
+            1.875
+          ],
+          "improved_provinces": 4,
+          "fold_betas_5_50_95_pct": [
+            0.1921,
+            0.273,
+            0.4441
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 46,
+              "beta": 0.274,
+              "baseline_sse": 0.6590006859965641,
+              "climate_sse": 0.6925147105080387,
+              "baseline_bias": -0.03732683867737073,
+              "climate_bias": -0.0464477970903618
+            },
+            {
+              "province": "08",
+              "plots": 253,
+              "beta": 0.51398,
+              "baseline_sse": 4.482140105109824,
+              "climate_sse": 5.325642448638245,
+              "baseline_bias": 0.004726688068437991,
+              "climate_bias": 0.052272137006764696
+            },
+            {
+              "province": "16",
+              "plots": 153,
+              "beta": 0.30838,
+              "baseline_sse": 2.827871797652366,
+              "climate_sse": 2.614308057171387,
+              "baseline_bias": 0.0398983213924062,
+              "climate_bias": 0.009780330066968723
+            },
+            {
+              "province": "17",
+              "plots": 138,
+              "beta": 0.27297,
+              "baseline_sse": 2.609387413488343,
+              "climate_sse": 2.4773077494721183,
+              "baseline_bias": -0.029096641937315322,
+              "climate_bias": 0.001822734848712325
+            },
+            {
+              "province": "19",
+              "plots": 143,
+              "beta": 0.33918,
+              "baseline_sse": 1.9778252862333718,
+              "climate_sse": 1.9298937960356668,
+              "baseline_bias": 0.020240030169242425,
+              "climate_bias": 0.0014006635171342427
+            },
+            {
+              "province": "25",
+              "plots": 296,
+              "beta": 0.17772,
+              "baseline_sse": 5.012244353412292,
+              "climate_sse": 5.057283175250102,
+              "baseline_bias": 0.010752579029121582,
+              "climate_bias": 0.019746049925026963
+            },
+            {
+              "province": "28",
+              "plots": 149,
+              "beta": 0.23101,
+              "baseline_sse": 2.32257772057898,
+              "climate_sse": 2.509634777705001,
+              "baseline_bias": -0.00940141029383058,
+              "climate_bias": -0.03878670394505933
+            },
+            {
+              "province": "43",
+              "plots": 59,
+              "beta": 0.23015,
+              "baseline_sse": 1.1120620594109305,
+              "climate_sse": 1.1120624906849819,
+              "baseline_bias": -0.00830787242359951,
+              "climate_bias": -0.027104403364524864
+            },
+            {
+              "province": "49",
+              "plots": 32,
+              "beta": 0.21363,
+              "baseline_sse": 1.3246542877106808,
+              "climate_sse": 1.265971496015219,
+              "baseline_bias": -0.04261305084189414,
+              "climate_bias": -0.03282861942089767
+            }
+          ]
+        }
+      },
+      "spring_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1482,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.18999,
+          "heldout_baseline_rmse_cm_year": 0.14446,
+          "heldout_climate_rmse_cm_year": 0.14358,
+          "heldout_rmse_gain_pct": 0.608,
+          "province_bootstrap_gain_95_pct": [
+            -0.143,
+            1.653
+          ],
+          "improved_provinces": 4,
+          "fold_betas_5_50_95_pct": [
+            0.0798,
+            0.1529,
+            0.3535
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 53,
+              "beta": 0.23006,
+              "baseline_sse": 0.8592009198721167,
+              "climate_sse": 0.8728783258547178,
+              "baseline_bias": -0.035463307108315335,
+              "climate_bias": -0.03530289268675094
+            },
+            {
+              "province": "08",
+              "plots": 293,
+              "beta": 0.13402,
+              "baseline_sse": 5.57131270892859,
+              "climate_sse": 5.625821744703854,
+              "baseline_bias": 0.011134227594300196,
+              "climate_bias": 0.018556243304924613
+            },
+            {
+              "province": "16",
+              "plots": 180,
+              "beta": 0.40847,
+              "baseline_sse": 4.056534332984035,
+              "climate_sse": 3.830655225085975,
+              "baseline_bias": 0.041408647101156285,
+              "climate_bias": 0.011406107145800924
+            },
+            {
+              "province": "17",
+              "plots": 156,
+              "beta": 0.16521,
+              "baseline_sse": 3.5209854221416004,
+              "climate_sse": 3.413412462232126,
+              "baseline_bias": -0.03414740754429628,
+              "climate_bias": -0.0225467266911176
+            },
+            {
+              "province": "19",
+              "plots": 161,
+              "beta": 0.27107,
+              "baseline_sse": 2.694047204281285,
+              "climate_sse": 2.5951365542941267,
+              "baseline_bias": 0.02671507668273144,
+              "climate_bias": 0.0035577066199459963
+            },
+            {
+              "province": "25",
+              "plots": 338,
+              "beta": 0.15288,
+              "baseline_sse": 6.512710030574128,
+              "climate_sse": 6.552587978760081,
+              "baseline_bias": 0.01500861404305879,
+              "climate_bias": 0.019076294922512893
+            },
+            {
+              "province": "28",
+              "plots": 177,
+              "beta": 0.13881,
+              "baseline_sse": 4.104303062041516,
+              "climate_sse": 4.11081804532971,
+              "baseline_bias": -0.01355066387252065,
+              "climate_bias": -0.01564007050825984
+            },
+            {
+              "province": "43",
+              "plots": 79,
+              "beta": 0.05547,
+              "baseline_sse": 1.6415273206926178,
+              "climate_sse": 1.6422367644552196,
+              "baseline_bias": -0.021239419091216488,
+              "climate_bias": -0.024487741446660702
+            },
+            {
+              "province": "49",
+              "plots": 45,
+              "beta": 0.11619,
+              "baseline_sse": 1.9669513235838296,
+              "climate_sse": 1.9089107703796426,
+              "baseline_bias": -0.06788376636172182,
+              "climate_bias": -0.05992480395696604
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1269,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.2186,
+          "heldout_baseline_rmse_cm_year": 0.13265,
+          "heldout_climate_rmse_cm_year": 0.13191,
+          "heldout_rmse_gain_pct": 0.553,
+          "province_bootstrap_gain_95_pct": [
+            -0.126,
+            1.583
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.1061,
+            0.1958,
+            0.3929
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 46,
+              "beta": 0.24942,
+              "baseline_sse": 0.6590006859965641,
+              "climate_sse": 0.666329532646068,
+              "baseline_bias": -0.03732683867737073,
+              "climate_bias": -0.037014851461506626
+            },
+            {
+              "province": "08",
+              "plots": 253,
+              "beta": 0.13089,
+              "baseline_sse": 4.482140105109824,
+              "climate_sse": 4.502610711555741,
+              "baseline_bias": 0.004726688068437991,
+              "climate_bias": 0.011981544703999735
+            },
+            {
+              "province": "16",
+              "plots": 153,
+              "beta": 0.4235,
+              "baseline_sse": 2.827871797652366,
+              "climate_sse": 2.6657245265706715,
+              "baseline_bias": 0.0398983213924062,
+              "climate_bias": 0.009122902459889948
+            },
+            {
+              "province": "17",
+              "plots": 138,
+              "beta": 0.19579,
+              "baseline_sse": 2.609387413488343,
+              "climate_sse": 2.520981085341488,
+              "baseline_bias": -0.029096641937315322,
+              "climate_bias": -0.015462155939160817
+            },
+            {
+              "province": "19",
+              "plots": 143,
+              "beta": 0.34692,
+              "baseline_sse": 1.9778252862333718,
+              "climate_sse": 1.9566256041012775,
+              "baseline_bias": 0.020240030169242425,
+              "climate_bias": -0.00935525824055983
+            },
+            {
+              "province": "25",
+              "plots": 296,
+              "beta": 0.22485,
+              "baseline_sse": 5.012244353412292,
+              "climate_sse": 5.0564477883674765,
+              "baseline_bias": 0.010752579029121582,
+              "climate_bias": 0.016340890007436628
+            },
+            {
+              "province": "28",
+              "plots": 149,
+              "beta": 0.15137,
+              "baseline_sse": 2.32257772057898,
+              "climate_sse": 2.3196344389828747,
+              "baseline_bias": -0.00940141029383058,
+              "climate_bias": -0.011560739279711418
+            },
+            {
+              "province": "43",
+              "plots": 59,
+              "beta": 0.08961,
+              "baseline_sse": 1.1120620594109305,
+              "climate_sse": 1.1047538328522761,
+              "baseline_bias": -0.00830787242359951,
+              "climate_bias": -0.013700673125955014
+            },
+            {
+              "province": "49",
+              "plots": 32,
+              "beta": 0.14537,
+              "baseline_sse": 1.3246542877106808,
+              "climate_sse": 1.2886039885556066,
+              "baseline_bias": -0.04261305084189414,
+              "climate_bias": -0.03304737034296233
+            }
+          ]
+        }
+      },
+      "hyd_wb": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1482,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.27299,
+          "heldout_baseline_rmse_cm_year": 0.14446,
+          "heldout_climate_rmse_cm_year": 0.1455,
+          "heldout_rmse_gain_pct": -0.719,
+          "province_bootstrap_gain_95_pct": [
+            -2.739,
+            1.661
+          ],
+          "improved_provinces": 5,
+          "fold_betas_5_50_95_pct": [
+            0.1724,
+            0.2447,
+            0.4419
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 53,
+              "beta": 0.2617,
+              "baseline_sse": 0.8592009198721167,
+              "climate_sse": 0.8880124868407389,
+              "baseline_bias": -0.035463307108315335,
+              "climate_bias": -0.04533149660013561
+            },
+            {
+              "province": "08",
+              "plots": 293,
+              "beta": 0.44255,
+              "baseline_sse": 5.57131270892859,
+              "climate_sse": 6.175031914730662,
+              "baseline_bias": 0.011134227594300196,
+              "climate_bias": 0.04060280264960194
+            },
+            {
+              "province": "16",
+              "plots": 180,
+              "beta": 0.302,
+              "baseline_sse": 4.056534332984035,
+              "climate_sse": 3.827657672357773,
+              "baseline_bias": 0.041408647101156285,
+              "climate_bias": 0.01734711560320772
+            },
+            {
+              "province": "17",
+              "plots": 156,
+              "beta": 0.23257,
+              "baseline_sse": 3.5209854221416004,
+              "climate_sse": 3.327070028273154,
+              "baseline_bias": -0.03414740754429628,
+              "climate_bias": -0.013520639837352287
+            },
+            {
+              "province": "19",
+              "plots": 161,
+              "beta": 0.44094,
+              "baseline_sse": 2.694047204281285,
+              "climate_sse": 2.688132303052584,
+              "baseline_bias": 0.02671507668273144,
+              "climate_bias": 0.01475592327185
+            },
+            {
+              "province": "25",
+              "plots": 338,
+              "beta": 0.23957,
+              "baseline_sse": 6.512710030574128,
+              "climate_sse": 6.644595064587567,
+              "baseline_bias": 0.01500861404305879,
+              "climate_bias": 0.026731847304955376
+            },
+            {
+              "province": "28",
+              "plots": 177,
+              "beta": 0.24465,
+              "baseline_sse": 4.104303062041516,
+              "climate_sse": 4.355988888434294,
+              "baseline_bias": -0.01355066387252065,
+              "climate_bias": -0.04163734966354132
+            },
+            {
+              "province": "43",
+              "plots": 79,
+              "beta": 0.16059,
+              "baseline_sse": 1.6415273206926178,
+              "climate_sse": 1.6195957728748678,
+              "baseline_bias": -0.021239419091216488,
+              "climate_bias": -0.02969033791804577
+            },
+            {
+              "province": "49",
+              "plots": 45,
+              "beta": 0.19004,
+              "baseline_sse": 1.9669513235838296,
+              "climate_sse": 1.8476910236096795,
+              "baseline_bias": -0.06788376636172182,
+              "climate_bias": -0.055533363144374556
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1269,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.28609,
+          "heldout_baseline_rmse_cm_year": 0.13265,
+          "heldout_climate_rmse_cm_year": 0.13315,
+          "heldout_rmse_gain_pct": -0.381,
+          "province_bootstrap_gain_95_pct": [
+            -2.052,
+            1.616
+          ],
+          "improved_provinces": 4,
+          "fold_betas_5_50_95_pct": [
+            0.2175,
+            0.2624,
+            0.4332
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 46,
+              "beta": 0.28505,
+              "baseline_sse": 0.6590006859965641,
+              "climate_sse": 0.7009682995053104,
+              "baseline_bias": -0.03732683867737073,
+              "climate_bias": -0.04845920654359944
+            },
+            {
+              "province": "08",
+              "plots": 253,
+              "beta": 0.383,
+              "baseline_sse": 4.482140105109824,
+              "climate_sse": 4.741979480096792,
+              "baseline_bias": 0.004726688068437991,
+              "climate_bias": 0.029787391531736086
+            },
+            {
+              "province": "16",
+              "plots": 153,
+              "beta": 0.30268,
+              "baseline_sse": 2.827871797652366,
+              "climate_sse": 2.6384075746190785,
+              "baseline_bias": 0.0398983213924062,
+              "climate_bias": 0.016655274911885787
+            },
+            {
+              "province": "17",
+              "plots": 138,
+              "beta": 0.26063,
+              "baseline_sse": 2.609387413488343,
+              "climate_sse": 2.4722736711278346,
+              "baseline_bias": -0.029096641937315322,
+              "climate_bias": -0.006188247262960672
+            },
+            {
+              "province": "19",
+              "plots": 143,
+              "beta": 0.46669,
+              "baseline_sse": 1.9778252862333718,
+              "climate_sse": 1.9970690836782174,
+              "baseline_bias": 0.020240030169242425,
+              "climate_bias": 0.006450220412097494
+            },
+            {
+              "province": "25",
+              "plots": 296,
+              "beta": 0.23732,
+              "baseline_sse": 5.012244353412292,
+              "climate_sse": 5.0814472692894,
+              "baseline_bias": 0.010752579029121582,
+              "climate_bias": 0.021761589241973987
+            },
+            {
+              "province": "28",
+              "plots": 149,
+              "beta": 0.26241,
+              "baseline_sse": 2.32257772057898,
+              "climate_sse": 2.521416322090935,
+              "baseline_bias": -0.00940141029383058,
+              "climate_bias": -0.039042631780948946
+            },
+            {
+              "province": "43",
+              "plots": 59,
+              "beta": 0.22176,
+              "baseline_sse": 1.1120620594109305,
+              "climate_sse": 1.0933804087928132,
+              "baseline_bias": -0.00830787242359951,
+              "climate_bias": -0.021330860124283722
+            },
+            {
+              "province": "49",
+              "plots": 32,
+              "beta": 0.21463,
+              "baseline_sse": 1.3246542877106808,
+              "climate_sse": 1.2511573443775381,
+              "baseline_bias": -0.04261305084189414,
+              "climate_bias": -0.029810639287432782
+            }
+          ]
+        }
+      }
+    },
+    "Pinus pinea": {
+      "sepjun_wb": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 932,
+          "province_folds": 11,
+          "pooled_within_province_beta": 0.51729,
+          "heldout_baseline_rmse_cm_year": 0.21167,
+          "heldout_climate_rmse_cm_year": 0.21217,
+          "heldout_rmse_gain_pct": -0.238,
+          "province_bootstrap_gain_95_pct": [
+            -3.041,
+            3.5
+          ],
+          "improved_provinces": 5,
+          "fold_betas_5_50_95_pct": [
+            0.4029,
+            0.5278,
+            0.5957
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 72,
+              "beta": 0.38657,
+              "baseline_sse": 3.9987947637067593,
+              "climate_sse": 3.9122587790732632,
+              "baseline_bias": -0.01157902071792021,
+              "climate_bias": -0.012027454332013913
+            },
+            {
+              "province": "06",
+              "plots": 110,
+              "beta": 0.47154,
+              "baseline_sse": 5.294051347115699,
+              "climate_sse": 5.65440637001731,
+              "baseline_bias": 0.004727140638041859,
+              "climate_bias": -0.059906845610262584
+            },
+            {
+              "province": "08",
+              "plots": 136,
+              "beta": 0.64759,
+              "baseline_sse": 6.427294321523072,
+              "climate_sse": 5.8948097521739795,
+              "baseline_bias": -0.08660144068144951,
+              "climate_bias": -0.05163615941287886
+            },
+            {
+              "province": "11",
+              "plots": 34,
+              "beta": 0.51696,
+              "baseline_sse": 1.525789203556323,
+              "climate_sse": 1.5918812884687739,
+              "baseline_bias": -0.05963550439862219,
+              "climate_bias": -0.07048396383884147
+            },
+            {
+              "province": "13",
+              "plots": 42,
+              "beta": 0.5426,
+              "baseline_sse": 1.8757036213562641,
+              "climate_sse": 1.9295394439820217,
+              "baseline_bias": 0.0063398103273096225,
+              "climate_bias": -0.005202537730240543
+            },
+            {
+              "province": "14",
+              "plots": 135,
+              "beta": 0.52775,
+              "baseline_sse": 6.342149298094255,
+              "climate_sse": 7.267405991672371,
+              "baseline_bias": 0.04504602695235859,
+              "climate_bias": 0.09456142509852494
+            },
+            {
+              "province": "16",
+              "plots": 37,
+              "beta": 0.49726,
+              "baseline_sse": 1.1865428819578197,
+              "climate_sse": 0.44137291864852063,
+              "baseline_bias": 0.15138373315263315,
+              "climate_bias": 0.05668844515339207
+            },
+            {
+              "province": "17",
+              "plots": 141,
+              "beta": 0.41927,
+              "baseline_sse": 4.582597086931745,
+              "climate_sse": 4.455334748341523,
+              "baseline_bias": -0.041634521392955814,
+              "climate_bias": 0.03499164270067715
+            },
+            {
+              "province": "23",
+              "plots": 73,
+              "beta": 0.53401,
+              "baseline_sse": 2.8986283912095643,
+              "climate_sse": 2.893980399531682,
+              "baseline_bias": 0.0037204790518832733,
+              "climate_bias": 0.020923041904624302
+            },
+            {
+              "province": "28",
+              "plots": 111,
+              "beta": 0.54382,
+              "baseline_sse": 6.797495778450752,
+              "climate_sse": 7.075587617442859,
+              "baseline_bias": 0.027249665469891528,
+              "climate_bias": -0.05612031237385791
+            },
+            {
+              "province": "49",
+              "plots": 41,
+              "beta": 0.53123,
+              "baseline_sse": 0.8270533669626076,
+              "climate_sse": 0.8382127249129813,
+              "baseline_bias": -0.01931810664821071,
+              "climate_bias": 0.009909632689268576
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 723,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.66048,
+          "heldout_baseline_rmse_cm_year": 0.20909,
+          "heldout_climate_rmse_cm_year": 0.21259,
+          "heldout_rmse_gain_pct": -1.676,
+          "province_bootstrap_gain_95_pct": [
+            -5.604,
+            3.995
+          ],
+          "improved_provinces": 4,
+          "fold_betas_5_50_95_pct": [
+            0.4951,
+            0.6572,
+            0.8369
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 63,
+              "beta": 0.44596,
+              "baseline_sse": 3.664075485231906,
+              "climate_sse": 3.5243345783524305,
+              "baseline_bias": -0.013198193373677248,
+              "climate_bias": -0.01346559849224283
+            },
+            {
+              "province": "06",
+              "plots": 89,
+              "beta": 0.61386,
+              "baseline_sse": 2.681397721637846,
+              "climate_sse": 3.0986608524322317,
+              "baseline_bias": 0.010157182539426091,
+              "climate_bias": -0.07325827516850038
+            },
+            {
+              "province": "08",
+              "plots": 114,
+              "beta": 0.93586,
+              "baseline_sse": 5.101112083594326,
+              "climate_sse": 4.64022522349668,
+              "baseline_bias": -0.09045981722276875,
+              "climate_bias": -0.042286765080975536
+            },
+            {
+              "province": "13",
+              "plots": 36,
+              "beta": 0.66764,
+              "baseline_sse": 1.2297656380131194,
+              "climate_sse": 1.251701805232386,
+              "baseline_bias": 0.026391079391575405,
+              "climate_bias": 0.013208966482775348
+            },
+            {
+              "province": "14",
+              "plots": 117,
+              "beta": 0.68797,
+              "baseline_sse": 5.7485003167389985,
+              "climate_sse": 6.912272058995343,
+              "baseline_bias": 0.04446586970068766,
+              "climate_bias": 0.10918886666931833
+            },
+            {
+              "province": "16",
+              "plots": 32,
+              "beta": 0.65724,
+              "baseline_sse": 0.8629607375176127,
+              "climate_sse": 0.27324614962997945,
+              "baseline_bias": 0.1347373265220486,
+              "climate_bias": 0.010446194328207549
+            },
+            {
+              "province": "17",
+              "plots": 118,
+              "beta": 0.56884,
+              "baseline_sse": 4.116679640792818,
+              "climate_sse": 4.004849701456985,
+              "baseline_bias": -0.05383840332599608,
+              "climate_bias": 0.049789394074667266
+            },
+            {
+              "province": "23",
+              "plots": 59,
+              "beta": 0.62807,
+              "baseline_sse": 2.252930542932178,
+              "climate_sse": 2.3010048667948384,
+              "baseline_bias": 0.030863706162607387,
+              "climate_bias": 0.05344524746357413
+            },
+            {
+              "province": "28",
+              "plots": 95,
+              "beta": 0.68855,
+              "baseline_sse": 5.9510203157173525,
+              "climate_sse": 6.6703401175307695,
+              "baseline_bias": 0.017470898651769335,
+              "climate_bias": -0.08807164916433978
+            }
+          ]
+        }
+      },
+      "spring_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 932,
+          "province_folds": 11,
+          "pooled_within_province_beta": 0.0747,
+          "heldout_baseline_rmse_cm_year": 0.21167,
+          "heldout_climate_rmse_cm_year": 0.21144,
+          "heldout_rmse_gain_pct": 0.105,
+          "province_bootstrap_gain_95_pct": [
+            -0.212,
+            0.497
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.0,
+            0.0687,
+            0.2728
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 72,
+              "beta": 0.0,
+              "baseline_sse": 3.9987947637067593,
+              "climate_sse": 3.9987947612842087,
+              "baseline_bias": -0.01157902071792021,
+              "climate_bias": -0.011579020333435374
+            },
+            {
+              "province": "06",
+              "plots": 110,
+              "beta": 0.01557,
+              "baseline_sse": 5.294051347115699,
+              "climate_sse": 5.292961760882054,
+              "baseline_bias": 0.004727140638041859,
+              "climate_bias": 0.0042400649964007405
+            },
+            {
+              "province": "08",
+              "plots": 136,
+              "beta": 0.35454,
+              "baseline_sse": 6.427294321523072,
+              "climate_sse": 6.312747084162864,
+              "baseline_bias": -0.08660144068144951,
+              "climate_bias": -0.07740904577665585
+            },
+            {
+              "province": "11",
+              "plots": 34,
+              "beta": 0.13015,
+              "baseline_sse": 1.525789203556323,
+              "climate_sse": 1.5625876212679177,
+              "baseline_bias": -0.05963550439862219,
+              "climate_bias": -0.06657731198041261
+            },
+            {
+              "province": "13",
+              "plots": 42,
+              "beta": 0.05084,
+              "baseline_sse": 1.8757036213562641,
+              "climate_sse": 1.8767957553370096,
+              "baseline_bias": 0.0063398103273096225,
+              "climate_bias": 0.0025936965331721244
+            },
+            {
+              "province": "14",
+              "plots": 135,
+              "beta": 0.17186,
+              "baseline_sse": 6.342149298094255,
+              "climate_sse": 6.393018312673087,
+              "baseline_bias": 0.04504602695235859,
+              "climate_bias": 0.048235001100611706
+            },
+            {
+              "province": "16",
+              "plots": 37,
+              "beta": 0.05479,
+              "baseline_sse": 1.1865428819578197,
+              "climate_sse": 1.1108630130297439,
+              "baseline_bias": 0.15138373315263315,
+              "climate_bias": 0.1445035452488946
+            },
+            {
+              "province": "17",
+              "plots": 141,
+              "beta": 0.0,
+              "baseline_sse": 4.582597086931745,
+              "climate_sse": 4.582597059316828,
+              "baseline_bias": -0.041634521392955814,
+              "climate_bias": -0.04163451929363281
+            },
+            {
+              "province": "23",
+              "plots": 73,
+              "beta": 0.19105,
+              "baseline_sse": 2.8986283912095643,
+              "climate_sse": 2.9085843895124635,
+              "baseline_bias": 0.0037204790518832733,
+              "climate_bias": -0.0016254226124119333
+            },
+            {
+              "province": "28",
+              "plots": 111,
+              "beta": 0.11966,
+              "baseline_sse": 6.797495778450752,
+              "climate_sse": 6.8066433119589735,
+              "baseline_bias": 0.027249665469891528,
+              "climate_bias": 0.02804619781322389
+            },
+            {
+              "province": "49",
+              "plots": 41,
+              "beta": 0.06865,
+              "baseline_sse": 0.8270533669626076,
+              "climate_sse": 0.8230328029763982,
+              "baseline_bias": -0.01931810664821071,
+              "climate_bias": -0.015919816677697714
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 723,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.36996,
+          "heldout_baseline_rmse_cm_year": 0.20909,
+          "heldout_climate_rmse_cm_year": 0.20727,
+          "heldout_rmse_gain_pct": 0.869,
+          "province_bootstrap_gain_95_pct": [
+            -0.176,
+            2.825
+          ],
+          "improved_provinces": 7,
+          "fold_betas_5_50_95_pct": [
+            0.1201,
+            0.3901,
+            0.6887
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 63,
+              "beta": 0.13399,
+              "baseline_sse": 3.664075485231906,
+              "climate_sse": 3.6327730848006157,
+              "baseline_bias": -0.013198193373677248,
+              "climate_bias": -0.009274842312691392
+            },
+            {
+              "province": "06",
+              "plots": 89,
+              "beta": 0.31663,
+              "baseline_sse": 2.681397721637846,
+              "climate_sse": 2.656028028739881,
+              "baseline_bias": 0.010157182539426091,
+              "climate_bias": 0.00022487221521751036
+            },
+            {
+              "province": "08",
+              "plots": 114,
+              "beta": 0.82388,
+              "baseline_sse": 5.101112083594326,
+              "climate_sse": 4.952187570011086,
+              "baseline_bias": -0.09045981722276875,
+              "climate_bias": -0.07009349674165179
+            },
+            {
+              "province": "13",
+              "plots": 36,
+              "beta": 0.3341,
+              "baseline_sse": 1.2297656380131194,
+              "climate_sse": 1.2136631986446478,
+              "baseline_bias": 0.026391079391575405,
+              "climate_bias": 0.0020737346513784085
+            },
+            {
+              "province": "14",
+              "plots": 117,
+              "beta": 0.48584,
+              "baseline_sse": 5.7485003167389985,
+              "climate_sse": 5.87945078665325,
+              "baseline_bias": 0.04446586970068766,
+              "climate_bias": 0.053435578620865294
+            },
+            {
+              "province": "16",
+              "plots": 32,
+              "beta": 0.39009,
+              "baseline_sse": 0.8629607375176127,
+              "climate_sse": 0.5227462570326756,
+              "baseline_bias": 0.1347373265220486,
+              "climate_bias": 0.08638229708274457
+            },
+            {
+              "province": "17",
+              "plots": 118,
+              "beta": 0.11081,
+              "baseline_sse": 4.116679640792818,
+              "climate_sse": 4.013946170709724,
+              "baseline_bias": -0.05383840332599608,
+              "climate_bias": -0.04591650177335162
+            },
+            {
+              "province": "23",
+              "plots": 59,
+              "beta": 0.4531,
+              "baseline_sse": 2.252930542932178,
+              "climate_sse": 2.2203927306088582,
+              "baseline_bias": 0.030863706162607387,
+              "climate_bias": 0.018960881028907646
+            },
+            {
+              "province": "28",
+              "plots": 95,
+              "beta": 0.41653,
+              "baseline_sse": 5.9510203157173525,
+              "climate_sse": 5.970586494770572,
+              "baseline_bias": 0.017470898651769335,
+              "climate_bias": 0.02002525833954141
+            }
+          ]
+        }
+      },
+      "sepjun_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 932,
+          "province_folds": 11,
+          "pooled_within_province_beta": 0.38604,
+          "heldout_baseline_rmse_cm_year": 0.21167,
+          "heldout_climate_rmse_cm_year": 0.211,
+          "heldout_rmse_gain_pct": 0.317,
+          "province_bootstrap_gain_95_pct": [
+            -1.789,
+            2.708
+          ],
+          "improved_provinces": 5,
+          "fold_betas_5_50_95_pct": [
+            0.299,
+            0.3968,
+            0.4464
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 72,
+              "beta": 0.33269,
+              "baseline_sse": 3.9987947637067593,
+              "climate_sse": 3.9627698669023683,
+              "baseline_bias": -0.01157902071792021,
+              "climate_bias": -0.013560852907416413
+            },
+            {
+              "province": "06",
+              "plots": 110,
+              "beta": 0.32402,
+              "baseline_sse": 5.294051347115699,
+              "climate_sse": 5.387132190450694,
+              "baseline_bias": 0.004727140638041859,
+              "climate_bias": -0.03376985495918708
+            },
+            {
+              "province": "08",
+              "plots": 136,
+              "beta": 0.47924,
+              "baseline_sse": 6.427294321523072,
+              "climate_sse": 6.075062215788678,
+              "baseline_bias": -0.08660144068144951,
+              "climate_bias": -0.06546707901896054
+            },
+            {
+              "province": "11",
+              "plots": 34,
+              "beta": 0.38288,
+              "baseline_sse": 1.525789203556323,
+              "climate_sse": 1.5724734417881467,
+              "baseline_bias": -0.05963550439862219,
+              "climate_bias": -0.0688482431639253
+            },
+            {
+              "province": "13",
+              "plots": 42,
+              "beta": 0.41356,
+              "baseline_sse": 1.8757036213562641,
+              "climate_sse": 1.9187042003180927,
+              "baseline_bias": 0.0063398103273096225,
+              "climate_bias": 0.001853235928224755
+            },
+            {
+              "province": "14",
+              "plots": 135,
+              "beta": 0.40373,
+              "baseline_sse": 6.342149298094255,
+              "climate_sse": 7.019319111975888,
+              "baseline_bias": 0.04504602695235859,
+              "climate_bias": 0.08421624174697613
+            },
+            {
+              "province": "16",
+              "plots": 37,
+              "beta": 0.35329,
+              "baseline_sse": 1.1865428819578197,
+              "climate_sse": 0.7325390512576107,
+              "baseline_bias": 0.15138373315263315,
+              "climate_bias": 0.10495706371316726
+            },
+            {
+              "province": "17",
+              "plots": 141,
+              "beta": 0.274,
+              "baseline_sse": 4.582597086931745,
+              "climate_sse": 4.302442055818709,
+              "baseline_bias": -0.041634521392955814,
+              "climate_bias": -0.0002625113458751858
+            },
+            {
+              "province": "23",
+              "plots": 73,
+              "beta": 0.40385,
+              "baseline_sse": 2.8986283912095643,
+              "climate_sse": 2.8713988935124037,
+              "baseline_bias": 0.0037204790518832733,
+              "climate_bias": 0.008609765955732545
+            },
+            {
+              "province": "28",
+              "plots": 111,
+              "beta": 0.40851,
+              "baseline_sse": 6.797495778450752,
+              "climate_sse": 6.81477691567561,
+              "baseline_bias": 0.027249665469891528,
+              "climate_bias": -0.02742010029442788
+            },
+            {
+              "province": "49",
+              "plots": 41,
+              "beta": 0.39681,
+              "baseline_sse": 0.8270533669626076,
+              "climate_sse": 0.8354662720561548,
+              "baseline_bias": -0.01931810664821071,
+              "climate_bias": -0.014607541919216547
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 723,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.53907,
+          "heldout_baseline_rmse_cm_year": 0.20909,
+          "heldout_climate_rmse_cm_year": 0.2097,
+          "heldout_rmse_gain_pct": -0.291,
+          "province_bootstrap_gain_95_pct": [
+            -3.864,
+            4.035
+          ],
+          "improved_provinces": 5,
+          "fold_betas_5_50_95_pct": [
+            0.4321,
+            0.5268,
+            0.69
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 63,
+              "beta": 0.4436,
+              "baseline_sse": 3.664075485231906,
+              "climate_sse": 3.5926814990656477,
+              "baseline_bias": -0.013198193373677248,
+              "climate_bias": -0.015798357778202987
+            },
+            {
+              "province": "06",
+              "plots": 89,
+              "beta": 0.4808,
+              "baseline_sse": 2.681397721637846,
+              "climate_sse": 2.817332331013753,
+              "baseline_bias": 0.010157182539426091,
+              "climate_bias": -0.046567185389924534
+            },
+            {
+              "province": "08",
+              "plots": 114,
+              "beta": 0.75318,
+              "baseline_sse": 5.101112083594326,
+              "climate_sse": 4.7641474169540245,
+              "baseline_bias": -0.09045981722276875,
+              "climate_bias": -0.05905785865632118
+            },
+            {
+              "province": "13",
+              "plots": 36,
+              "beta": 0.5467,
+              "baseline_sse": 1.2297656380131194,
+              "climate_sse": 1.255073352836604,
+              "baseline_bias": 0.026391079391575405,
+              "climate_bias": 0.021105997573554643
+            },
+            {
+              "province": "14",
+              "plots": 117,
+              "beta": 0.59529,
+              "baseline_sse": 5.7485003167389985,
+              "climate_sse": 6.74041853320927,
+              "baseline_bias": 0.04446586970068766,
+              "climate_bias": 0.10192127315487631
+            },
+            {
+              "province": "16",
+              "plots": 32,
+              "beta": 0.52681,
+              "baseline_sse": 0.8629607375176127,
+              "climate_sse": 0.4114201665390077,
+              "baseline_bias": 0.1347373265220486,
+              "climate_bias": 0.0661774978468253
+            },
+            {
+              "province": "17",
+              "plots": 118,
+              "beta": 0.42445,
+              "baseline_sse": 4.116679640792818,
+              "climate_sse": 3.7358434179402367,
+              "baseline_bias": -0.05383840332599608,
+              "climate_bias": 0.009524020261321584
+            },
+            {
+              "province": "23",
+              "plots": 59,
+              "beta": 0.4948,
+              "baseline_sse": 2.252930542932178,
+              "climate_sse": 2.2276126957584883,
+              "baseline_bias": 0.030863706162607387,
+              "climate_bias": 0.03887256786486638
+            },
+            {
+              "province": "28",
+              "plots": 95,
+              "beta": 0.5565,
+              "baseline_sse": 5.9510203157173525,
+              "climate_sse": 6.248113703549256,
+              "baseline_bias": 0.017470898651769335,
+              "climate_bias": -0.057354283803355305
+            }
+          ]
+        }
+      },
+      "hyd_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 932,
+          "province_folds": 11,
+          "pooled_within_province_beta": 0.60892,
+          "heldout_baseline_rmse_cm_year": 0.21167,
+          "heldout_climate_rmse_cm_year": 0.21459,
+          "heldout_rmse_gain_pct": -1.38,
+          "province_bootstrap_gain_95_pct": [
+            -6.286,
+            3.71
+          ],
+          "improved_provinces": 5,
+          "fold_betas_5_50_95_pct": [
+            0.5268,
+            0.6174,
+            0.7139
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 72,
+              "beta": 0.52105,
+              "baseline_sse": 3.9987947637067593,
+              "climate_sse": 3.9111694630493044,
+              "baseline_bias": -0.01157902071792021,
+              "climate_bias": -0.023558058492194524
+            },
+            {
+              "province": "06",
+              "plots": 110,
+              "beta": 0.6638,
+              "baseline_sse": 5.294051347115699,
+              "climate_sse": 6.110590743071449,
+              "baseline_bias": 0.004727140638041859,
+              "climate_bias": -0.08361367190900892
+            },
+            {
+              "province": "08",
+              "plots": 136,
+              "beta": 0.74182,
+              "baseline_sse": 6.427294321523072,
+              "climate_sse": 5.774845229975122,
+              "baseline_bias": -0.08660144068144951,
+              "climate_bias": -0.04713513219956477
+            },
+            {
+              "province": "11",
+              "plots": 34,
+              "beta": 0.62156,
+              "baseline_sse": 1.525789203556323,
+              "climate_sse": 1.5662964475058334,
+              "baseline_bias": -0.05963550439862219,
+              "climate_bias": -0.05693442979800792
+            },
+            {
+              "province": "13",
+              "plots": 42,
+              "beta": 0.64074,
+              "baseline_sse": 1.8757036213562641,
+              "climate_sse": 1.939009908619201,
+              "baseline_bias": 0.0063398103273096225,
+              "climate_bias": 0.0012622322585824908
+            },
+            {
+              "province": "14",
+              "plots": 135,
+              "beta": 0.61742,
+              "baseline_sse": 6.342149298094255,
+              "climate_sse": 8.285966875415772,
+              "baseline_bias": 0.04504602695235859,
+              "climate_bias": 0.12870553096736656
+            },
+            {
+              "province": "16",
+              "plots": 37,
+              "beta": 0.58162,
+              "baseline_sse": 1.1865428819578197,
+              "climate_sse": 0.46132589042180877,
+              "baseline_bias": 0.15138373315263315,
+              "climate_bias": 0.06276698082534367
+            },
+            {
+              "province": "17",
+              "plots": 141,
+              "beta": 0.53249,
+              "baseline_sse": 4.582597086931745,
+              "climate_sse": 4.2884998722057315,
+              "baseline_bias": -0.041634521392955814,
+              "climate_bias": 0.00673535364150794
+            },
+            {
+              "province": "23",
+              "plots": 73,
+              "beta": 0.68605,
+              "baseline_sse": 2.8986283912095643,
+              "climate_sse": 2.9649331516573816,
+              "baseline_bias": 0.0037204790518832733,
+              "climate_bias": 0.03039948961538517
+            },
+            {
+              "province": "28",
+              "plots": 111,
+              "beta": 0.54066,
+              "baseline_sse": 6.797495778450752,
+              "climate_sse": 6.810408137566843,
+              "baseline_bias": 0.027249665469891528,
+              "climate_bias": -0.03472343292710453
+            },
+            {
+              "province": "49",
+              "plots": 41,
+              "beta": 0.59363,
+              "baseline_sse": 0.8270533669626076,
+              "climate_sse": 0.8036617294995873,
+              "baseline_bias": -0.01931810664821071,
+              "climate_bias": -0.009510864989900229
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 723,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.6631,
+          "heldout_baseline_rmse_cm_year": 0.20909,
+          "heldout_climate_rmse_cm_year": 0.2135,
+          "heldout_rmse_gain_pct": -2.109,
+          "province_bootstrap_gain_95_pct": [
+            -8.742,
+            4.65
+          ],
+          "improved_provinces": 4,
+          "fold_betas_5_50_95_pct": [
+            0.5834,
+            0.6776,
+            0.7963
+          ],
+          "folds": [
+            {
+              "province": "05",
+              "plots": 63,
+              "beta": 0.58445,
+              "baseline_sse": 3.664075485231906,
+              "climate_sse": 3.577925147948709,
+              "baseline_bias": -0.013198193373677248,
+              "climate_bias": -0.027017436205696434
+            },
+            {
+              "province": "06",
+              "plots": 89,
+              "beta": 0.70592,
+              "baseline_sse": 2.681397721637846,
+              "climate_sse": 3.2661241829472294,
+              "baseline_bias": 0.010157182539426091,
+              "climate_bias": -0.08263508355630649
+            },
+            {
+              "province": "08",
+              "plots": 114,
+              "beta": 0.85657,
+              "baseline_sse": 5.101112083594326,
+              "climate_sse": 4.5399083708052865,
+              "baseline_bias": -0.09045981722276875,
+              "climate_bias": -0.048290945233752096
+            },
+            {
+              "province": "13",
+              "plots": 36,
+              "beta": 0.67803,
+              "baseline_sse": 1.2297656380131194,
+              "climate_sse": 1.2610421530409117,
+              "baseline_bias": 0.026391079391575405,
+              "climate_bias": 0.021750272663320306
+            },
+            {
+              "province": "14",
+              "plots": 117,
+              "beta": 0.70072,
+              "baseline_sse": 5.7485003167389985,
+              "climate_sse": 7.7964654093061165,
+              "baseline_bias": 0.04446586970068766,
+              "climate_bias": 0.13966599381624914
+            },
+            {
+              "province": "16",
+              "plots": 32,
+              "beta": 0.64077,
+              "baseline_sse": 0.8629607375176127,
+              "climate_sse": 0.3074788334916474,
+              "baseline_bias": 0.1347373265220486,
+              "climate_bias": 0.03740118110862199
+            },
+            {
+              "province": "17",
+              "plots": 118,
+              "beta": 0.58275,
+              "baseline_sse": 4.116679640792818,
+              "climate_sse": 3.7166334158616765,
+              "baseline_bias": -0.05383840332599608,
+              "climate_bias": -0.001420794789398278
+            },
+            {
+              "province": "23",
+              "plots": 59,
+              "beta": 0.67762,
+              "baseline_sse": 2.252930542932178,
+              "climate_sse": 2.369979013720126,
+              "baseline_bias": 0.030863706162607387,
+              "climate_bias": 0.060411116834234425
+            },
+            {
+              "province": "28",
+              "plots": 95,
+              "beta": 0.59415,
+              "baseline_sse": 5.9510203157173525,
+              "climate_sse": 6.1199112943349805,
+              "baseline_bias": 0.017470898651769335,
+              "climate_bias": -0.05111235565892145
+            }
+          ]
+        }
+      }
+    },
+    "Pinus halepensis": {
+      "sepjun_wb": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1636,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.49023,
+          "heldout_baseline_rmse_cm_year": 0.19904,
+          "heldout_climate_rmse_cm_year": 0.1868,
+          "heldout_rmse_gain_pct": 6.147,
+          "province_bootstrap_gain_95_pct": [
+            0.786,
+            10.676
+          ],
+          "improved_provinces": 7,
+          "fold_betas_5_50_95_pct": [
+            0.3913,
+            0.4906,
+            0.6129
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 350,
+              "beta": 0.65374,
+              "baseline_sse": 9.937727764148557,
+              "climate_sse": 6.737167983095235,
+              "baseline_bias": 0.10243884506630808,
+              "climate_bias": 0.025510297122523857
+            },
+            {
+              "province": "08",
+              "plots": 349,
+              "beta": 0.50412,
+              "baseline_sse": 19.02719278927727,
+              "climate_sse": 16.19598103413852,
+              "baseline_bias": -0.1154490232968452,
+              "climate_bias": -0.07279933305670064
+            },
+            {
+              "province": "16",
+              "plots": 191,
+              "beta": 0.43344,
+              "baseline_sse": 5.2910394784327766,
+              "climate_sse": 4.504268271918978,
+              "baseline_bias": 0.052294085713026225,
+              "climate_bias": 0.00307868963222401
+            },
+            {
+              "province": "17",
+              "plots": 105,
+              "beta": 0.44236,
+              "baseline_sse": 7.543909805794995,
+              "climate_sse": 6.149864675118112,
+              "baseline_bias": -0.11119004495889476,
+              "climate_bias": -0.03251345672176752
+            },
+            {
+              "province": "19",
+              "plots": 57,
+              "beta": 0.5017,
+              "baseline_sse": 1.9745961809595656,
+              "climate_sse": 1.967747231970455,
+              "baseline_bias": -0.015020256025613403,
+              "climate_bias": -0.00810068389196256
+            },
+            {
+              "province": "23",
+              "plots": 154,
+              "beta": 0.55155,
+              "baseline_sse": 6.377187761629957,
+              "climate_sse": 6.994166304071499,
+              "baseline_bias": 0.11614680290694758,
+              "climate_bias": 0.1307910758461302
+            },
+            {
+              "province": "25",
+              "plots": 82,
+              "beta": 0.45397,
+              "baseline_sse": 1.8476805522229258,
+              "climate_sse": 1.662111999261132,
+              "baseline_bias": -0.04764391840139988,
+              "climate_bias": -0.03324550906784904
+            },
+            {
+              "province": "29",
+              "plots": 102,
+              "beta": 0.49061,
+              "baseline_sse": 3.650250689209259,
+              "climate_sse": 3.942067394529966,
+              "baseline_bias": 0.01602312088376846,
+              "climate_bias": 0.05884265162933103
+            },
+            {
+              "province": "43",
+              "plots": 246,
+              "beta": 0.36323,
+              "baseline_sse": 9.16112316717305,
+              "climate_sse": 8.934887712297073,
+              "baseline_bias": -0.03233705862358389,
+              "climate_bias": -0.03796304495991749
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1373,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.4136,
+          "heldout_baseline_rmse_cm_year": 0.18795,
+          "heldout_climate_rmse_cm_year": 0.17657,
+          "heldout_rmse_gain_pct": 6.053,
+          "province_bootstrap_gain_95_pct": [
+            1.207,
+            10.287
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.3094,
+            0.408,
+            0.5288
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 296,
+              "beta": 0.55166,
+              "baseline_sse": 7.492231213269711,
+              "climate_sse": 5.23217203455684,
+              "baseline_bias": 0.09564891887821259,
+              "climate_bias": 0.031906829087464034
+            },
+            {
+              "province": "08",
+              "plots": 290,
+              "beta": 0.42804,
+              "baseline_sse": 14.83867802709818,
+              "climate_sse": 12.765331551859305,
+              "baseline_bias": -0.11728331059884689,
+              "climate_bias": -0.08138655115745298
+            },
+            {
+              "province": "16",
+              "plots": 161,
+              "beta": 0.39671,
+              "baseline_sse": 3.722712818955164,
+              "climate_sse": 3.07202117138454,
+              "baseline_bias": 0.058578661012144984,
+              "climate_bias": 0.012614123965426835
+            },
+            {
+              "province": "17",
+              "plots": 94,
+              "beta": 0.3615,
+              "baseline_sse": 5.560919179262845,
+              "climate_sse": 4.538645340685464,
+              "baseline_bias": -0.1089662276401392,
+              "climate_bias": -0.04487992871043052
+            },
+            {
+              "province": "19",
+              "plots": 45,
+              "beta": 0.42816,
+              "baseline_sse": 1.1490677565845167,
+              "climate_sse": 1.1555684577742869,
+              "baseline_bias": -0.011100014614941938,
+              "climate_bias": -0.004408249582757918
+            },
+            {
+              "province": "23",
+              "plots": 126,
+              "beta": 0.49444,
+              "baseline_sse": 4.232090617023714,
+              "climate_sse": 4.687644353723116,
+              "baseline_bias": 0.11071700647067298,
+              "climate_bias": 0.12260003317191073
+            },
+            {
+              "province": "25",
+              "plots": 68,
+              "beta": 0.3711,
+              "baseline_sse": 1.5553336588311748,
+              "climate_sse": 1.4235223048866998,
+              "baseline_bias": -0.046272818011253436,
+              "climate_bias": -0.03534338683824394
+            },
+            {
+              "province": "29",
+              "plots": 84,
+              "beta": 0.40804,
+              "baseline_sse": 3.146635830779606,
+              "climate_sse": 3.297383806288209,
+              "baseline_bias": 0.01602150850255663,
+              "climate_bias": 0.05088746011985024
+            },
+            {
+              "province": "43",
+              "plots": 209,
+              "beta": 0.27472,
+              "baseline_sse": 6.80338553933968,
+              "climate_sse": 6.635066349300189,
+              "baseline_bias": -0.025876007172157777,
+              "climate_bias": -0.029986349812074865
+            }
+          ]
+        }
+      },
+      "sepjun_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1636,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.65448,
+          "heldout_baseline_rmse_cm_year": 0.19904,
+          "heldout_climate_rmse_cm_year": 0.1849,
+          "heldout_rmse_gain_pct": 7.102,
+          "province_bootstrap_gain_95_pct": [
+            1.644,
+            11.601
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.5353,
+            0.638,
+            0.7479
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 350,
+              "beta": 0.76531,
+              "baseline_sse": 9.937727764148557,
+              "climate_sse": 6.544276230799682,
+              "baseline_bias": 0.10243884506630808,
+              "climate_bias": 0.019554946321326205
+            },
+            {
+              "province": "08",
+              "plots": 349,
+              "beta": 0.71214,
+              "baseline_sse": 19.02719278927727,
+              "climate_sse": 15.622851589433907,
+              "baseline_bias": -0.1154490232968452,
+              "climate_bias": -0.0585474890914601
+            },
+            {
+              "province": "16",
+              "plots": 191,
+              "beta": 0.61384,
+              "baseline_sse": 5.2910394784327766,
+              "climate_sse": 4.56787715532329,
+              "baseline_bias": 0.052294085713026225,
+              "climate_bias": 0.02446601723762177
+            },
+            {
+              "province": "17",
+              "plots": 105,
+              "beta": 0.60386,
+              "baseline_sse": 7.543909805794995,
+              "climate_sse": 6.015278070754447,
+              "baseline_bias": -0.11119004495889476,
+              "climate_bias": -0.014056348197834906
+            },
+            {
+              "province": "19",
+              "plots": 57,
+              "beta": 0.68602,
+              "baseline_sse": 1.9745961809595656,
+              "climate_sse": 2.02251994792894,
+              "baseline_bias": -0.015020256025613403,
+              "climate_bias": 0.008306951019643797
+            },
+            {
+              "province": "23",
+              "plots": 154,
+              "beta": 0.72187,
+              "baseline_sse": 6.377187761629957,
+              "climate_sse": 6.436567174353002,
+              "baseline_bias": 0.11614680290694758,
+              "climate_bias": 0.11594791886516975
+            },
+            {
+              "province": "25",
+              "plots": 82,
+              "beta": 0.62322,
+              "baseline_sse": 1.8476805522229258,
+              "climate_sse": 1.6795736153890275,
+              "baseline_bias": -0.04764391840139988,
+              "climate_bias": -0.04020268189973259
+            },
+            {
+              "province": "29",
+              "plots": 102,
+              "beta": 0.63795,
+              "baseline_sse": 3.650250689209259,
+              "climate_sse": 3.915259591644485,
+              "baseline_bias": 0.01602312088376846,
+              "climate_bias": 0.06273842323618885
+            },
+            {
+              "province": "43",
+              "plots": 246,
+              "beta": 0.48957,
+              "baseline_sse": 9.16112316717305,
+              "climate_sse": 9.127864445695053,
+              "baseline_bias": -0.03233705862358389,
+              "climate_bias": -0.05416024902266419
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1373,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.58396,
+          "heldout_baseline_rmse_cm_year": 0.18795,
+          "heldout_climate_rmse_cm_year": 0.17407,
+          "heldout_rmse_gain_pct": 7.384,
+          "province_bootstrap_gain_95_pct": [
+            2.241,
+            11.595
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.4497,
+            0.5805,
+            0.6754
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 296,
+              "beta": 0.67987,
+              "baseline_sse": 7.492231213269711,
+              "climate_sse": 5.037236923863692,
+              "baseline_bias": 0.09564891887821259,
+              "climate_bias": 0.023255195782529933
+            },
+            {
+              "province": "08",
+              "plots": 290,
+              "beta": 0.65211,
+              "baseline_sse": 14.83867802709818,
+              "climate_sse": 12.157647962745925,
+              "baseline_bias": -0.11728331059884689,
+              "climate_bias": -0.06541433171862389
+            },
+            {
+              "province": "16",
+              "plots": 161,
+              "beta": 0.58047,
+              "baseline_sse": 3.722712818955164,
+              "climate_sse": 3.160679830078139,
+              "baseline_bias": 0.058578661012144984,
+              "climate_bias": 0.030814890963634232
+            },
+            {
+              "province": "17",
+              "plots": 94,
+              "beta": 0.52463,
+              "baseline_sse": 5.560919179262845,
+              "climate_sse": 4.353971068467252,
+              "baseline_bias": -0.1089662276401392,
+              "climate_bias": -0.024649760884209688
+            },
+            {
+              "province": "19",
+              "plots": 45,
+              "beta": 0.61671,
+              "baseline_sse": 1.1490677565845167,
+              "climate_sse": 1.1966261460337215,
+              "baseline_bias": -0.011100014614941938,
+              "climate_bias": 0.009718967432407234
+            },
+            {
+              "province": "23",
+              "plots": 126,
+              "beta": 0.66873,
+              "baseline_sse": 4.232090617023714,
+              "climate_sse": 4.30541603761614,
+              "baseline_bias": 0.11071700647067298,
+              "climate_bias": 0.10901610566029865
+            },
+            {
+              "province": "25",
+              "plots": 68,
+              "beta": 0.54572,
+              "baseline_sse": 1.5553336588311748,
+              "climate_sse": 1.4218788347340743,
+              "baseline_bias": -0.046272818011253436,
+              "climate_bias": -0.04077126414445909
+            },
+            {
+              "province": "29",
+              "plots": 84,
+              "beta": 0.55939,
+              "baseline_sse": 3.146635830779606,
+              "climate_sse": 3.2787320557699116,
+              "baseline_bias": 0.01602150850255663,
+              "climate_bias": 0.05594936671185134
+            },
+            {
+              "province": "43",
+              "plots": 209,
+              "beta": 0.39976,
+              "baseline_sse": 6.80338553933968,
+              "climate_sse": 6.6907618989381,
+              "baseline_bias": -0.025876007172157777,
+              "climate_bias": -0.04332298089297971
+            }
+          ]
+        }
+      },
+      "hyd_wb": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1636,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.44044,
+          "heldout_baseline_rmse_cm_year": 0.19904,
+          "heldout_climate_rmse_cm_year": 0.18863,
+          "heldout_rmse_gain_pct": 5.227,
+          "province_bootstrap_gain_95_pct": [
+            -0.936,
+            10.128
+          ],
+          "improved_provinces": 7,
+          "fold_betas_5_50_95_pct": [
+            0.3532,
+            0.429,
+            0.5445
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 350,
+              "beta": 0.55674,
+              "baseline_sse": 9.937727764148557,
+              "climate_sse": 6.670034206164735,
+              "baseline_bias": 0.10243884506630808,
+              "climate_bias": 0.027732466885850765
+            },
+            {
+              "province": "08",
+              "plots": 349,
+              "beta": 0.40335,
+              "baseline_sse": 19.02719278927727,
+              "climate_sse": 16.46550703989533,
+              "baseline_bias": -0.1154490232968452,
+              "climate_bias": -0.07976501426293946
+            },
+            {
+              "province": "16",
+              "plots": 191,
+              "beta": 0.34945,
+              "baseline_sse": 5.2910394784327766,
+              "climate_sse": 4.565437614230854,
+              "baseline_bias": 0.052294085713026225,
+              "climate_bias": 0.006844669032956575
+            },
+            {
+              "province": "17",
+              "plots": 105,
+              "beta": 0.4125,
+              "baseline_sse": 7.543909805794995,
+              "climate_sse": 6.4080332754822615,
+              "baseline_bias": -0.11119004495889476,
+              "climate_bias": -0.053553571705467935
+            },
+            {
+              "province": "19",
+              "plots": 57,
+              "beta": 0.42896,
+              "baseline_sse": 1.9745961809595656,
+              "climate_sse": 1.9341234533983693,
+              "baseline_bias": -0.015020256025613403,
+              "climate_bias": -0.012494249341200456
+            },
+            {
+              "province": "23",
+              "plots": 154,
+              "beta": 0.52609,
+              "baseline_sse": 6.377187761629957,
+              "climate_sse": 7.51722653539638,
+              "baseline_bias": 0.11614680290694758,
+              "climate_bias": 0.14238649917223414
+            },
+            {
+              "province": "25",
+              "plots": 82,
+              "beta": 0.43027,
+              "baseline_sse": 1.8476805522229258,
+              "climate_sse": 1.7397626694975223,
+              "baseline_bias": -0.04764391840139988,
+              "climate_bias": -0.03527148809119332
+            },
+            {
+              "province": "29",
+              "plots": 102,
+              "beta": 0.45605,
+              "baseline_sse": 3.650250689209259,
+              "climate_sse": 4.083481870286867,
+              "baseline_bias": 0.01602312088376846,
+              "climate_bias": 0.06565106823758836
+            },
+            {
+              "province": "43",
+              "plots": 246,
+              "beta": 0.35887,
+              "baseline_sse": 9.16112316717305,
+              "climate_sse": 8.828722087941454,
+              "baseline_bias": -0.03233705862358389,
+              "climate_bias": -0.029752345442133253
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1373,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.34741,
+          "heldout_baseline_rmse_cm_year": 0.18795,
+          "heldout_climate_rmse_cm_year": 0.17881,
+          "heldout_rmse_gain_pct": 4.861,
+          "province_bootstrap_gain_95_pct": [
+            -0.155,
+            9.369
+          ],
+          "improved_provinces": 7,
+          "fold_betas_5_50_95_pct": [
+            0.265,
+            0.333,
+            0.4523
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 296,
+              "beta": 0.44906,
+              "baseline_sse": 7.492231213269711,
+              "climate_sse": 5.2493625705415266,
+              "baseline_bias": 0.09564891887821259,
+              "climate_bias": 0.03637748725792909
+            },
+            {
+              "province": "08",
+              "plots": 290,
+              "beta": 0.30954,
+              "baseline_sse": 14.83867802709818,
+              "climate_sse": 13.13236399607667,
+              "baseline_bias": -0.11728331059884689,
+              "climate_bias": -0.0899814276675551
+            },
+            {
+              "province": "16",
+              "plots": 161,
+              "beta": 0.31125,
+              "baseline_sse": 3.722712818955164,
+              "climate_sse": 3.140065117435041,
+              "baseline_bias": 0.058578661012144984,
+              "climate_bias": 0.01773883845693927
+            },
+            {
+              "province": "17",
+              "plots": 94,
+              "beta": 0.32037,
+              "baseline_sse": 5.560919179262845,
+              "climate_sse": 4.7924275009698105,
+              "baseline_bias": -0.1089662276401392,
+              "climate_bias": -0.06440377219631606
+            },
+            {
+              "province": "19",
+              "plots": 45,
+              "beta": 0.33899,
+              "baseline_sse": 1.1490677565845167,
+              "climate_sse": 1.1289361847480062,
+              "baseline_bias": -0.011100014614941938,
+              "climate_bias": -0.008296096025326279
+            },
+            {
+              "province": "23",
+              "plots": 126,
+              "beta": 0.45444,
+              "baseline_sse": 4.232090617023714,
+              "climate_sse": 5.001954521352068,
+              "baseline_bias": 0.11071700647067298,
+              "climate_bias": 0.1320161028091937
+            },
+            {
+              "province": "25",
+              "plots": 68,
+              "beta": 0.33304,
+              "baseline_sse": 1.5553336588311748,
+              "climate_sse": 1.4869533314009207,
+              "baseline_bias": -0.046272818011253436,
+              "climate_bias": -0.037327490629368985
+            },
+            {
+              "province": "29",
+              "plots": 84,
+              "beta": 0.35354,
+              "baseline_sse": 3.146635830779606,
+              "climate_sse": 3.3673111859451423,
+              "baseline_bias": 0.01602150850255663,
+              "climate_bias": 0.054174002622485604
+            },
+            {
+              "province": "43",
+              "plots": 209,
+              "beta": 0.23534,
+              "baseline_sse": 6.80338553933968,
+              "climate_sse": 6.600716273068644,
+              "baseline_bias": -0.025876007172157777,
+              "climate_bias": -0.024166176714930186
+            }
+          ]
+        }
+      },
+      "spring_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1636,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.23698,
+          "heldout_baseline_rmse_cm_year": 0.19904,
+          "heldout_climate_rmse_cm_year": 0.19683,
+          "heldout_rmse_gain_pct": 1.107,
+          "province_bootstrap_gain_95_pct": [
+            -0.435,
+            2.084
+          ],
+          "improved_provinces": 5,
+          "fold_betas_5_50_95_pct": [
+            0.0629,
+            0.2766,
+            0.3466
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 350,
+              "beta": 0.36762,
+              "baseline_sse": 9.937727764148557,
+              "climate_sse": 9.733119010418706,
+              "baseline_bias": 0.10243884506630808,
+              "climate_bias": 0.09852266553051915
+            },
+            {
+              "province": "08",
+              "plots": 349,
+              "beta": 0.25995,
+              "baseline_sse": 19.02719278927727,
+              "climate_sse": 18.03077071650334,
+              "baseline_bias": -0.1154490232968452,
+              "climate_bias": -0.10174973755057247
+            },
+            {
+              "province": "16",
+              "plots": 191,
+              "beta": 0.31517,
+              "baseline_sse": 5.2910394784327766,
+              "climate_sse": 5.104937887606212,
+              "baseline_bias": 0.052294085713026225,
+              "climate_bias": 0.03703902187482224
+            },
+            {
+              "province": "17",
+              "plots": 105,
+              "beta": 0.22133,
+              "baseline_sse": 7.543909805794995,
+              "climate_sse": 7.10074704808903,
+              "baseline_bias": -0.11119004495889476,
+              "climate_bias": -0.09190527591035184
+            },
+            {
+              "province": "19",
+              "plots": 57,
+              "beta": 0.27658,
+              "baseline_sse": 1.9745961809595656,
+              "climate_sse": 2.071234638966643,
+              "baseline_bias": -0.015020256025613403,
+              "climate_bias": -0.032843417837873486
+            },
+            {
+              "province": "23",
+              "plots": 154,
+              "beta": 0.28958,
+              "baseline_sse": 6.377187761629957,
+              "climate_sse": 6.630973208434948,
+              "baseline_bias": 0.11614680290694758,
+              "climate_bias": 0.12202333516957636
+            },
+            {
+              "province": "25",
+              "plots": 82,
+              "beta": 0.15714,
+              "baseline_sse": 1.8476805522229258,
+              "climate_sse": 1.8394296653034032,
+              "baseline_bias": -0.04764391840139988,
+              "climate_bias": -0.050193933090591246
+            },
+            {
+              "province": "29",
+              "plots": 102,
+              "beta": 0.28516,
+              "baseline_sse": 3.650250689209259,
+              "climate_sse": 3.711039869511831,
+              "baseline_bias": 0.01602312088376846,
+              "climate_bias": 0.02099786931398049
+            },
+            {
+              "province": "43",
+              "plots": 246,
+              "beta": 0.0,
+              "baseline_sse": 9.16112316717305,
+              "climate_sse": 9.161123167173486,
+              "baseline_bias": -0.03233705862358389,
+              "climate_bias": -0.03233705862384939
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1373,
+          "province_folds": 9,
+          "pooled_within_province_beta": 0.22387,
+          "heldout_baseline_rmse_cm_year": 0.18795,
+          "heldout_climate_rmse_cm_year": 0.18542,
+          "heldout_rmse_gain_pct": 1.344,
+          "province_bootstrap_gain_95_pct": [
+            -0.318,
+            2.394
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.0568,
+            0.2765,
+            0.3197
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 296,
+              "beta": 0.32001,
+              "baseline_sse": 7.492231213269711,
+              "climate_sse": 7.325031832963046,
+              "baseline_bias": 0.09564891887821259,
+              "climate_bias": 0.09217683146081926
+            },
+            {
+              "province": "08",
+              "plots": 290,
+              "beta": 0.28908,
+              "baseline_sse": 14.83867802709818,
+              "climate_sse": 13.948766845850578,
+              "baseline_bias": -0.11728331059884689,
+              "climate_bias": -0.10217355674561972
+            },
+            {
+              "province": "16",
+              "plots": 161,
+              "beta": 0.31913,
+              "baseline_sse": 3.722712818955164,
+              "climate_sse": 3.5431684795076595,
+              "baseline_bias": 0.058578661012144984,
+              "climate_bias": 0.04310052210065823
+            },
+            {
+              "province": "17",
+              "plots": 94,
+              "beta": 0.20446,
+              "baseline_sse": 5.560919179262845,
+              "climate_sse": 5.2068910642330835,
+              "baseline_bias": -0.1089662276401392,
+              "climate_bias": -0.0913340453873872
+            },
+            {
+              "province": "19",
+              "plots": 45,
+              "beta": 0.26469,
+              "baseline_sse": 1.1490677565845167,
+              "climate_sse": 1.2079338342161194,
+              "baseline_bias": -0.011100014614941938,
+              "climate_bias": -0.027969869922338266
+            },
+            {
+              "province": "23",
+              "plots": 126,
+              "beta": 0.2765,
+              "baseline_sse": 4.232090617023714,
+              "climate_sse": 4.420164066051663,
+              "baseline_bias": 0.11071700647067298,
+              "climate_bias": 0.11589938943953554
+            },
+            {
+              "province": "25",
+              "plots": 68,
+              "beta": 0.14206,
+              "baseline_sse": 1.5553336588311748,
+              "climate_sse": 1.547168245359824,
+              "baseline_bias": -0.046272818011253436,
+              "climate_bias": -0.048812315448158804
+            },
+            {
+              "province": "29",
+              "plots": 84,
+              "beta": 0.27671,
+              "baseline_sse": 3.146635830779606,
+              "climate_sse": 3.2039712840677237,
+              "baseline_bias": 0.01602150850255663,
+              "climate_bias": 0.02055466597316799
+            },
+            {
+              "province": "43",
+              "plots": 209,
+              "beta": 0.0,
+              "baseline_sse": 6.80338553933968,
+              "climate_sse": 6.803385527946497,
+              "baseline_bias": -0.025876007172157777,
+              "climate_bias": -0.025876011995676365
+            }
+          ]
+        }
+      }
+    },
+    "Pinus nigra": {
+      "spring_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1752,
+          "province_folds": 8,
+          "pooled_within_province_beta": 0.0,
+          "heldout_baseline_rmse_cm_year": 0.1234,
+          "heldout_climate_rmse_cm_year": 0.123,
+          "heldout_rmse_gain_pct": 0.326,
+          "province_bootstrap_gain_95_pct": [
+            -0.0,
+            0.73
+          ],
+          "improved_provinces": 4,
+          "fold_betas_5_50_95_pct": [
+            0.0,
+            0.0,
+            0.1475
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 135,
+              "beta": 0.0,
+              "baseline_sse": 1.8543119138697146,
+              "climate_sse": 1.8543119138697715,
+              "baseline_bias": 0.0747529279516746,
+              "climate_bias": 0.07475292795167848
+            },
+            {
+              "province": "08",
+              "plots": 151,
+              "beta": 0.0,
+              "baseline_sse": 4.97386973578097,
+              "climate_sse": 4.973869735580738,
+              "baseline_bias": -0.06861310737701411,
+              "climate_bias": -0.0686131073675738
+            },
+            {
+              "province": "16",
+              "plots": 668,
+              "beta": 0.227,
+              "baseline_sse": 7.9993121773295535,
+              "climate_sse": 7.825486193380519,
+              "baseline_bias": 0.028501118134701586,
+              "climate_bias": 0.01989549484745092
+            },
+            {
+              "province": "17",
+              "plots": 38,
+              "beta": 0.0,
+              "baseline_sse": 2.0576043999276394,
+              "climate_sse": 2.057604399910193,
+              "baseline_bias": -0.10992815025375446,
+              "climate_bias": -0.10992815025178919
+            },
+            {
+              "province": "19",
+              "plots": 219,
+              "beta": 0.0,
+              "baseline_sse": 2.3540164446221947,
+              "climate_sse": 2.354016456675817,
+              "baseline_bias": -0.028602125985352042,
+              "climate_bias": -0.028602126779125207
+            },
+            {
+              "province": "23",
+              "plots": 201,
+              "beta": 0.0,
+              "baseline_sse": 2.4524889430050445,
+              "climate_sse": 2.452488943010562,
+              "baseline_bias": 0.059295140444538826,
+              "climate_bias": 0.059295140444774665
+            },
+            {
+              "province": "25",
+              "plots": 256,
+              "beta": 0.0,
+              "baseline_sse": 3.7162114064840965,
+              "climate_sse": 3.71621140648129,
+              "baseline_bias": -0.0290743300790409,
+              "climate_bias": -0.029074330078874513
+            },
+            {
+              "province": "43",
+              "plots": 84,
+              "beta": 0.0,
+              "baseline_sse": 1.2708387304670155,
+              "climate_sse": 1.2708387304670175,
+              "baseline_bias": -0.038303994785770554,
+              "climate_bias": -0.03830399478577135
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1475,
+          "province_folds": 8,
+          "pooled_within_province_beta": 0.0,
+          "heldout_baseline_rmse_cm_year": 0.12116,
+          "heldout_climate_rmse_cm_year": 0.12055,
+          "heldout_rmse_gain_pct": 0.51,
+          "province_bootstrap_gain_95_pct": [
+            -0.0,
+            1.153
+          ],
+          "improved_provinces": 4,
+          "fold_betas_5_50_95_pct": [
+            0.0,
+            0.0,
+            0.1641
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 115,
+              "beta": 0.0,
+              "baseline_sse": 1.3884002018552666,
+              "climate_sse": 1.388400201889906,
+              "baseline_bias": 0.07438427639422489,
+              "climate_bias": 0.07438427639454567
+            },
+            {
+              "province": "08",
+              "plots": 134,
+              "beta": 0.0,
+              "baseline_sse": 4.361279443597705,
+              "climate_sse": 4.361279442266838,
+              "baseline_bias": -0.06371005635347425,
+              "climate_bias": -0.06371005628147779
+            },
+            {
+              "province": "16",
+              "plots": 564,
+              "beta": 0.25252,
+              "baseline_sse": 6.678260199884258,
+              "climate_sse": 6.458141980312661,
+              "baseline_bias": 0.032502908167193534,
+              "climate_bias": 0.022832143485773056
+            },
+            {
+              "province": "17",
+              "plots": 34,
+              "beta": 0.0,
+              "baseline_sse": 1.8494408222555907,
+              "climate_sse": 1.8494408213058289,
+              "baseline_bias": -0.11120278889015056,
+              "climate_bias": -0.11120278877169945
+            },
+            {
+              "province": "19",
+              "plots": 176,
+              "beta": 0.0,
+              "baseline_sse": 1.9051920505949043,
+              "climate_sse": 1.9051920688037653,
+              "baseline_bias": -0.028859356223782606,
+              "climate_bias": -0.028859357662362282
+            },
+            {
+              "province": "23",
+              "plots": 163,
+              "beta": 0.0,
+              "baseline_sse": 1.5649731589841027,
+              "climate_sse": 1.5649731603157782,
+              "baseline_bias": 0.04924974821129052,
+              "climate_bias": 0.04924974828729825
+            },
+            {
+              "province": "25",
+              "plots": 219,
+              "beta": 0.0,
+              "baseline_sse": 2.868467439011185,
+              "climate_sse": 2.868467438719304,
+              "baseline_bias": -0.02963660586312358,
+              "climate_bias": -0.029636605842177893
+            },
+            {
+              "province": "43",
+              "plots": 70,
+              "beta": 0.0,
+              "baseline_sse": 1.0378119730232553,
+              "climate_sse": 1.037811973023259,
+              "baseline_bias": -0.029925250794056207,
+              "climate_bias": -0.029925250794061865
+            }
+          ]
+        }
+      },
+      "sepjun_wb": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1752,
+          "province_folds": 8,
+          "pooled_within_province_beta": 0.21157,
+          "heldout_baseline_rmse_cm_year": 0.1234,
+          "heldout_climate_rmse_cm_year": 0.12018,
+          "heldout_rmse_gain_pct": 2.607,
+          "province_bootstrap_gain_95_pct": [
+            1.488,
+            3.618
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.1478,
+            0.2014,
+            0.2999
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 135,
+              "beta": 0.20329,
+              "baseline_sse": 1.8543119138697146,
+              "climate_sse": 1.6542646092710902,
+              "baseline_bias": 0.0747529279516746,
+              "climate_bias": 0.06436406879550181
+            },
+            {
+              "province": "08",
+              "plots": 151,
+              "beta": 0.33804,
+              "baseline_sse": 4.97386973578097,
+              "climate_sse": 4.591807724285401,
+              "baseline_bias": -0.06861310737701411,
+              "climate_bias": -0.04201259367314299
+            },
+            {
+              "province": "16",
+              "plots": 668,
+              "beta": 0.1934,
+              "baseline_sse": 7.9993121773295535,
+              "climate_sse": 7.610418861276818,
+              "baseline_bias": 0.028501118134701586,
+              "climate_bias": 0.016513255286464943
+            },
+            {
+              "province": "17",
+              "plots": 38,
+              "beta": 0.19955,
+              "baseline_sse": 2.0576043999276394,
+              "climate_sse": 1.8640609003269022,
+              "baseline_bias": -0.10992815025375446,
+              "climate_bias": -0.08612543850871465
+            },
+            {
+              "province": "19",
+              "plots": 219,
+              "beta": 0.20921,
+              "baseline_sse": 2.3540164446221947,
+              "climate_sse": 2.328382535053997,
+              "baseline_bias": -0.028602125985352042,
+              "climate_bias": -0.027011313925812033
+            },
+            {
+              "province": "23",
+              "plots": 201,
+              "beta": 0.19345,
+              "baseline_sse": 2.4524889430050445,
+              "climate_sse": 2.4541906035049554,
+              "baseline_bias": 0.059295140444538826,
+              "climate_bias": 0.05959598889534664
+            },
+            {
+              "province": "25",
+              "plots": 256,
+              "beta": 0.22903,
+              "baseline_sse": 3.7162114064840965,
+              "climate_sse": 3.5221922248729345,
+              "baseline_bias": -0.0290743300790409,
+              "climate_bias": -0.010027588258775331
+            },
+            {
+              "province": "43",
+              "plots": 84,
+              "beta": 0.12321,
+              "baseline_sse": 1.2708387304670155,
+              "climate_sse": 1.2806871987532853,
+              "baseline_bias": -0.038303994785770554,
+              "climate_bias": -0.043066852966369126
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1475,
+          "province_folds": 8,
+          "pooled_within_province_beta": 0.17097,
+          "heldout_baseline_rmse_cm_year": 0.12116,
+          "heldout_climate_rmse_cm_year": 0.11818,
+          "heldout_rmse_gain_pct": 2.458,
+          "province_bootstrap_gain_95_pct": [
+            1.478,
+            3.174
+          ],
+          "improved_provinces": 7,
+          "fold_betas_5_50_95_pct": [
+            0.0951,
+            0.1643,
+            0.2564
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 115,
+              "beta": 0.17099,
+              "baseline_sse": 1.3884002018552666,
+              "climate_sse": 1.2464505213631232,
+              "baseline_bias": 0.07438427639422489,
+              "climate_bias": 0.0656304399052456
+            },
+            {
+              "province": "08",
+              "plots": 134,
+              "beta": 0.27916,
+              "baseline_sse": 4.361279443597705,
+              "climate_sse": 4.091051371490128,
+              "baseline_bias": -0.06371005635347425,
+              "climate_bias": -0.04202472166222769
+            },
+            {
+              "province": "16",
+              "plots": 564,
+              "beta": 0.16392,
+              "baseline_sse": 6.678260199884258,
+              "climate_sse": 6.3444049535203835,
+              "baseline_bias": 0.032502908167193534,
+              "climate_bias": 0.02235375420636787
+            },
+            {
+              "province": "17",
+              "plots": 34,
+              "beta": 0.15897,
+              "baseline_sse": 1.8494408222555907,
+              "climate_sse": 1.7052136309983972,
+              "baseline_bias": -0.11120278889015056,
+              "climate_bias": -0.09213465524962011
+            },
+            {
+              "province": "19",
+              "plots": 176,
+              "beta": 0.1647,
+              "baseline_sse": 1.9051920505949043,
+              "climate_sse": 1.8886816807558504,
+              "baseline_bias": -0.028859356223782606,
+              "climate_bias": -0.02788287058105784
+            },
+            {
+              "province": "23",
+              "plots": 163,
+              "beta": 0.14644,
+              "baseline_sse": 1.5649731589841027,
+              "climate_sse": 1.5644923950270713,
+              "baseline_bias": 0.04924974821129052,
+              "climate_bias": 0.04951228248045654
+            },
+            {
+              "province": "25",
+              "plots": 219,
+              "beta": 0.21419,
+              "baseline_sse": 2.868467439011185,
+              "climate_sse": 2.72336178041943,
+              "baseline_bias": -0.02963660586312358,
+              "climate_bias": -0.01209863344839831
+            },
+            {
+              "province": "43",
+              "plots": 70,
+              "beta": 0.06745,
+              "baseline_sse": 1.0378119730232553,
+              "climate_sse": 1.038563326383557,
+              "baseline_bias": -0.029925250794056207,
+              "climate_bias": -0.03267602701791453
+            }
+          ]
+        }
+      },
+      "hyd_pr": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1752,
+          "province_folds": 8,
+          "pooled_within_province_beta": 0.11781,
+          "heldout_baseline_rmse_cm_year": 0.1234,
+          "heldout_climate_rmse_cm_year": 0.12191,
+          "heldout_rmse_gain_pct": 1.211,
+          "province_bootstrap_gain_95_pct": [
+            0.738,
+            1.721
+          ],
+          "improved_provinces": 7,
+          "fold_betas_5_50_95_pct": [
+            0.0324,
+            0.1272,
+            0.1855
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 135,
+              "beta": 0.11843,
+              "baseline_sse": 1.8543119138697146,
+              "climate_sse": 1.745266746309186,
+              "baseline_bias": 0.0747529279516746,
+              "climate_bias": 0.06911792325099558
+            },
+            {
+              "province": "08",
+              "plots": 151,
+              "beta": 0.14684,
+              "baseline_sse": 4.97386973578097,
+              "climate_sse": 4.8107893389974965,
+              "baseline_bias": -0.06861310737701411,
+              "climate_bias": -0.06025724628532534
+            },
+            {
+              "province": "16",
+              "plots": 668,
+              "beta": 0.13592,
+              "baseline_sse": 7.9993121773295535,
+              "climate_sse": 7.837468716697556,
+              "baseline_bias": 0.028501118134701586,
+              "climate_bias": 0.023983014391989355
+            },
+            {
+              "province": "17",
+              "plots": 38,
+              "beta": 0.10957,
+              "baseline_sse": 2.0576043999276394,
+              "climate_sse": 1.9758146093029452,
+              "baseline_bias": -0.10992815025375446,
+              "climate_bias": -0.10014270429449781
+            },
+            {
+              "province": "19",
+              "plots": 219,
+              "beta": 0.18581,
+              "baseline_sse": 2.3540164446221947,
+              "climate_sse": 2.3513543010383637,
+              "baseline_bias": -0.028602125985352042,
+              "climate_bias": -0.027205035734885308
+            },
+            {
+              "province": "23",
+              "plots": 201,
+              "beta": 0.09253,
+              "baseline_sse": 2.4524889430050445,
+              "climate_sse": 2.4365958708467415,
+              "baseline_bias": 0.059295140444538826,
+              "climate_bias": 0.05875798854004172
+            },
+            {
+              "province": "25",
+              "plots": 256,
+              "beta": 0.18483,
+              "baseline_sse": 3.7162114064840965,
+              "climate_sse": 3.6080666929176712,
+              "baseline_bias": -0.0290743300790409,
+              "climate_bias": -0.018930695532223915
+            },
+            {
+              "province": "43",
+              "plots": 84,
+              "beta": 0.0,
+              "baseline_sse": 1.2708387304670155,
+              "climate_sse": 1.270838780761595,
+              "baseline_bias": -0.038303994785770554,
+              "climate_bias": -0.03830401406972803
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1475,
+          "province_folds": 8,
+          "pooled_within_province_beta": 0.06995,
+          "heldout_baseline_rmse_cm_year": 0.12116,
+          "heldout_climate_rmse_cm_year": 0.12004,
+          "heldout_rmse_gain_pct": 0.927,
+          "province_bootstrap_gain_95_pct": [
+            0.562,
+            1.184
+          ],
+          "improved_provinces": 7,
+          "fold_betas_5_50_95_pct": [
+            0.0158,
+            0.0788,
+            0.1473
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 115,
+              "beta": 0.068,
+              "baseline_sse": 1.3884002018552666,
+              "climate_sse": 1.334503413875625,
+              "baseline_bias": 0.07438427639422489,
+              "climate_bias": 0.07116132549395729
+            },
+            {
+              "province": "08",
+              "plots": 134,
+              "beta": 0.0896,
+              "baseline_sse": 4.361279443597705,
+              "climate_sse": 4.2780235508341935,
+              "baseline_bias": -0.06371005635347425,
+              "climate_bias": -0.058709148545825734
+            },
+            {
+              "province": "16",
+              "plots": 564,
+              "beta": 0.12111,
+              "baseline_sse": 6.678260199884258,
+              "climate_sse": 6.541198747590849,
+              "baseline_bias": 0.032502908167193534,
+              "climate_bias": 0.02850587460281493
+            },
+            {
+              "province": "17",
+              "plots": 34,
+              "beta": 0.06084,
+              "baseline_sse": 1.8494408222555907,
+              "climate_sse": 1.8072391096806868,
+              "baseline_bias": -0.11120278889015056,
+              "climate_bias": -0.10575016186568918
+            },
+            {
+              "province": "19",
+              "plots": 176,
+              "beta": 0.11016,
+              "baseline_sse": 1.9051920505949043,
+              "climate_sse": 1.900302714058509,
+              "baseline_bias": -0.028859356223782606,
+              "climate_bias": -0.02809313975339304
+            },
+            {
+              "province": "23",
+              "plots": 163,
+              "beta": 0.04515,
+              "baseline_sse": 1.5649731589841027,
+              "climate_sse": 1.5596271483077846,
+              "baseline_bias": 0.04924974821129052,
+              "climate_bias": 0.048980583044789396
+            },
+            {
+              "province": "25",
+              "plots": 219,
+              "beta": 0.16137,
+              "baseline_sse": 2.868467439011185,
+              "climate_sse": 2.795475571420834,
+              "baseline_bias": -0.02963660586312358,
+              "climate_bias": -0.021032654320963292
+            },
+            {
+              "province": "43",
+              "plots": 70,
+              "beta": 0.0,
+              "baseline_sse": 1.0378119730232553,
+              "climate_sse": 1.0378119730443789,
+              "baseline_bias": -0.029925250794056207,
+              "climate_bias": -0.029925250813702467
+            }
+          ]
+        }
+      },
+      "hyd_wb": {
+        "all_plots": {
+          "status": "evaluated",
+          "plots": 1752,
+          "province_folds": 8,
+          "pooled_within_province_beta": 0.29575,
+          "heldout_baseline_rmse_cm_year": 0.1234,
+          "heldout_climate_rmse_cm_year": 0.11991,
+          "heldout_rmse_gain_pct": 2.831,
+          "province_bootstrap_gain_95_pct": [
+            0.915,
+            4.315
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.2512,
+            0.2901,
+            0.3523
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 135,
+              "beta": 0.28845,
+              "baseline_sse": 1.8543119138697146,
+              "climate_sse": 1.5533538258423543,
+              "baseline_bias": 0.0747529279516746,
+              "climate_bias": 0.058332765760419444
+            },
+            {
+              "province": "08",
+              "plots": 151,
+              "beta": 0.3051,
+              "baseline_sse": 4.97386973578097,
+              "climate_sse": 4.605276516439222,
+              "baseline_bias": -0.06861310737701411,
+              "climate_bias": -0.048702656866975204
+            },
+            {
+              "province": "16",
+              "plots": 668,
+              "beta": 0.29171,
+              "baseline_sse": 7.9993121773295535,
+              "climate_sse": 7.491700358905103,
+              "baseline_bias": 0.028501118134701586,
+              "climate_bias": 0.011624798210155484
+            },
+            {
+              "province": "17",
+              "plots": 38,
+              "beta": 0.28697,
+              "baseline_sse": 2.0576043999276394,
+              "climate_sse": 1.831194022962125,
+              "baseline_bias": -0.10992815025375446,
+              "climate_bias": -0.08116634574375903
+            },
+            {
+              "province": "19",
+              "plots": 219,
+              "beta": 0.32572,
+              "baseline_sse": 2.3540164446221947,
+              "climate_sse": 2.2864831525686062,
+              "baseline_bias": -0.028602125985352042,
+              "climate_bias": -0.022483292967569762
+            },
+            {
+              "province": "23",
+              "plots": 201,
+              "beta": 0.27986,
+              "baseline_sse": 2.4524889430050445,
+              "climate_sse": 2.5828252788458936,
+              "baseline_bias": 0.059295140444538826,
+              "climate_bias": 0.06479223554059747
+            },
+            {
+              "province": "25",
+              "plots": 256,
+              "beta": 0.36659,
+              "baseline_sse": 3.7162114064840965,
+              "climate_sse": 3.5567128834529766,
+              "baseline_bias": -0.0290743300790409,
+              "climate_bias": -0.006696031624646025
+            },
+            {
+              "province": "43",
+              "plots": 84,
+              "beta": 0.23577,
+              "baseline_sse": 1.2708387304670155,
+              "climate_sse": 1.2817080623340085,
+              "baseline_bias": -0.038303994785770554,
+              "climate_bias": -0.04490328658078941
+            }
+          ]
+        },
+        "stable_density": {
+          "status": "evaluated",
+          "plots": 1475,
+          "province_folds": 8,
+          "pooled_within_province_beta": 0.23891,
+          "heldout_baseline_rmse_cm_year": 0.12116,
+          "heldout_climate_rmse_cm_year": 0.1177,
+          "heldout_rmse_gain_pct": 2.858,
+          "province_bootstrap_gain_95_pct": [
+            1.263,
+            3.974
+          ],
+          "improved_provinces": 6,
+          "fold_betas_5_50_95_pct": [
+            0.1861,
+            0.2334,
+            0.3166
+          ],
+          "folds": [
+            {
+              "province": "02",
+              "plots": 115,
+              "beta": 0.22667,
+              "baseline_sse": 1.3884002018552666,
+              "climate_sse": 1.1826845077243635,
+              "baseline_bias": 0.07438427639422489,
+              "climate_bias": 0.06151959643263336
+            },
+            {
+              "province": "08",
+              "plots": 134,
+              "beta": 0.23883,
+              "baseline_sse": 4.361279443597705,
+              "climate_sse": 4.1135744649515,
+              "baseline_bias": -0.06371005635347425,
+              "climate_bias": -0.04824856911303635
+            },
+            {
+              "province": "16",
+              "plots": 564,
+              "beta": 0.30097,
+              "baseline_sse": 6.678260199884258,
+              "climate_sse": 6.1872729338884325,
+              "baseline_bias": 0.032502908167193534,
+              "climate_bias": 0.015213861236299189
+            },
+            {
+              "province": "17",
+              "plots": 34,
+              "beta": 0.22802,
+              "baseline_sse": 1.8494408222555907,
+              "climate_sse": 1.6779386779726382,
+              "baseline_bias": -0.11120278889015056,
+              "climate_bias": -0.08805485498438827
+            },
+            {
+              "province": "19",
+              "plots": 176,
+              "beta": 0.24763,
+              "baseline_sse": 1.9051920505949043,
+              "climate_sse": 1.8528776712269819,
+              "baseline_bias": -0.028859356223782606,
+              "climate_bias": -0.024447557530840866
+            },
+            {
+              "province": "23",
+              "plots": 163,
+              "beta": 0.21385,
+              "baseline_sse": 1.5649731589841027,
+              "climate_sse": 1.628405790277151,
+              "baseline_bias": 0.04924974821129052,
+              "climate_bias": 0.053470987336022575
+            },
+            {
+              "province": "25",
+              "plots": 219,
+              "beta": 0.32495,
+              "baseline_sse": 2.868467439011185,
+              "climate_sse": 2.750917283030261,
+              "baseline_bias": -0.02963660586312358,
+              "climate_bias": -0.010315993650860054
+            },
+            {
+              "province": "43",
+              "plots": 70,
+              "beta": 0.17119,
+              "baseline_sse": 1.0378119730232553,
+              "climate_sse": 1.0401317854833287,
+              "baseline_bias": -0.029925250794056207,
+              "climate_bias": -0.03505618495254235
+            }
+          ]
+        }
+      }
+    }
+  }
+}

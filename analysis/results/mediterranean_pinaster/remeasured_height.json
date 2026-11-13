@@ -1,0 +1,173 @@
+{
+  "design": "Same-tree top-100/ha cohort at IFN3; IFN4 age minus actual survey interval gives IFN3 age; no fitted parameters",
+  "plots": 20,
+  "by_province": {
+    "Madrid": 7,
+    "Salamanca": 7,
+    "Toledo": 3,
+    "Extremadura": 2,
+    "Ciudad Real": 1
+  },
+  "fit_province_plots": 14,
+  "heldout_province_plots": 6,
+  "ifn3_age_range": [
+    11.4,
+    39.46
+  ],
+  "all_positive_ages": {
+    "med_h4_m": {
+      "n": 20,
+      "bias_m": 1.406,
+      "mae_m": 1.88,
+      "rmse_m": 2.725,
+      "observed_increment_median_m": 3.078,
+      "predicted_increment_median_m": 4.141
+    },
+    "gal_h4_m": {
+      "n": 20,
+      "bias_m": 1.804,
+      "mae_m": 2.075,
+      "rmse_m": 2.579,
+      "observed_increment_median_m": 3.078,
+      "predicted_increment_median_m": 4.852
+    },
+    "persistence_h4_m": {
+      "n": 20,
+      "bias_m": -3.294,
+      "mae_m": 3.294,
+      "rmse_m": 3.754,
+      "observed_increment_median_m": 3.078,
+      "predicted_increment_median_m": 0.0
+    }
+  },
+  "heldout_provinces": {
+    "n": 6,
+    "results": {
+      "med_h4_m": {
+        "n": 6,
+        "bias_m": 3.998,
+        "mae_m": 3.998,
+        "rmse_m": 4.54,
+        "observed_increment_median_m": 2.491,
+        "predicted_increment_median_m": 6.151
+      },
+      "gal_h4_m": {
+        "n": 6,
+        "bias_m": 3.678,
+        "mae_m": 3.678,
+        "rmse_m": 3.957,
+        "observed_increment_median_m": 2.491,
+        "predicted_increment_median_m": 5.994
+      },
+      "persistence_h4_m": {
+        "n": 6,
+        "bias_m": -2.645,
+        "mae_m": 2.645,
+        "rmse_m": 2.786,
+        "observed_increment_median_m": 2.491,
+        "predicted_increment_median_m": 0.0
+      }
+    },
+    "both_ages_in_source_range_n": 1
+  },
+  "both_ages_in_source_range": {
+    "n": 11,
+    "by_province": {
+      "Madrid": 5,
+      "Salamanca": 5,
+      "Toledo": 1
+    },
+    "results": {
+      "med_h4_m": {
+        "n": 11,
+        "bias_m": 0.634,
+        "mae_m": 0.971,
+        "rmse_m": 1.292,
+        "observed_increment_median_m": 3.173,
+        "predicted_increment_median_m": 3.638
+      },
+      "gal_h4_m": {
+        "n": 11,
+        "bias_m": 1.396,
+        "mae_m": 1.396,
+        "rmse_m": 1.711,
+        "observed_increment_median_m": 3.173,
+        "predicted_increment_median_m": 4.252
+      },
+      "persistence_h4_m": {
+        "n": 11,
+        "bias_m": -3.037,
+        "mae_m": 3.037,
+        "rmse_m": 3.313,
+        "observed_increment_median_m": 3.173,
+        "predicted_increment_median_m": 0.0
+      }
+    }
+  },
+  "young_afforestation_mean_height": {
+    "n": 12,
+    "by_province": {
+      "Madrid": 5,
+      "Extremadura": 2,
+      "Salamanca": 2,
+      "Toledo": 2,
+      "Ciudad Real": 1
+    },
+    "results": {
+      "calama_2024": {
+        "n": 12,
+        "bias_m": 3.851,
+        "mae_m": 4.203,
+        "rmse_m": 4.554,
+        "observed_increment_median_m": 2.522,
+        "predicted_increment_median_m": 6.867
+      },
+      "no_growth": {
+        "n": 12,
+        "bias_m": -3.125,
+        "mae_m": 3.125,
+        "rmse_m": 3.948,
+        "observed_increment_median_m": 2.522,
+        "predicted_increment_median_m": 0.0
+      }
+    },
+    "heldout_n": 5,
+    "fit_n": 7,
+    "fit_flat_mean_height_increment_m_per_year": 0.1955,
+    "fit_median_source_increment_multiplier": 0.428,
+    "heldout_results": {
+      "calama_2024": {
+        "n": 5,
+        "bias_m": 5.922,
+        "mae_m": 5.922,
+        "rmse_m": 6.019,
+        "observed_increment_median_m": 2.631,
+        "predicted_increment_median_m": 8.096
+      },
+      "fit_flat_increment": {
+        "n": 5,
+        "bias_m": 0.641,
+        "mae_m": 0.763,
+        "rmse_m": 0.978,
+        "observed_increment_median_m": 2.631,
+        "predicted_increment_median_m": 3.049
+      },
+      "fit_shrunk_source": {
+        "n": 5,
+        "bias_m": 1.172,
+        "mae_m": 1.241,
+        "rmse_m": 1.401,
+        "observed_increment_median_m": 2.631,
+        "predicted_increment_median_m": 3.465
+      },
+      "no_growth": {
+        "n": 5,
+        "bias_m": -2.382,
+        "mae_m": 2.382,
+        "rmse_m": 2.483,
+        "observed_increment_median_m": 2.631,
+        "predicted_increment_median_m": 0.0
+      }
+    }
+  }
+}

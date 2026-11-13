@@ -1,0 +1,476 @@
+{
+  "source": "NOAA ITRDB standardized site chronologies, Spain; TerraClimate 1958-2001",
+  "species": {
+    "Pinus sylvestris L.": {
+      "feature": "hyd_pr",
+      "sites": 24,
+      "site_years": 676,
+      "ring_index_slope_per_climate_sd": -0.02115,
+      "site_bootstrap_95_pct": [
+        -0.03559,
+        -0.00562
+      ],
+      "leave_one_site_out_rmse": {
+        "baseline": 0.2077,
+        "with_climate": 0.20722
+      },
+      "site_results": [
+        {
+          "site": "spai002",
+          "name": "Puerto de Navacerrada",
+          "n_years": 20,
+          "fit_without_site": -0.0209,
+          "baseline_sse": 1.5989729499999998,
+          "model_sse": 1.5865090845551484,
+          "site_slope": -0.0266
+        },
+        {
+          "site": "spai006",
+          "name": "El Quintar",
+          "n_years": 20,
+          "fit_without_site": -0.0203,
+          "baseline_sse": 0.85926895,
+          "model_sse": 0.8321810106715674,
+          "site_slope": -0.0413
+        },
+        {
+          "site": "spai012",
+          "name": "Siete Picos",
+          "n_years": 31,
+          "fit_without_site": -0.0214,
+          "baseline_sse": 0.8653477419354838,
+          "model_sse": 0.86208509688838,
+          "site_slope": -0.0133
+        },
+        {
+          "site": "spai013",
+          "name": "Navafria I",
+          "n_years": 35,
+          "fit_without_site": -0.0208,
+          "baseline_sse": 0.7619871428571428,
+          "model_sse": 0.7348031086107656,
+          "site_slope": -0.0278
+        },
+        {
+          "site": "spai014",
+          "name": "Navafria II",
+          "n_years": 35,
+          "fit_without_site": -0.0219,
+          "baseline_sse": 1.8491262857142856,
+          "model_sse": 1.8569599117059652,
+          "site_slope": -0.0062
+        },
+        {
+          "site": "spai015",
+          "name": "Navafria III",
+          "n_years": 35,
+          "fit_without_site": -0.0209,
+          "baseline_sse": 2.0581006857142854,
+          "model_sse": 2.041698069082882,
+          "site_slope": -0.0209
+        },
+        {
+          "site": "spai020",
+          "name": "Penota",
+          "n_years": 34,
+          "fit_without_site": -0.0227,
+          "baseline_sse": 0.7727610588235295,
+          "model_sse": 0.8144276274008139,
+          "site_slope": 0.0137
+        },
+        {
+          "site": "spai021",
+          "name": "Pedriza",
+          "n_years": 31,
+          "fit_without_site": -0.0204,
+          "baseline_sse": 0.9589988387096775,
+          "model_sse": 0.929861113054045,
+          "site_slope": -0.0343
+        },
+        {
+          "site": "spai024",
+          "name": "Anso Zuriza",
+          "n_years": 28,
+          "fit_without_site": -0.0227,
+          "baseline_sse": 0.9329347142857143,
+          "model_sse": 0.9647029448669773,
+          "site_slope": 0.0133
+        },
+        {
+          "site": "spai030",
+          "name": "Cuenca Las Majadas",
+          "n_years": 26,
+          "fit_without_site": -0.0238,
+          "baseline_sse": 0.5824178846153847,
+          "model_sse": 0.6414790567185322,
+          "site_slope": 0.0276
+        },
+        {
+          "site": "spai033",
+          "name": "Gredos Hoyos de Espino",
+          "n_years": 28,
+          "fit_without_site": -0.0238,
+          "baseline_sse": 1.5226074285714284,
+          "model_sse": 1.604611984928117,
+          "site_slope": 0.0529
+        },
+        {
+          "site": "spai034",
+          "name": "Gredos Navarredonda",
+          "n_years": 28,
+          "fit_without_site": -0.0215,
+          "baseline_sse": 2.1181517142857142,
+          "model_sse": 2.113589132412571,
+          "site_slope": -0.0147
+        },
+        {
+          "site": "spai035",
+          "name": "Guadarrama Camorca",
+          "n_years": 26,
+          "fit_without_site": -0.019,
+          "baseline_sse": 1.1497118461538458,
+          "model_sse": 1.0903999517451657,
+          "site_slope": -0.068
+        },
+        {
+          "site": "spai036",
+          "name": "Guadarrama Iniesto",
+          "n_years": 26,
+          "fit_without_site": -0.0196,
+          "baseline_sse": 0.9926640384615385,
+          "model_sse": 0.9488976203149057,
+          "site_slope": -0.0514
+        },
+        {
+          "site": "spai037",
+          "name": "Guadarrama Loma de Noruego",
+          "n_years": 28,
+          "fit_without_site": -0.0192,
+          "baseline_sse": 2.1766172500000005,
+          "model_sse": 2.116720822753285,
+          "site_slope": -0.0628
+        },
+        {
+          "site": "spai038",
+          "name": "Guadarrama Rascafria",
+          "n_years": 27,
+          "fit_without_site": -0.0191,
+          "baseline_sse": 1.3148519999999997,
+          "model_sse": 1.2513135450968507,
+          "site_slope": -0.0713
+        },
+        {
+          "site": "spai040",
+          "name": "Gudar Pradillo",
+          "n_years": 28,
+          "fit_without_site": -0.0225,
+          "baseline_sse": 2.0411778571428574,
+          "model_sse": 2.0816691506236813,
+          "site_slope": 0.0146
+        },
+        {
+          "site": "spai042",
+          "name": "Gudar Cantavieja",
+          "n_years": 28,
+          "fit_without_site": -0.0226,
+          "baseline_sse": 1.1040417142857142,
+          "model_sse": 1.1415053074996506,
+          "site_slope": 0.0122
+        },
+        {
+          "site": "spai047",
+          "name": "Urbion Covaleda",
+          "n_years": 26,
+          "fit_without_site": -0.0201,
+          "baseline_sse": 0.7658981538461539,
+          "model_sse": 0.7297201643438072,
+          "site_slope": -0.0424
+        },
+        {
+          "site": "spai048",
+          "name": "Urbion Duruelo",
+          "n_years": 26,
+          "fit_without_site": -0.0203,
+          "baseline_sse": 0.7346780384615383,
+          "model_sse": 0.6995121614223124,
+          "site_slope": -0.0416
+        },
+        {
+          "site": "spai049",
+          "name": "Urbion Quintenar",
+          "n_years": 28,
+          "fit_without_site": -0.0201,
+          "baseline_sse": 0.9641697142857143,
+          "model_sse": 0.9262113118992681,
+          "site_slope": -0.0431
+        },
+        {
+          "site": "spai050",
+          "name": "Urbion Vinuesa",
+          "n_years": 26,
+          "fit_without_site": -0.0204,
+          "baseline_sse": 0.6407744615384614,
+          "model_sse": 0.6146321805906652,
+          "site_slope": -0.0335
+        },
+        {
+          "site": "spai051",
+          "name": "Viella Monte de Vilach",
+          "n_years": 28,
+          "fit_without_site": -0.019,
+          "baseline_sse": 0.9936064285714286,
+          "model_sse": 0.9275548921947908,
+          "site_slope": -0.0648
+        },
+        {
+          "site": "spai052",
+          "name": "Burgos San Zanordil",
+          "n_years": 28,
+          "fit_without_site": -0.0246,
+          "baseline_sse": 1.4040617142857141,
+          "model_sse": 1.5172652124778196,
+          "site_slope": 0.0868
+        }
+      ]
+    },
+    "Pinus pinea L.": {
+      "feature": "sepjun_wb",
+      "sites": 5,
+      "site_years": 214,
+      "ring_index_slope_per_climate_sd": 0.1455,
+      "site_bootstrap_95_pct": [
+        0.10746,
+        0.17718
+      ],
+      "leave_one_site_out_rmse": {
+        "baseline": 0.35699,
+        "with_climate": 0.3266
+      },
+      "site_results": [
+        {
+          "site": "spai054",
+          "name": "La Camarilla el Provencio Cuenca  Disturbed Site",
+          "n_years": 42,
+          "fit_without_site": 0.161,
+          "baseline_sse": 7.9415470714285705,
+          "model_sse": 8.046726713961059,
+          "site_slope": 0.0726
+        },
+        {
+          "site": "spai055",
+          "name": "La Camarilla el Provencio Cuenca  Undisturbed",
+          "n_years": 42,
+          "fit_without_site": 0.1321,
+          "baseline_sse": 7.244516119047618,
+          "model_sse": 5.617899202092307,
+          "site_slope": 0.2153
+        },
+        {
+          "site": "spai056",
+          "name": "Pinar Viejo  San Clemente Cuenca",
+          "n_years": 42,
+          "fit_without_site": 0.1427,
+          "baseline_sse": 6.836110976190477,
+          "model_sse": 5.710826898348198,
+          "site_slope": 0.1681
+        },
+        {
+          "site": "spai057",
+          "name": "Dehesa del Peral",
+          "n_years": 44,
+          "fit_without_site": 0.1455,
+          "baseline_sse": 1.8790131590909092,
+          "model_sse": 0.9603357431446268,
+          "site_slope": 0.1462
+        },
+        {
+          "site": "spai059",
+          "name": "La Pasadilla",
+          "n_years": 44,
+          "fit_without_site": 0.1461,
+          "baseline_sse": 3.372061159090909,
+          "model_sse": 2.4913816552515713,
+          "site_slope": 0.1431
+        }
+      ]
+    },
+    "Pinus nigra J.F. Arnold": {
+      "feature": "spring_pr",
+      "sites": 18,
+      "site_years": 526,
+      "ring_index_slope_per_climate_sd": 0.01696,
+      "site_bootstrap_95_pct": [
+        -0.00102,
+        0.03236
+      ],
+      "leave_one_site_out_rmse": {
+        "baseline": 0.25304,
+        "with_climate": 0.2527
+      },
+      "site_results": [
+        {
+          "site": "spai008",
+          "name": "Tajo",
+          "n_years": 31,
+          "fit_without_site": 0.0171,
+          "baseline_sse": 0.995863677419355,
+          "model_sse": 0.985916481236151,
+          "site_slope": 0.0163
+        },
+        {
+          "site": "spai009",
+          "name": "Boqueron",
+          "n_years": 31,
+          "fit_without_site": 0.0149,
+          "baseline_sse": 1.4359399354838709,
+          "model_sse": 1.3930489890285722,
+          "site_slope": 0.0472
+        },
+        {
+          "site": "spai010",
+          "name": "Tierra Muerta",
+          "n_years": 31,
+          "fit_without_site": 0.0161,
+          "baseline_sse": 1.7223674193548386,
+          "model_sse": 1.6966845674506625,
+          "site_slope": 0.0302
+        },
+        {
+          "site": "spai011",
+          "name": "Torreton",
+          "n_years": 31,
+          "fit_without_site": 0.0162,
+          "baseline_sse": 1.2824933548387096,
+          "model_sse": 1.2633183473125493,
+          "site_slope": 0.0246
+        },
+        {
+          "site": "spai016",
+          "name": "Penahorcada",
+          "n_years": 31,
+          "fit_without_site": 0.015,
+          "baseline_sse": 1.3225537419354838,
+          "model_sse": 1.2827675683329252,
+          "site_slope": 0.0449
+        },
+        {
+          "site": "spai017",
+          "name": "Cercelas",
+          "n_years": 34,
+          "fit_without_site": 0.0171,
+          "baseline_sse": 1.5087719999999998,
+          "model_sse": 1.4996175698153877,
+          "site_slope": 0.0155
+        },
+        {
+          "site": "spai018",
+          "name": "Andrinal",
+          "n_years": 32,
+          "fit_without_site": 0.0199,
+          "baseline_sse": 1.59880021875,
+          "model_sse": 1.655557024007702,
+          "site_slope": -0.0298
+        },
+        {
+          "site": "spai019",
+          "name": "Riscopal",
+          "n_years": 31,
+          "fit_without_site": 0.0148,
+          "baseline_sse": 1.5315541935483876,
+          "model_sse": 1.4851922021272657,
+          "site_slope": 0.0506
+        },
+        {
+          "site": "spai025",
+          "name": "Las Banas I",
+          "n_years": 28,
+          "fit_without_site": 0.0223,
+          "baseline_sse": 1.9124066785714282,
+          "model_sse": 2.0420028080609933,
+          "site_slope": -0.0893
+        },
+        {
+          "site": "spai026",
+          "name": "Puerto Llano",
+          "n_years": 28,
+          "fit_without_site": 0.0199,
+          "baseline_sse": 1.6090926785714283,
+          "model_sse": 1.6562891925929708,
+          "site_slope": -0.0312
+        },
+        {
+          "site": "spai027",
+          "name": "Canada de la Fuente",
+          "n_years": 28,
+          "fit_without_site": 0.0188,
+          "baseline_sse": 2.2600129642857145,
+          "model_sse": 2.2971061290527865,
+          "site_slope": -0.0247
+        },
+        {
+          "site": "spai029",
+          "name": "Cuenca Buenache",
+          "n_years": 26,
+          "fit_without_site": 0.0151,
+          "baseline_sse": 2.9816144615384617,
+          "model_sse": 2.9343805136738497,
+          "site_slope": 0.0645
+        },
+        {
+          "site": "spai031",
+          "name": "Cuenca Las Torcas",
+          "n_years": 26,
+          "fit_without_site": 0.0159,
+          "baseline_sse": 1.847008153846154,
+          "model_sse": 1.810915734376078,
+          "site_slope": 0.0502
+        },
+        {
+          "site": "spai032",
+          "name": "Cuenca Vega de Cordono",
+          "n_years": 26,
+          "fit_without_site": 0.0168,
+          "baseline_sse": 1.450050653846154,
+          "model_sse": 1.4388954512748986,
+          "site_slope": 0.0201
+        },
+        {
+          "site": "spai041",
+          "name": "Gudar Los Roquetas",
+          "n_years": 28,
+          "fit_without_site": 0.0141,
+          "baseline_sse": 1.8846629642857144,
+          "model_sse": 1.8369279518992125,
+          "site_slope": 0.0637
+        },
+        {
+          "site": "spai043",
+          "name": "Gudar Villarluengo",
+          "n_years": 28,
+          "fit_without_site": 0.0176,
+          "baseline_sse": 3.744822107142857,
+          "model_sse": 3.7338104092422246,
+          "site_slope": 0.0186
+        },
+        {
+          "site": "spai045",
+          "name": "Cuenca Una Site 1",
+          "n_years": 28,
+          "fit_without_site": 0.0175,
+          "baseline_sse": 2.6097117142857145,
+          "model_sse": 2.6128949371549544,
+          "site_slope": 0.0057
+        },
+        {
+          "site": "spai046",
+          "name": "Cuenca Una Site 2",
+          "n_years": 28,
+          "fit_without_site": 0.0162,
+          "baseline_sse": 1.9828614285714283,
+          "model_sse": 1.962886816530595,
+          "site_slope": 0.0286
+        }
+      ]
+    }
+  }
+}

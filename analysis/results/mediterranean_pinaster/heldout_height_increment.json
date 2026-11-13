@@ -1,0 +1,127 @@
+{
+  "design": "Strict surviving-tree IFN3→IFN4 pairs with measured heights; Madrid+Salamanca fit, seven other provinces held out; plot-equal robust fit",
+  "fit_trees": 2402,
+  "fit_plots": 191,
+  "heldout_trees": 11689,
+  "heldout_plots": 993,
+  "negative_observed_height_increment_fraction": 0.045,
+  "parameters": {
+    "log_rate_at_10m_20cm_500ha": -1.537294611193642,
+    "log_height_exponent": 0.27449898738047057,
+    "log_diameter_exponent": -0.6236601127110424,
+    "log_density_exponent": 0.06930211048888385
+  },
+  "constant_rate_baseline_m_per_year": 0.1694,
+  "heldout_results": {
+    "height_size_density_model": {
+      "trees": 11689,
+      "plots": 993,
+      "bias_m": 1.314,
+      "mae_m": 1.805,
+      "rmse_m": 2.207,
+      "plot_mean_bias_rmse_m": 1.785
+    },
+    "constant_annual_rate": {
+      "trees": 11689,
+      "plots": 993,
+      "bias_m": 0.801,
+      "mae_m": 1.544,
+      "rmse_m": 1.891,
+      "plot_mean_bias_rmse_m": 1.637
+    },
+    "no_growth": {
+      "trees": 11689,
+      "plots": 993,
+      "bias_m": -1.928,
+      "mae_m": 2.017,
+      "rmse_m": 2.551,
+      "plot_mean_bias_rmse_m": 2.331
+    }
+  },
+  "heldout_by_province": {
+    "Albacete": {
+      "n": 1595,
+      "model": {
+        "trees": 1595,
+        "plots": 191,
+        "bias_m": 1.484,
+        "mae_m": 1.769,
+        "rmse_m": 2.091,
+        "plot_mean_bias_rmse_m": 1.79
+      },
+      "median_annual_observed_m": 0.081
+    },
+    "Badajoz": {
+      "n": 982,
+      "model": {
+        "trees": 982,
+        "plots": 82,
+        "bias_m": 0.697,
+        "mae_m": 1.475,
+        "rmse_m": 1.876,
+        "plot_mean_bias_rmse_m": 1.34
+      },
+      "median_annual_observed_m": 0.149
+    },
+    "Cáceres": {
+      "n": 2085,
+      "model": {
+        "trees": 2085,
+        "plots": 162,
+        "bias_m": 0.555,
+        "mae_m": 1.808,
+        "rmse_m": 2.304,
+        "plot_mean_bias_rmse_m": 1.787
+      },
+      "median_annual_observed_m": 0.174
+    },
+    "Ciudad Real": {
+      "n": 1735,
+      "model": {
+        "trees": 1735,
+        "plots": 138,
+        "bias_m": 1.275,
+        "mae_m": 1.681,
+        "rmse_m": 2.145,
+        "plot_mean_bias_rmse_m": 1.744
+      },
+      "median_annual_observed_m": 0.127
+    },
+    "Cuenca": {
+      "n": 2749,
+      "model": {
+        "trees": 2749,
+        "plots": 261,
+        "bias_m": 1.932,
+        "mae_m": 2.058,
+        "rmse_m": 2.402,
+        "plot_mean_bias_rmse_m": 1.983
+      },
+      "median_annual_observed_m": 0.076
+    },
+    "Guadalajara": {
+      "n": 1477,
+      "model": {
+        "trees": 1477,
+        "plots": 91,
+        "bias_m": 1.737,
+        "mae_m": 1.975,
+        "rmse_m": 2.341,
+        "plot_mean_bias_rmse_m": 1.875
+      },
+      "median_annual_observed_m": 0.086
+    },
+    "Toledo": {
+      "n": 1066,
+      "model": {
+        "trees": 1066,
+        "plots": 68,
+        "bias_m": 0.994,
+        "mae_m": 1.474,
+        "rmse_m": 1.813,
+        "plot_mean_bias_rmse_m": 1.342
+      },
+      "median_annual_observed_m": 0.133
+    }
+  }
+}

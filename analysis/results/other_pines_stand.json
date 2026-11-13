@@ -1,0 +1,259 @@
+{
+  "design": "IFN4 direct-age pine-dominated stands; published height shape; fit SI/D(H)/AGB ratio/density in stated province(s), test all other source-region plots; reference AGB uses same allometry",
+  "species": {
+    "pinus_sylvestris": {
+      "fit_plots": 50,
+      "heldout_plots": 86,
+      "fit_provinces": [
+        "27"
+      ],
+      "heldout_by_province": {
+        "32": 86
+      },
+      "heldout_age_range": [
+        12.0,
+        51.0
+      ],
+      "default_site_index_m": 15.618229356763319,
+      "reference_age_years": 40.0,
+      "default_large_stems_ha": 668.2385543951713,
+      "fit_site_index_quartiles_m": [
+        13.503088992869488,
+        15.618229356763319,
+        19.293980038528133
+      ],
+      "fit_large_stems_quartiles_ha": [
+        477.7124036316068,
+        668.2385543951713,
+        1021.9162057104942
+      ],
+      "height_to_diameter_log_parameters": [
+        3.1909166016988904,
+        0.6258782691935689
+      ],
+      "fit_mean_to_dominant_agb_ratio": 0.5572888603184454,
+      "heldout_height": {
+        "plots": 86,
+        "bias": 1.716,
+        "mae": 2.964,
+        "rmse": 3.737
+      },
+      "heldout_agb": {
+        "default_agb": {
+          "plots": 86,
+          "bias": 17.643,
+          "mae": 42.468,
+          "rmse": 53.015,
+          "median_model_over_observed": 1.33
+        },
+        "measured_hn_agb": {
+          "plots": 86,
+          "bias": 25.197,
+          "mae": 34.546,
+          "rmse": 62.131,
+          "median_model_over_observed": 1.141
+        },
+        "fit_median_agb": {
+          "plots": 86,
+          "bias": 21.305,
+          "mae": 48.661,
+          "rmse": 58.502,
+          "median_model_over_observed": 1.423
+        }
+      }
+    },
+    "pinus_pinea": {
+      "fit_plots": 15,
+      "heldout_plots": 9,
+      "fit_provinces": [
+        "06"
+      ],
+      "heldout_by_province": {
+        "13": 5,
+        "45": 3,
+        "29": 1
+      },
+      "heldout_age_range": [
+        20.0,
+        41.0
+      ],
+      "default_site_index_m": 17.87054444388174,
+      "reference_age_years": 100.0,
+      "default_large_stems_ha": 381.9718634205488,
+      "fit_site_index_quartiles_m": [
+        16.33198643243524,
+        17.87054444388174,
+        18.9173755028416
+      ],
+      "fit_large_stems_quartiles_ha": [
+        172.31175172082536,
+        381.9718634205488,
+        666.6823727293838
+      ],
+      "height_to_diameter_log_parameters": [
+        3.437236761872603,
+        0.8664405265164256
+      ],
+      "fit_mean_to_dominant_agb_ratio": 0.688963027792526,
+      "heldout_height": {
+        "plots": 9,
+        "bias": 0.596,
+        "mae": 2.009,
+        "rmse": 2.512
+      },
+      "heldout_agb": {
+        "default_agb": {
+          "plots": 9,
+          "bias": 6.581,
+          "mae": 24.595,
+          "rmse": 33.922,
+          "median_model_over_observed": 1.053
+        },
+        "measured_hn_agb": {
+          "plots": 9,
+          "bias": 1.56,
+          "mae": 17.721,
+          "rmse": 26.678,
+          "median_model_over_observed": 0.806
+        },
+        "fit_median_agb": {
+          "plots": 9,
+          "bias": 9.72,
+          "mae": 19.33,
+          "rmse": 23.241,
+          "median_model_over_observed": 1.407
+        }
+      }
+    },
+    "pinus_halepensis": {
+      "fit_plots": 36,
+      "heldout_plots": 26,
+      "fit_provinces": [
+        "02",
+        "16"
+      ],
+      "heldout_by_province": {
+        "25": 10,
+        "19": 7,
+        "08": 5,
+        "43": 2,
+        "17": 1,
+        "45": 1
+      },
+      "heldout_age_range": [
+        10.0,
+        50.0
+      ],
+      "default_site_index_m": 14.433618761453637,
+      "reference_age_years": 80.0,
+      "default_large_stems_ha": 286.4788975654116,
+      "fit_site_index_quartiles_m": [
+        9.906806541131019,
+        14.433618761453637,
+        16.564798505194183
+      ],
+      "fit_large_stems_quartiles_ha": [
+        151.1971959373006,
+        286.4788975654116,
+        534.0532534861377
+      ],
+      "height_to_diameter_log_parameters": [
+        3.048335455882719,
+        0.8799265533216261
+      ],
+      "fit_mean_to_dominant_agb_ratio": 0.8362161670789326,
+      "heldout_height": {
+        "plots": 26,
+        "bias": -0.006,
+        "mae": 2.972,
+        "rmse": 4.199
+      },
+      "heldout_agb": {
+        "default_agb": {
+          "plots": 26,
+          "bias": -8.84,
+          "mae": 20.154,
+          "rmse": 27.309,
+          "median_model_over_observed": 0.778
+        },
+        "measured_hn_agb": {
+          "plots": 26,
+          "bias": 15.895,
+          "mae": 18.431,
+          "rmse": 31.785,
+          "median_model_over_observed": 1.164
+        },
+        "fit_median_agb": {
+          "plots": 26,
+          "bias": -21.236,
+          "mae": 23.835,
+          "rmse": 36.24,
+          "median_model_over_observed": 0.478
+        }
+      }
+    },
+    "pinus_nigra": {
+      "fit_plots": 11,
+      "heldout_plots": 14,
+      "fit_provinces": [
+        "25"
+      ],
+      "heldout_by_province": {
+        "16": 8,
+        "28": 5,
+        "08": 1
+      },
+      "heldout_age_range": [
+        35.0,
+        57.0
+      ],
+      "default_site_index_m": 19.60719525778724,
+      "reference_age_years": 80.0,
+      "default_large_stems_ha": 962.0032115776784,
+      "fit_site_index_quartiles_m": [
+        18.611766878894787,
+        19.60719525778724,
+        23.37505958840828
+      ],
+      "fit_large_stems_quartiles_ha": [
+        767.4805033542509,
+        962.0032115776784,
+        1133.53687246561
+      ],
+      "height_to_diameter_log_parameters": [
+        3.098583845763465,
+        0.7012340221040557
+      ],
+      "fit_mean_to_dominant_agb_ratio": 0.5254403601363108,
+      "heldout_height": {
+        "plots": 14,
+        "bias": 3.084,
+        "mae": 4.37,
+        "rmse": 5.09
+      },
+      "heldout_agb": {
+        "default_agb": {
+          "plots": 14,
+          "bias": 53.196,
+          "mae": 95.63,
+          "rmse": 105.143,
+          "median_model_over_observed": 2.693
+        },
+        "measured_hn_agb": {
+          "plots": 14,
+          "bias": -4.989,
+          "mae": 16.387,
+          "rmse": 24.76,
+          "median_model_over_observed": 0.805
+        },
+        "fit_median_agb": {
+          "plots": 14,
+          "bias": 12.386,
+          "mae": 70.829,
+          "rmse": 82.437,
+          "median_model_over_observed": 1.74
+        }
+      }
+    }
+  }
+}

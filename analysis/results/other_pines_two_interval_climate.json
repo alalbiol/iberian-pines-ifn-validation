@@ -1,0 +1,957 @@
+{
+  "design": "same IFN plot, two consecutive remeasurement intervals; surviving-tree average; frozen size-density baseline; province-held-out climate slope",
+  "species": {
+    "Pinus sylvestris": {
+      "fit_provinces": [
+        "25",
+        "28"
+      ],
+      "fit_plots": 515,
+      "heldout_plots": 1026,
+      "beta_per_annual_climate_sd": 0.78546,
+      "plot_bootstrap_95_pct": [
+        0.63063,
+        0.98271
+      ],
+      "province_centered_beta": 0.32532,
+      "province_centered_bootstrap_95_pct": [
+        0.0,
+        0.88447
+      ],
+      "fit_delta_climate_5_50_95_pct": [
+        -0.10748,
+        -0.05913,
+        0.07063
+      ],
+      "heldout_baseline": {
+        "plots": 1026,
+        "rmse_annual_cm": 0.20268,
+        "mae_annual_cm": 0.15682,
+        "bias_annual_cm": -0.13944
+      },
+      "heldout_with_climate": {
+        "plots": 1026,
+        "rmse_annual_cm": 0.18891,
+        "mae_annual_cm": 0.14372,
+        "bias_annual_cm": -0.11224
+      },
+      "heldout_period_only": {
+        "plots": 1026,
+        "rmse_annual_cm": 0.14719,
+        "mae_annual_cm": 0.10943,
+        "bias_annual_cm": -0.00536
+      },
+      "heldout_period_plus_climate": {
+        "plots": 1026,
+        "rmse_annual_cm": 0.1472,
+        "mae_annual_cm": 0.10974,
+        "bias_annual_cm": -0.00439
+      },
+      "heldout_by_province": {
+        "05": {
+          "baseline": {
+            "plots": 53,
+            "rmse_annual_cm": 0.21095,
+            "mae_annual_cm": 0.17734,
+            "bias_annual_cm": -0.17189
+          },
+          "climate": {
+            "plots": 53,
+            "rmse_annual_cm": 0.20441,
+            "mae_annual_cm": 0.17238,
+            "bias_annual_cm": -0.16634
+          }
+        },
+        "08": {
+          "baseline": {
+            "plots": 293,
+            "rmse_annual_cm": 0.18825,
+            "mae_annual_cm": 0.14837,
+            "bias_annual_cm": -0.12863
+          },
+          "climate": {
+            "plots": 293,
+            "rmse_annual_cm": 0.15616,
+            "mae_annual_cm": 0.11606,
+            "bias_annual_cm": -0.06407
+          }
+        },
+        "10": {
+          "baseline": {
+            "plots": 5,
+            "rmse_annual_cm": 0.30201,
+            "mae_annual_cm": 0.26943,
+            "bias_annual_cm": -0.26943
+          },
+          "climate": {
+            "plots": 5,
+            "rmse_annual_cm": 0.32507,
+            "mae_annual_cm": 0.29423,
+            "bias_annual_cm": -0.29423
+          }
+        },
+        "15": {
+          "baseline": {
+            "plots": 3,
+            "rmse_annual_cm": 0.37626,
+            "mae_annual_cm": 0.31822,
+            "bias_annual_cm": -0.31822
+          },
+          "climate": {
+            "plots": 3,
+            "rmse_annual_cm": 0.39944,
+            "mae_annual_cm": 0.34817,
+            "bias_annual_cm": -0.34817
+          }
+        },
+        "16": {
+          "baseline": {
+            "plots": 180,
+            "rmse_annual_cm": 0.17618,
+            "mae_annual_cm": 0.12324,
+            "bias_annual_cm": -0.10108
+          },
+          "climate": {
+            "plots": 180,
+            "rmse_annual_cm": 0.19313,
+            "mae_annual_cm": 0.14073,
+            "bias_annual_cm": -0.12374
+          }
+        },
+        "17": {
+          "baseline": {
+            "plots": 156,
+            "rmse_annual_cm": 0.22303,
+            "mae_annual_cm": 0.18169,
+            "bias_annual_cm": -0.16834
+          },
+          "climate": {
+            "plots": 156,
+            "rmse_annual_cm": 0.16724,
+            "mae_annual_cm": 0.12496,
+            "bias_annual_cm": -0.08532
+          }
+        },
+        "19": {
+          "baseline": {
+            "plots": 161,
+            "rmse_annual_cm": 0.17016,
+            "mae_annual_cm": 0.1303,
+            "bias_annual_cm": -0.11372
+          },
+          "climate": {
+            "plots": 161,
+            "rmse_annual_cm": 0.17183,
+            "mae_annual_cm": 0.13512,
+            "bias_annual_cm": -0.11132
+          }
+        },
+        "23": {
+          "baseline": {
+            "plots": 1,
+            "rmse_annual_cm": 0.10927,
+            "mae_annual_cm": 0.10927,
+            "bias_annual_cm": -0.10927
+          },
+          "climate": {
+            "plots": 1,
+            "rmse_annual_cm": 0.11324,
+            "mae_annual_cm": 0.11324,
+            "bias_annual_cm": -0.11324
+          }
+        },
+        "27": {
+          "baseline": {
+            "plots": 22,
+            "rmse_annual_cm": 0.26425,
+            "mae_annual_cm": 0.23226,
+            "bias_annual_cm": -0.19403
+          },
+          "climate": {
+            "plots": 22,
+            "rmse_annual_cm": 0.29449,
+            "mae_annual_cm": 0.25978,
+            "bias_annual_cm": -0.23216
+          }
+        },
+        "29": {
+          "baseline": {
+            "plots": 3,
+            "rmse_annual_cm": 0.25004,
+            "mae_annual_cm": 0.22241,
+            "bias_annual_cm": -0.18058
+          },
+          "climate": {
+            "plots": 3,
+            "rmse_annual_cm": 0.21269,
+            "mae_annual_cm": 0.20599,
+            "bias_annual_cm": -0.11789
+          }
+        },
+        "37": {
+          "baseline": {
+            "plots": 23,
+            "rmse_annual_cm": 0.26135,
+            "mae_annual_cm": 0.2149,
+            "bias_annual_cm": -0.19569
+          },
+          "climate": {
+            "plots": 23,
+            "rmse_annual_cm": 0.25151,
+            "mae_annual_cm": 0.2055,
+            "bias_annual_cm": -0.18588
+          }
+        },
+        "43": {
+          "baseline": {
+            "plots": 79,
+            "rmse_annual_cm": 0.21267,
+            "mae_annual_cm": 0.16832,
+            "bias_annual_cm": -0.1578
+          },
+          "climate": {
+            "plots": 79,
+            "rmse_annual_cm": 0.23507,
+            "mae_annual_cm": 0.19828,
+            "bias_annual_cm": -0.19134
+          }
+        },
+        "45": {
+          "baseline": {
+            "plots": 2,
+            "rmse_annual_cm": 0.08427,
+            "mae_annual_cm": 0.07639,
+            "bias_annual_cm": -0.07639
+          },
+          "climate": {
+            "plots": 2,
+            "rmse_annual_cm": 0.06133,
+            "mae_annual_cm": 0.04937,
+            "bias_annual_cm": -0.04937
+          }
+        },
+        "49": {
+          "baseline": {
+            "plots": 45,
+            "rmse_annual_cm": 0.28379,
+            "mae_annual_cm": 0.22092,
+            "bias_annual_cm": -0.20355
+          },
+          "climate": {
+            "plots": 45,
+            "rmse_annual_cm": 0.23733,
+            "mae_annual_cm": 0.18406,
+            "bias_annual_cm": -0.14419
+          }
+        }
+      }
+    },
+    "Pinus pinea": {
+      "fit_provinces": [
+        "06",
+        "28"
+      ],
+      "fit_plots": 221,
+      "heldout_plots": 812,
+      "beta_per_annual_climate_sd": 0.0,
+      "plot_bootstrap_95_pct": [
+        0.0,
+        0.0
+      ],
+      "province_centered_beta": 0.7149,
+      "province_centered_bootstrap_95_pct": [
+        0.0,
+        1.0
+      ],
+      "fit_delta_climate_5_50_95_pct": [
+        0.00315,
+        0.03183,
+        0.04612
+      ],
+      "heldout_baseline": {
+        "plots": 812,
+        "rmse_annual_cm": 0.23605,
+        "mae_annual_cm": 0.18061,
+        "bias_annual_cm": -0.11816
+      },
+      "heldout_with_climate": {
+        "plots": 812,
+        "rmse_annual_cm": 0.23605,
+        "mae_annual_cm": 0.18061,
+        "bias_annual_cm": -0.11816
+      },
+      "heldout_period_only": {
+        "plots": 812,
+        "rmse_annual_cm": 0.20516,
+        "mae_annual_cm": 0.14985,
+        "bias_annual_cm": -0.01822
+      },
+      "heldout_period_plus_climate": {
+        "plots": 812,
+        "rmse_annual_cm": 0.2265,
+        "mae_annual_cm": 0.17245,
+        "bias_annual_cm": 0.09973
+      },
+      "heldout_by_province": {
+        "02": {
+          "baseline": {
+            "plots": 28,
+            "rmse_annual_cm": 0.15233,
+            "mae_annual_cm": 0.10213,
+            "bias_annual_cm": -0.02008
+          },
+          "climate": {
+            "plots": 28,
+            "rmse_annual_cm": 0.15233,
+            "mae_annual_cm": 0.10213,
+            "bias_annual_cm": -0.02008
+          }
+        },
+        "05": {
+          "baseline": {
+            "plots": 72,
+            "rmse_annual_cm": 0.26653,
+            "mae_annual_cm": 0.18419,
+            "bias_annual_cm": -0.12504
+          },
+          "climate": {
+            "plots": 72,
+            "rmse_annual_cm": 0.26653,
+            "mae_annual_cm": 0.18419,
+            "bias_annual_cm": -0.12504
+          }
+        },
+        "08": {
+          "baseline": {
+            "plots": 136,
+            "rmse_annual_cm": 0.27506,
+            "mae_annual_cm": 0.22331,
+            "bias_annual_cm": -0.18946
+          },
+          "climate": {
+            "plots": 136,
+            "rmse_annual_cm": 0.27506,
+            "mae_annual_cm": 0.22331,
+            "bias_annual_cm": -0.18946
+          }
+        },
+        "10": {
+          "baseline": {
+            "plots": 22,
+            "rmse_annual_cm": 0.22138,
+            "mae_annual_cm": 0.18522,
+            "bias_annual_cm": 0.00761
+          },
+          "climate": {
+            "plots": 22,
+            "rmse_annual_cm": 0.22138,
+            "mae_annual_cm": 0.18522,
+            "bias_annual_cm": 0.00761
+          }
+        },
+        "11": {
+          "baseline": {
+            "plots": 34,
+            "rmse_annual_cm": 0.26624,
+            "mae_annual_cm": 0.18916,
+            "bias_annual_cm": -0.17194
+          },
+          "climate": {
+            "plots": 34,
+            "rmse_annual_cm": 0.26624,
+            "mae_annual_cm": 0.18916,
+            "bias_annual_cm": -0.17194
+          }
+        },
+        "13": {
+          "baseline": {
+            "plots": 42,
+            "rmse_annual_cm": 0.23732,
+            "mae_annual_cm": 0.17772,
+            "bias_annual_cm": -0.10818
+          },
+          "climate": {
+            "plots": 42,
+            "rmse_annual_cm": 0.23732,
+            "mae_annual_cm": 0.17772,
+            "bias_annual_cm": -0.10818
+          }
+        },
+        "14": {
+          "baseline": {
+            "plots": 135,
+            "rmse_annual_cm": 0.22492,
+            "mae_annual_cm": 0.1751,
+            "bias_annual_cm": -0.07511
+          },
+          "climate": {
+            "plots": 135,
+            "rmse_annual_cm": 0.22492,
+            "mae_annual_cm": 0.1751,
+            "bias_annual_cm": -0.07511
+          }
+        },
+        "16": {
+          "baseline": {
+            "plots": 37,
+            "rmse_annual_cm": 0.10078,
+            "mae_annual_cm": 0.0769,
+            "bias_annual_cm": 0.0317
+          },
+          "climate": {
+            "plots": 37,
+            "rmse_annual_cm": 0.10078,
+            "mae_annual_cm": 0.0769,
+            "bias_annual_cm": 0.0317
+          }
+        },
+        "17": {
+          "baseline": {
+            "plots": 141,
+            "rmse_annual_cm": 0.23094,
+            "mae_annual_cm": 0.18369,
+            "bias_annual_cm": -0.15022
+          },
+          "climate": {
+            "plots": 141,
+            "rmse_annual_cm": 0.23094,
+            "mae_annual_cm": 0.18369,
+            "bias_annual_cm": -0.15022
+          }
+        },
+        "19": {
+          "baseline": {
+            "plots": 1,
+            "rmse_annual_cm": 0.14309,
+            "mae_annual_cm": 0.14309,
+            "bias_annual_cm": -0.14309
+          },
+          "climate": {
+            "plots": 1,
+            "rmse_annual_cm": 0.14309,
+            "mae_annual_cm": 0.14309,
+            "bias_annual_cm": -0.14309
+          }
+        },
+        "23": {
+          "baseline": {
+            "plots": 73,
+            "rmse_annual_cm": 0.22797,
+            "mae_annual_cm": 0.17685,
+            "bias_annual_cm": -0.11081
+          },
+          "climate": {
+            "plots": 73,
+            "rmse_annual_cm": 0.22797,
+            "mae_annual_cm": 0.17685,
+            "bias_annual_cm": -0.11081
+          }
+        },
+        "29": {
+          "baseline": {
+            "plots": 18,
+            "rmse_annual_cm": 0.32523,
+            "mae_annual_cm": 0.27804,
+            "bias_annual_cm": -0.24243
+          },
+          "climate": {
+            "plots": 18,
+            "rmse_annual_cm": 0.32523,
+            "mae_annual_cm": 0.27804,
+            "bias_annual_cm": -0.24243
+          }
+        },
+        "37": {
+          "baseline": {
+            "plots": 2,
+            "rmse_annual_cm": 0.05892,
+            "mae_annual_cm": 0.05654,
+            "bias_annual_cm": 0.05654
+          },
+          "climate": {
+            "plots": 2,
+            "rmse_annual_cm": 0.05892,
+            "mae_annual_cm": 0.05654,
+            "bias_annual_cm": 0.05654
+          }
+        },
+        "43": {
+          "baseline": {
+            "plots": 2,
+            "rmse_annual_cm": 0.27112,
+            "mae_annual_cm": 0.26027,
+            "bias_annual_cm": -0.26027
+          },
+          "climate": {
+            "plots": 2,
+            "rmse_annual_cm": 0.27112,
+            "mae_annual_cm": 0.26027,
+            "bias_annual_cm": -0.26027
+          }
+        },
+        "45": {
+          "baseline": {
+            "plots": 28,
+            "rmse_annual_cm": 0.20751,
+            "mae_annual_cm": 0.16081,
+            "bias_annual_cm": -0.06418
+          },
+          "climate": {
+            "plots": 28,
+            "rmse_annual_cm": 0.20751,
+            "mae_annual_cm": 0.16081,
+            "bias_annual_cm": -0.06418
+          }
+        },
+        "49": {
+          "baseline": {
+            "plots": 41,
+            "rmse_annual_cm": 0.19349,
+            "mae_annual_cm": 0.16134,
+            "bias_annual_cm": -0.13282
+          },
+          "climate": {
+            "plots": 41,
+            "rmse_annual_cm": 0.19349,
+            "mae_annual_cm": 0.16134,
+            "bias_annual_cm": -0.13282
+          }
+        }
+      }
+    },
+    "Pinus halepensis": {
+      "fit_provinces": [
+        "02",
+        "08"
+      ],
+      "fit_plots": 699,
+      "heldout_plots": 978,
+      "beta_per_annual_climate_sd": 1.0,
+      "plot_bootstrap_95_pct": [
+        0.92621,
+        1.0
+      ],
+      "province_centered_beta": 0.15107,
+      "province_centered_bootstrap_95_pct": [
+        0.0,
+        0.42099
+      ],
+      "fit_delta_climate_5_50_95_pct": [
+        -0.15988,
+        -0.01487,
+        0.10414
+      ],
+      "heldout_baseline": {
+        "plots": 978,
+        "rmse_annual_cm": 0.24145,
+        "mae_annual_cm": 0.17997,
+        "bias_annual_cm": -0.14162
+      },
+      "heldout_with_climate": {
+        "plots": 978,
+        "rmse_annual_cm": 0.21877,
+        "mae_annual_cm": 0.16303,
+        "bias_annual_cm": -0.09632
+      },
+      "heldout_period_only": {
+        "plots": 978,
+        "rmse_annual_cm": 0.19575,
+        "mae_annual_cm": 0.14112,
+        "bias_annual_cm": 0.00867
+      },
+      "heldout_period_plus_climate": {
+        "plots": 978,
+        "rmse_annual_cm": 0.19363,
+        "mae_annual_cm": 0.13907,
+        "bias_annual_cm": 0.01209
+      },
+      "heldout_by_province": {
+        "11": {
+          "baseline": {
+            "plots": 10,
+            "rmse_annual_cm": 0.20761,
+            "mae_annual_cm": 0.17003,
+            "bias_annual_cm": -0.15618
+          },
+          "climate": {
+            "plots": 10,
+            "rmse_annual_cm": 0.1683,
+            "mae_annual_cm": 0.13855,
+            "bias_annual_cm": -0.08913
+          }
+        },
+        "13": {
+          "baseline": {
+            "plots": 2,
+            "rmse_annual_cm": 0.18928,
+            "mae_annual_cm": 0.15133,
+            "bias_annual_cm": -0.15133
+          },
+          "climate": {
+            "plots": 2,
+            "rmse_annual_cm": 0.14454,
+            "mae_annual_cm": 0.10253,
+            "bias_annual_cm": -0.10187
+          }
+        },
+        "14": {
+          "baseline": {
+            "plots": 5,
+            "rmse_annual_cm": 0.15023,
+            "mae_annual_cm": 0.13333,
+            "bias_annual_cm": -0.07036
+          },
+          "climate": {
+            "plots": 5,
+            "rmse_annual_cm": 0.15601,
+            "mae_annual_cm": 0.11601,
+            "bias_annual_cm": 0.05858
+          }
+        },
+        "16": {
+          "baseline": {
+            "plots": 191,
+            "rmse_annual_cm": 0.18641,
+            "mae_annual_cm": 0.13126,
+            "bias_annual_cm": -0.0989
+          },
+          "climate": {
+            "plots": 191,
+            "rmse_annual_cm": 0.22334,
+            "mae_annual_cm": 0.17961,
+            "bias_annual_cm": -0.16363
+          }
+        },
+        "17": {
+          "baseline": {
+            "plots": 105,
+            "rmse_annual_cm": 0.34888,
+            "mae_annual_cm": 0.27666,
+            "bias_annual_cm": -0.24947
+          },
+          "climate": {
+            "plots": 105,
+            "rmse_annual_cm": 0.23983,
+            "mae_annual_cm": 0.16886,
+            "bias_annual_cm": -0.04686
+          }
+        },
+        "19": {
+          "baseline": {
+            "plots": 57,
+            "rmse_annual_cm": 0.24482,
+            "mae_annual_cm": 0.18771,
+            "bias_annual_cm": -0.15975
+          },
+          "climate": {
+            "plots": 57,
+            "rmse_annual_cm": 0.21695,
+            "mae_annual_cm": 0.15436,
+            "bias_annual_cm": -0.11054
+          }
+        },
+        "23": {
+          "baseline": {
+            "plots": 154,
+            "rmse_annual_cm": 0.17176,
+            "mae_annual_cm": 0.12896,
+            "bias_annual_cm": -0.03976
+          },
+          "climate": {
+            "plots": 154,
+            "rmse_annual_cm": 0.17192,
+            "mae_annual_cm": 0.12649,
+            "bias_annual_cm": 0.02024
+          }
+        },
+        "25": {
+          "baseline": {
+            "plots": 82,
+            "rmse_annual_cm": 0.23785,
+            "mae_annual_cm": 0.19455,
+            "bias_annual_cm": -0.19055
+          },
+          "climate": {
+            "plots": 82,
+            "rmse_annual_cm": 0.18416,
+            "mae_annual_cm": 0.13488,
+            "bias_annual_cm": -0.1245
+          }
+        },
+        "28": {
+          "baseline": {
+            "plots": 20,
+            "rmse_annual_cm": 0.35288,
+            "mae_annual_cm": 0.2254,
+            "bias_annual_cm": -0.17843
+          },
+          "climate": {
+            "plots": 20,
+            "rmse_annual_cm": 0.39977,
+            "mae_annual_cm": 0.26875,
+            "bias_annual_cm": -0.24483
+          }
+        },
+        "29": {
+          "baseline": {
+            "plots": 102,
+            "rmse_annual_cm": 0.22908,
+            "mae_annual_cm": 0.17121,
+            "bias_annual_cm": -0.13019
+          },
+          "climate": {
+            "plots": 102,
+            "rmse_annual_cm": 0.18824,
+            "mae_annual_cm": 0.14089,
+            "bias_annual_cm": -0.01234
+          }
+        },
+        "43": {
+          "baseline": {
+            "plots": 246,
+            "rmse_annual_cm": 0.25703,
+            "mae_annual_cm": 0.20222,
+            "bias_annual_cm": -0.17283
+          },
+          "climate": {
+            "plots": 246,
+            "rmse_annual_cm": 0.23676,
+            "mae_annual_cm": 0.18459,
+            "bias_annual_cm": -0.15017
+          }
+        },
+        "45": {
+          "baseline": {
+            "plots": 4,
+            "rmse_annual_cm": 0.26927,
+            "mae_annual_cm": 0.24718,
+            "bias_annual_cm": -0.24718
+          },
+          "climate": {
+            "plots": 4,
+            "rmse_annual_cm": 0.21043,
+            "mae_annual_cm": 0.18485,
+            "bias_annual_cm": -0.18485
+          }
+        }
+      }
+    },
+    "Pinus nigra": {
+      "fit_provinces": [
+        "16",
+        "25"
+      ],
+      "fit_plots": 924,
+      "heldout_plots": 881,
+      "beta_per_annual_climate_sd": 0.0,
+      "plot_bootstrap_95_pct": [
+        0.0,
+        0.0
+      ],
+      "province_centered_beta": 0.0,
+      "province_centered_bootstrap_95_pct": [
+        0.0,
+        0.0
+      ],
+      "fit_delta_climate_5_50_95_pct": [
+        0.0043,
+        0.07804,
+        0.10806
+      ],
+      "heldout_baseline": {
+        "plots": 881,
+        "rmse_annual_cm": 0.16947,
+        "mae_annual_cm": 0.12513,
+        "bias_annual_cm": -0.10184
+      },
+      "heldout_with_climate": {
+        "plots": 881,
+        "rmse_annual_cm": 0.16947,
+        "mae_annual_cm": 0.12513,
+        "bias_annual_cm": -0.10184
+      },
+      "heldout_period_only": {
+        "plots": 881,
+        "rmse_annual_cm": 0.13603,
+        "mae_annual_cm": 0.0966,
+        "bias_annual_cm": -0.01243
+      },
+      "heldout_period_plus_climate": {
+        "plots": 881,
+        "rmse_annual_cm": 0.13603,
+        "mae_annual_cm": 0.0966,
+        "bias_annual_cm": -0.01243
+      },
+      "heldout_by_province": {
+        "02": {
+          "baseline": {
+            "plots": 135,
+            "rmse_annual_cm": 0.09402,
+            "mae_annual_cm": 0.0689,
+            "bias_annual_cm": -0.02631
+          },
+          "climate": {
+            "plots": 135,
+            "rmse_annual_cm": 0.09402,
+            "mae_annual_cm": 0.0689,
+            "bias_annual_cm": -0.02631
+          }
+        },
+        "05": {
+          "baseline": {
+            "plots": 18,
+            "rmse_annual_cm": 0.19408,
+            "mae_annual_cm": 0.17306,
+            "bias_annual_cm": -0.10719
+          },
+          "climate": {
+            "plots": 18,
+            "rmse_annual_cm": 0.19408,
+            "mae_annual_cm": 0.17306,
+            "bias_annual_cm": -0.10719
+          }
+        },
+        "08": {
+          "baseline": {
+            "plots": 151,
+            "rmse_annual_cm": 0.23088,
+            "mae_annual_cm": 0.17957,
+            "bias_annual_cm": -0.15835
+          },
+          "climate": {
+            "plots": 151,
+            "rmse_annual_cm": 0.23088,
+            "mae_annual_cm": 0.17957,
+            "bias_annual_cm": -0.15835
+          }
+        },
+        "10": {
+          "baseline": {
+            "plots": 2,
+            "rmse_annual_cm": 0.46983,
+            "mae_annual_cm": 0.41155,
+            "bias_annual_cm": -0.41155
+          },
+          "climate": {
+            "plots": 2,
+            "rmse_annual_cm": 0.46983,
+            "mae_annual_cm": 0.41155,
+            "bias_annual_cm": -0.41155
+          }
+        },
+        "17": {
+          "baseline": {
+            "plots": 38,
+            "rmse_annual_cm": 0.28863,
+            "mae_annual_cm": 0.23413,
+            "bias_annual_cm": -0.20309
+          },
+          "climate": {
+            "plots": 38,
+            "rmse_annual_cm": 0.28863,
+            "mae_annual_cm": 0.23413,
+            "bias_annual_cm": -0.20309
+          }
+        },
+        "19": {
+          "baseline": {
+            "plots": 219,
+            "rmse_annual_cm": 0.15645,
+            "mae_annual_cm": 0.12593,
+            "bias_annual_cm": -0.12061
+          },
+          "climate": {
+            "plots": 219,
+            "rmse_annual_cm": 0.15645,
+            "mae_annual_cm": 0.12593,
+            "bias_annual_cm": -0.12061
+          }
+        },
+        "23": {
+          "baseline": {
+            "plots": 201,
+            "rmse_annual_cm": 0.10255,
+            "mae_annual_cm": 0.07618,
+            "bias_annual_cm": -0.04278
+          },
+          "climate": {
+            "plots": 201,
+            "rmse_annual_cm": 0.10255,
+            "mae_annual_cm": 0.07618,
+            "bias_annual_cm": -0.04278
+          }
+        },
+        "28": {
+          "baseline": {
+            "plots": 15,
+            "rmse_annual_cm": 0.24044,
+            "mae_annual_cm": 0.18366,
+            "bias_annual_cm": -0.18005
+          },
+          "climate": {
+            "plots": 15,
+            "rmse_annual_cm": 0.24044,
+            "mae_annual_cm": 0.18366,
+            "bias_annual_cm": -0.18005
+          }
+        },
+        "29": {
+          "baseline": {
+            "plots": 1,
+            "rmse_annual_cm": 0.10932,
+            "mae_annual_cm": 0.10932,
+            "bias_annual_cm": -0.10932
+          },
+          "climate": {
+            "plots": 1,
+            "rmse_annual_cm": 0.10932,
+            "mae_annual_cm": 0.10932,
+            "bias_annual_cm": -0.10932
+          }
+        },
+        "37": {
+          "baseline": {
+            "plots": 4,
+            "rmse_annual_cm": 0.2947,
+            "mae_annual_cm": 0.26355,
+            "bias_annual_cm": -0.26355
+          },
+          "climate": {
+            "plots": 4,
+            "rmse_annual_cm": 0.2947,
+            "mae_annual_cm": 0.26355,
+            "bias_annual_cm": -0.26355
+          }
+        },
+        "43": {
+          "baseline": {
+            "plots": 84,
+            "rmse_annual_cm": 0.17631,
+            "mae_annual_cm": 0.14579,
+            "bias_annual_cm": -0.132
+          },
+          "climate": {
+            "plots": 84,
+            "rmse_annual_cm": 0.17631,
+            "mae_annual_cm": 0.14579,
+            "bias_annual_cm": -0.132
+          }
+        },
+        "49": {
+          "baseline": {
+            "plots": 13,
+            "rmse_annual_cm": 0.18871,
+            "mae_annual_cm": 0.14834,
+            "bias_annual_cm": -0.14015
+          },
+          "climate": {
+            "plots": 13,
+            "rmse_annual_cm": 0.18871,
+            "mae_annual_cm": 0.14834,
+            "bias_annual_cm": -0.14015
+          }
+        }
+      }
+    }
+  }
+}

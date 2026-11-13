@@ -1,0 +1,43 @@
+{
+  "design": "IFN3→IFN4 pine-dominated plots; observed IFN4 survivor set supplied; Madrid/Salamanca DBH model, other provinces test",
+  "survivor_trees": 11388,
+  "heldout_n": 532,
+  "heldout_by_province": {
+    "Cuenca": 128,
+    "Cáceres": 101,
+    "Ciudad Real": 99,
+    "Albacete": 85,
+    "Guadalajara": 71,
+    "Toledo": 48
+  },
+  "fit_flat_diameter_rate_cm_per_year": 0.4336,
+  "fit_diameter_residual_mean_cm": -0.245,
+  "fit_diameter_residual_sd_cm": 4.014,
+  "heldout_results": {
+    "error_integrated_diameter_model": {
+      "n": 532,
+      "bias_stems_ha": -32.05,
+      "mae_stems_ha": 42.233,
+      "rmse_stems_ha": 76.38
+    },
+    "size_density_diameter_model": {
+      "n": 532,
+      "bias_stems_ha": -42.648,
+      "mae_stems_ha": 49.15,
+      "rmse_stems_ha": 89.999
+    },
+    "flat_diameter_rate": {
+      "n": 532,
+      "bias_stems_ha": -39.546,
+      "mae_stems_ha": 47.591,
+      "rmse_stems_ha": 88.523
+    },
+    "no_expansion_shift": {
+      "n": 532,
+      "bias_stems_ha": 86.721,
+      "mae_stems_ha": 87.048,
+      "rmse_stems_ha": 141.475
+    }
+  },
+  "heldout_mean_observed_shift_stems_ha": -86.721
+}

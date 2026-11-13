@@ -1,0 +1,175 @@
+{
+  "design": "Documented planted IFN4, direct age, source age/density range; age=IFN Edad-1 assumption; site index from >=7.5cm tree mean height or fit-province median; IFN reference AGB uses different allometry",
+  "species": {
+    "pinus_sylvestris": {
+      "fit_plots": 19,
+      "heldout_plots": 55,
+      "fit_provinces": [
+        "27"
+      ],
+      "heldout_by_province": {
+        "32": 40,
+        "28": 6,
+        "05": 5,
+        "37": 2,
+        "17": 1,
+        "36": 1
+      },
+      "heldout_planting_age_range": [
+        7.0,
+        38.0
+      ],
+      "fit_median_si30_from_large_trees_m": 10.731676558310207,
+      "heldout_results": {
+        "default_site_agb": {
+          "plots": 55,
+          "bias_mg_ha": -24.403,
+          "mae_mg_ha": 33.317,
+          "rmse_mg_ha": 44.907,
+          "median_model_over_observed": 0.736
+        },
+        "measured_site_agb": {
+          "plots": 55,
+          "bias_mg_ha": -25.2,
+          "mae_mg_ha": 27.455,
+          "rmse_mg_ha": 35.98,
+          "median_model_over_observed": 0.745
+        },
+        "fit_median_agb": {
+          "plots": 55,
+          "bias_mg_ha": -5.282,
+          "mae_mg_ha": 40.434,
+          "rmse_mg_ha": 49.203,
+          "median_model_over_observed": 1.1
+        }
+      }
+    },
+    "pinus_pinea": {
+      "fit_plots": 7,
+      "heldout_plots": 11,
+      "fit_provinces": [
+        "06"
+      ],
+      "heldout_by_province": {
+        "13": 2,
+        "45": 2,
+        "16": 2,
+        "02": 1,
+        "05": 1,
+        "29": 1,
+        "37": 1,
+        "49": 1
+      },
+      "heldout_planting_age_range": [
+        8.0,
+        27.0
+      ],
+      "fit_median_si30_from_large_trees_m": 8.075853411710462,
+      "heldout_results": {
+        "default_site_agb": {
+          "plots": 11,
+          "bias_mg_ha": -3.028,
+          "mae_mg_ha": 15.463,
+          "rmse_mg_ha": 20.676,
+          "median_model_over_observed": 1.025
+        },
+        "measured_site_agb": {
+          "plots": 11,
+          "bias_mg_ha": -4.072,
+          "mae_mg_ha": 8.744,
+          "rmse_mg_ha": 11.313,
+          "median_model_over_observed": 0.926
+        },
+        "fit_median_agb": {
+          "plots": 11,
+          "bias_mg_ha": -8.183,
+          "mae_mg_ha": 16.301,
+          "rmse_mg_ha": 22.465,
+          "median_model_over_observed": 0.876
+        }
+      }
+    },
+    "pinus_halepensis": {
+      "fit_plots": 20,
+      "heldout_plots": 11,
+      "fit_provinces": [
+        "02",
+        "16"
+      ],
+      "heldout_by_province": {
+        "19": 5,
+        "25": 3,
+        "08": 2,
+        "45": 1
+      },
+      "heldout_planting_age_range": [
+        23.0,
+        34.0
+      ],
+      "fit_median_si30_from_large_trees_m": 6.791982047643562,
+      "heldout_results": {
+        "default_site_agb": {
+          "plots": 11,
+          "bias_mg_ha": 17.783,
+          "mae_mg_ha": 25.546,
+          "rmse_mg_ha": 29.901,
+          "median_model_over_observed": 2.039
+        },
+        "measured_site_agb": {
+          "plots": 11,
+          "bias_mg_ha": 26.321,
+          "mae_mg_ha": 26.321,
+          "rmse_mg_ha": 30.767,
+          "median_model_over_observed": 2.08
+        },
+        "fit_median_agb": {
+          "plots": 11,
+          "bias_mg_ha": -21.28,
+          "mae_mg_ha": 22.478,
+          "rmse_mg_ha": 30.494,
+          "median_model_over_observed": 0.409
+        }
+      }
+    },
+    "pinus_nigra": {
+      "fit_plots": 10,
+      "heldout_plots": 6,
+      "fit_provinces": [
+        "25"
+      ],
+      "heldout_by_province": {
+        "28": 3,
+        "16": 2,
+        "08": 1
+      },
+      "heldout_planting_age_range": [
+        34.0,
+        44.0
+      ],
+      "fit_median_si30_from_large_trees_m": 7.690347948144263,
+      "heldout_results": {
+        "default_site_agb": {
+          "plots": 6,
+          "bias_mg_ha": -6.716,
+          "mae_mg_ha": 64.02,
+          "rmse_mg_ha": 74.975,
+          "median_model_over_observed": 0.913
+        },
+        "measured_site_agb": {
+          "plots": 6,
+          "bias_mg_ha": -29.904,
+          "mae_mg_ha": 36.079,
+          "rmse_mg_ha": 47.848,
+          "median_model_over_observed": 0.756
+        },
+        "fit_median_agb": {
+          "plots": 6,
+          "bias_mg_ha": -18.394,
+          "mae_mg_ha": 49.81,
+          "rmse_mg_ha": 57.186,
+          "median_model_over_observed": 1.065
+        }
+      }
+    }
+  }
+}

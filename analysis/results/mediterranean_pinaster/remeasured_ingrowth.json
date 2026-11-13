@@ -1,0 +1,72 @@
+{
+  "design": "Published central-Spain five-year ingrowth equation versus new IFN4 pine trees identified by OrdenIf3=000; IFN3 BA/QMD source domain; Madrid+Salamanca baseline fit, other provinces test",
+  "fit_n": 72,
+  "heldout_n": 382,
+  "heldout_by_province": {
+    "Cuenca": 82,
+    "Ciudad Real": 77,
+    "Cáceres": 69,
+    "Guadalajara": 59,
+    "Albacete": 54,
+    "Toledo": 41
+  },
+  "heldout_interval_years": [
+    14.7,
+    17.8
+  ],
+  "observed_heldout_new_tree_occurrence": 0.945,
+  "observed_heldout_median_new_stems_ha": 61.186,
+  "observed_heldout_mean_new_ba_per_five_years_m2_ha": 1.516,
+  "fit_mean_new_ba_per_five_years_m2_ha": 2.198,
+  "fit_stems_per_new_basal_area_m2": 15.441,
+  "heldout_results": {
+    "published_probability_weighted": {
+      "n": 382,
+      "bias_m2_ha": -0.297,
+      "mae_m2_ha": 1.084,
+      "rmse_m2_ha": 1.399
+    },
+    "published_threshold_rule": {
+      "n": 382,
+      "bias_m2_ha": -0.171,
+      "mae_m2_ha": 1.136,
+      "rmse_m2_ha": 1.438
+    },
+    "fit_mean_baseline": {
+      "n": 382,
+      "bias_m2_ha": 0.681,
+      "mae_m2_ha": 1.254,
+      "rmse_m2_ha": 1.487
+    },
+    "zero_ingrowth": {
+      "n": 382,
+      "bias_m2_ha": -1.516,
+      "mae_m2_ha": 1.516,
+      "rmse_m2_ha": 2.011
+    }
+  },
+  "heldout_new_stem_results": {
+    "published_basal_area_with_fit_conversion": {
+      "n": 382,
+      "bias_stems_ha": -54.163,
+      "mae_stems_ha": 82.797,
+      "rmse_stems_ha": 151.68
+    },
+    "fit_constant_annual_ingrowth": {
+      "n": 382,
+      "bias_stems_ha": -4.155,
+      "mae_stems_ha": 99.863,
+      "rmse_stems_ha": 157.046
+    },
+    "zero_ingrowth": {
+      "n": 382,
+      "bias_stems_ha": -115.017,
+      "mae_stems_ha": 115.017,
+      "rmse_stems_ha": 195.09
+    }
+  },
+  "occurrence_brier": {
+    "published_independent_five_year_hazards": 0.255,
+    "fit_constant_interval_probability": 0.052
+  }
+}

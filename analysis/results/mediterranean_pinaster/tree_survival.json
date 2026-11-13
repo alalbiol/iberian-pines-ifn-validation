@@ -1,0 +1,197 @@
+{
+  "design": "Live IFN3 pine in uncut pine-dominated strict-link plots; death=IFN4 888 or 444; Madrid/Salamanca fit, other provinces test; plot-equal expansion-weighted likelihood",
+  "fit_plots": 44,
+  "fit_trees": 1035,
+  "heldout_plots": 276,
+  "heldout_trees": 5877,
+  "fit_constant_annual_hazard": 0.008086582794025415,
+  "fit_model_parameters": {
+    "log_annual_hazard_at_20cm_500ha": -4.843286688451062,
+    "log_diameter_exponent": -1.6660791989828914,
+    "log_density_exponent": 0.11628358597681525
+  },
+  "heldout_results": {
+    "diameter_density_hazard": {
+      "plots": 276,
+      "trees": 5877,
+      "loss_bias_stems_ha": 30.683,
+      "loss_mae_stems_ha": 72.29,
+      "loss_rmse_stems_ha": 113.728,
+      "weighted_tree_brier": 0.0831
+    },
+    "constant_hazard": {
+      "plots": 276,
+      "trees": 5877,
+      "loss_bias_stems_ha": 4.804,
+      "loss_mae_stems_ha": 64.525,
+      "loss_rmse_stems_ha": 110.394,
+      "weighted_tree_brier": 0.0831
+    },
+    "zero_loss": {
+      "plots": 276,
+      "trees": 5877,
+      "loss_bias_stems_ha": -59.327,
+      "loss_mae_stems_ha": 59.327,
+      "loss_rmse_stems_ha": 143.133,
+      "weighted_tree_brier": 0.0895
+    }
+  },
+  "heldout_province_results": {
+    "Albacete": {
+      "diameter_density_hazard": {
+        "plots": 66,
+        "trees": 1090,
+        "loss_bias_stems_ha": 44.016,
+        "loss_mae_stems_ha": 54.884,
+        "loss_rmse_stems_ha": 87.151,
+        "weighted_tree_brier": 0.0595
+      },
+      "constant_hazard": {
+        "plots": 66,
+        "trees": 1090,
+        "loss_bias_stems_ha": 27.109,
+        "loss_mae_stems_ha": 40.532,
+        "loss_rmse_stems_ha": 53.055,
+        "weighted_tree_brier": 0.0519
+      },
+      "zero_loss": {
+        "plots": 66,
+        "trees": 1090,
+        "loss_bias_stems_ha": -19.011,
+        "loss_mae_stems_ha": 19.011,
+        "loss_rmse_stems_ha": 47.68,
+        "weighted_tree_brier": 0.0488
+      }
+    },
+    "Ciudad Real": {
+      "diameter_density_hazard": {
+        "plots": 27,
+        "trees": 724,
+        "loss_bias_stems_ha": 1.892,
+        "loss_mae_stems_ha": 63.173,
+        "loss_rmse_stems_ha": 83.261,
+        "weighted_tree_brier": 0.1109
+      },
+      "constant_hazard": {
+        "plots": 27,
+        "trees": 724,
+        "loss_bias_stems_ha": -4.206,
+        "loss_mae_stems_ha": 63.923,
+        "loss_rmse_stems_ha": 77.707,
+        "weighted_tree_brier": 0.1232
+      },
+      "zero_loss": {
+        "plots": 27,
+        "trees": 724,
+        "loss_bias_stems_ha": -73.879,
+        "loss_mae_stems_ha": 73.879,
+        "loss_rmse_stems_ha": 107.5,
+        "weighted_tree_brier": 0.1428
+      }
+    },
+    "Cuenca": {
+      "diameter_density_hazard": {
+        "plots": 72,
+        "trees": 1415,
+        "loss_bias_stems_ha": 37.03,
+        "loss_mae_stems_ha": 67.506,
+        "loss_rmse_stems_ha": 90.744,
+        "weighted_tree_brier": 0.0866
+      },
+      "constant_hazard": {
+        "plots": 72,
+        "trees": 1415,
+        "loss_bias_stems_ha": 11.077,
+        "loss_mae_stems_ha": 52.102,
+        "loss_rmse_stems_ha": 73.738,
+        "weighted_tree_brier": 0.0822
+      },
+      "zero_loss": {
+        "plots": 72,
+        "trees": 1415,
+        "loss_bias_stems_ha": -51.075,
+        "loss_mae_stems_ha": 51.075,
+        "loss_rmse_stems_ha": 103.733,
+        "weighted_tree_brier": 0.0884
+      }
+    },
+    "Cáceres": {
+      "diameter_density_hazard": {
+        "plots": 52,
+        "trees": 1212,
+        "loss_bias_stems_ha": -12.385,
+        "loss_mae_stems_ha": 92.855,
+        "loss_rmse_stems_ha": 155.937,
+        "weighted_tree_brier": 0.1038
+      },
+      "constant_hazard": {
+        "plots": 52,
+        "trees": 1212,
+        "loss_bias_stems_ha": -61.661,
+        "loss_mae_stems_ha": 111.119,
+        "loss_rmse_stems_ha": 205.795,
+        "weighted_tree_brier": 0.1198
+      },
+      "zero_loss": {
+        "plots": 52,
+        "trees": 1212,
+        "loss_bias_stems_ha": -136.974,
+        "loss_mae_stems_ha": 136.974,
+        "loss_rmse_stems_ha": 277.452,
+        "weighted_tree_brier": 0.1381
+      }
+    },
+    "Guadalajara": {
+      "diameter_density_hazard": {
+        "plots": 37,
+        "trees": 844,
+        "loss_bias_stems_ha": 77.557,
+        "loss_mae_stems_ha": 99.094,
+        "loss_rmse_stems_ha": 154.733,
+        "weighted_tree_brier": 0.067
+      },
+      "constant_hazard": {
+        "plots": 37,
+        "trees": 844,
+        "loss_bias_stems_ha": 40.681,
+        "loss_mae_stems_ha": 75.813,
+        "loss_rmse_stems_ha": 96.519,
+        "weighted_tree_brier": 0.0584
+      },
+      "zero_loss": {
+        "plots": 37,
+        "trees": 844,
+        "loss_bias_stems_ha": -37.884,
+        "loss_mae_stems_ha": 37.884,
+        "loss_rmse_stems_ha": 95.639,
+        "weighted_tree_brier": 0.0555
+      }
+    },
+    "Toledo": {
+      "diameter_density_hazard": {
+        "plots": 22,
+        "trees": 592,
+        "loss_bias_stems_ha": 28.208,
+        "loss_mae_stems_ha": 57.664,
+        "loss_rmse_stems_ha": 79.24,
+        "weighted_tree_brier": 0.0872
+      },
+      "constant_hazard": {
+        "plots": 22,
+        "trees": 592,
+        "loss_bias_stems_ha": 25.172,
+        "loss_mae_stems_ha": 48.786,
+        "loss_rmse_stems_ha": 58.888,
+        "weighted_tree_brier": 0.0848
+      },
+      "zero_loss": {
+        "plots": 22,
+        "trees": 592,
+        "loss_bias_stems_ha": -41.959,
+        "loss_mae_stems_ha": 41.959,
+        "loss_rmse_stems_ha": 58.859,
+        "weighted_tree_brier": 0.0928
+      }
+    }
+  }
+}

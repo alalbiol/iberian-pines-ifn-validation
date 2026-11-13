@@ -1,0 +1,41 @@
+{
+  "design": "Documented planting, direct age, 4-41 years, 323-2281 trees/ha; Madrid+Salamanca median SI30 fit; other provinces held out",
+  "eligible_n": 19,
+  "fit_n": 8,
+  "heldout_n": 11,
+  "fit_si30_mean_height_m": 7.505,
+  "heldout_by_province": {
+    "Toledo": 7,
+    "Extremadura": 2,
+    "Guadalajara": 1,
+    "Cuenca": 1
+  },
+  "heldout_age_range": [
+    9.0,
+    39.0
+  ],
+  "heldout_results": {
+    "published_with_fit_site": {
+      "n": 11,
+      "bias_mg_ha": -28.697,
+      "mae_mg_ha": 40.141,
+      "rmse_mg_ha": 54.769,
+      "median_model_over_ifn": 0.776,
+      "ratio_iqr": [
+        0.519,
+        1.261
+      ]
+    },
+    "published_with_measured_site": {
+      "n": 11,
+      "bias_mg_ha": -5.978,
+      "mae_mg_ha": 34.127,
+      "rmse_mg_ha": 47.465,
+      "median_model_over_ifn": 0.79,
+      "ratio_iqr": [
+        0.727,
+        1.772
+      ]
+    }
+  }
+}

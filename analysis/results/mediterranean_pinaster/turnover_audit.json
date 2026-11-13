@@ -1,0 +1,103 @@
+{
+  "design": "IFN3→IFN4 pine-dominated strict-link plots; IFN4 annex-39 tree outcome codes; weights at IFN3 diameter",
+  "plots": 640,
+  "prior_pine_trees": 15758,
+  "prior_tree_status_counts": {
+    "survived": 11388,
+    "cut": 3520,
+    "dead": 709,
+    "not_found": 104,
+    "other": 32,
+    "unrecorded": 5
+  },
+  "weighted_pine_stems_ha_median": {
+    "cut": 0.0,
+    "dead": 0.0,
+    "not_found": 0.0,
+    "survived": 291.784,
+    "other": 0.0,
+    "unrecorded": 0.0
+  },
+  "weighted_pine_stems_ha_mean": {
+    "cut": 135.607,
+    "dead": 41.052,
+    "not_found": 4.863,
+    "survived": 384.842,
+    "other": 1.171,
+    "unrecorded": 0.398
+  },
+  "new_stems_ha_median": 60.125,
+  "mean_survivor_expansion_delta_stems_ha": -88.129,
+  "median_survivor_expansion_delta_stems_ha": -53.052,
+  "accounting_residual_rmse_stems_ha": 4.575,
+  "accounting_residual_mean_stems_ha": -0.842,
+  "share_plots_with_recorded_cut": 0.467,
+  "share_plots_with_recorded_death": 0.378,
+  "share_plots_with_unrecorded_prior_pine": 0.002,
+  "by_province": {
+    "Albacete": {
+      "plots": 86,
+      "mean_cut_stems_ha": 44.721,
+      "mean_dead_stems_ha": 25.236,
+      "mean_not_found_stems_ha": 11.433,
+      "mean_new_stems_ha": 112.465,
+      "share_with_cut": 0.209
+    },
+    "Ciudad Real": {
+      "plots": 99,
+      "mean_cut_stems_ha": 272.163,
+      "mean_dead_stems_ha": 24.043,
+      "mean_not_found_stems_ha": 5.787,
+      "mean_new_stems_ha": 61.724,
+      "share_with_cut": 0.717
+    },
+    "Cuenca": {
+      "plots": 128,
+      "mean_cut_stems_ha": 75.525,
+      "mean_dead_stems_ha": 39.711,
+      "mean_not_found_stems_ha": 3.316,
+      "mean_new_stems_ha": 113.704,
+      "share_with_cut": 0.398
+    },
+    "Cáceres": {
+      "plots": 102,
+      "mean_cut_stems_ha": 157.165,
+      "mean_dead_stems_ha": 82.016,
+      "mean_not_found_stems_ha": 2.67,
+      "mean_new_stems_ha": 171.259,
+      "share_with_cut": 0.471
+    },
+    "Guadalajara": {
+      "plots": 71,
+      "mean_cut_stems_ha": 82.033,
+      "mean_dead_stems_ha": 28.083,
+      "mean_not_found_stems_ha": 3.587,
+      "mean_new_stems_ha": 180.374,
+      "share_with_cut": 0.394
+    },
+    "Madrid": {
+      "plots": 65,
+      "mean_cut_stems_ha": 112.981,
+      "mean_dead_stems_ha": 56.68,
+      "mean_not_found_stems_ha": 0.0,
+      "mean_new_stems_ha": 94.472,
+      "share_with_cut": 0.462
+    },
+    "Salamanca": {
+      "plots": 41,
+      "mean_cut_stems_ha": 221.499,
+      "mean_dead_stems_ha": 26.828,
+      "mean_not_found_stems_ha": 1.898,
+      "mean_new_stems_ha": 152.692,
+      "share_with_cut": 0.756
+    },
+    "Toledo": {
+      "plots": 48,
+      "mean_cut_stems_ha": 167.726,
+      "mean_dead_stems_ha": 31.168,
+      "mean_not_found_stems_ha": 10.979,
+      "mean_new_stems_ha": 84.199,
+      "share_with_cut": 0.458
+    }
+  }
+}

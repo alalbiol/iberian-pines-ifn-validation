@@ -1,0 +1,66 @@
+{
+  "design": "IFN3→IFN4 uncut pine-dominated stands in published ingrowth BA/QMD range; Madrid/Salamanca fit, other provinces test; no IFN4 target inputs except diagnostic",
+  "fit_n": 27,
+  "heldout_n": 179,
+  "heldout_by_province": {
+    "Cuenca": 42,
+    "Albacete": 39,
+    "Cáceres": 32,
+    "Guadalajara": 29,
+    "Ciudad Real": 20,
+    "Toledo": 17
+  },
+  "fit_natural_annual_loss_rate": 0.004806183862265996,
+  "fit_stems_per_new_ba_m2": 15.050147574798226,
+  "heldout_results": {
+    "persistence": {
+      "n": 179,
+      "bias_stems_ha": 41.999,
+      "mae_stems_ha": 129.442,
+      "rmse_stems_ha": 209.991,
+      "median_prediction_over_observed": 1.068
+    },
+    "natural_loss_only": {
+      "n": 179,
+      "bias_stems_ha": -6.68,
+      "mae_stems_ha": 116.519,
+      "rmse_stems_ha": 194.152,
+      "median_prediction_over_observed": 0.989
+    },
+    "natural_loss_plus_published_ingrowth": {
+      "n": 179,
+      "bias_stems_ha": 54.83,
+      "mae_stems_ha": 140.55,
+      "rmse_stems_ha": 218.791,
+      "median_prediction_over_observed": 1.071
+    },
+    "natural_loss_plus_fit_constant_ingrowth": {
+      "n": 179,
+      "bias_stems_ha": 99.306,
+      "mae_stems_ha": 157.6,
+      "rmse_stems_ha": 216.89,
+      "median_prediction_over_observed": 1.185
+    },
+    "natural_loss_plus_observed_ingrowth_diagnostic": {
+      "n": 179,
+      "bias_stems_ha": 147.607,
+      "mae_stems_ha": 151.875,
+      "rmse_stems_ha": 236.111,
+      "median_prediction_over_observed": 1.173
+    },
+    "natural_loss_plus_observed_ingrowth_and_expansion_diagnostic": {
+      "n": 179,
+      "bias_stems_ha": 25.892,
+      "mae_stems_ha": 70.18,
+      "rmse_stems_ha": 126.538,
+      "median_prediction_over_observed": 0.965
+    },
+    "observed_turnover_accounting_diagnostic": {
+      "n": 179,
+      "bias_stems_ha": -1.539,
+      "mae_stems_ha": 1.539,
+      "rmse_stems_ha": 6.652,
+      "median_prediction_over_observed": 1.0
+    }
+  }
+}

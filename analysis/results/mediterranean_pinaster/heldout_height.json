@@ -1,0 +1,106 @@
+{
+  "design": "Madrid and Salamanca fit; all other eligible provinces held out; strict age source 5/8; total age 25-180",
+  "fit_n": 22,
+  "heldout_n": 16,
+  "fit_mediterranean_si70_m": 18.711,
+  "fit_galician_interior_si20_m": 6.593,
+  "heldout_by_province": {
+    "Toledo": 9,
+    "Ciudad Real": 3,
+    "Extremadura": 2,
+    "Cuenca": 2
+  },
+  "heldout_total_age_range": [
+    26.0,
+    55.0
+  ],
+  "heldout_results": {
+    "mediterranean_2007_pooled": {
+      "n": 16,
+      "bias_m": -1.101,
+      "mae_m": 2.588,
+      "rmse_m": 3.134,
+      "median_predicted_over_observed": 0.949
+    },
+    "galicia_2005_interior_transfer": {
+      "n": 16,
+      "bias_m": -1.621,
+      "mae_m": 2.776,
+      "rmse_m": 3.351,
+      "median_predicted_over_observed": 0.896
+    },
+    "fit_median_height_no_age": {
+      "n": 16,
+      "bias_m": 0.771,
+      "mae_m": 3.048,
+      "rmse_m": 3.635,
+      "median_predicted_over_observed": 1.092
+    }
+  },
+  "heldout_province_results": {
+    "Ciudad Real": {
+      "mediterranean": {
+        "n": 3,
+        "bias_m": -2.441,
+        "mae_m": 2.441,
+        "rmse_m": 2.914,
+        "median_predicted_over_observed": 0.797
+      },
+      "galicia_transfer": {
+        "n": 3,
+        "bias_m": -3.209,
+        "mae_m": 3.209,
+        "rmse_m": 3.6,
+        "median_predicted_over_observed": 0.733
+      }
+    },
+    "Cuenca": {
+      "mediterranean": {
+        "n": 2,
+        "bias_m": 2.342,
+        "mae_m": 2.342,
+        "rmse_m": 2.363,
+        "median_predicted_over_observed": 1.3
+      },
+      "galicia_transfer": {
+        "n": 2,
+        "bias_m": 1.581,
+        "mae_m": 1.581,
+        "rmse_m": 1.606,
+        "median_predicted_over_observed": 1.204
+      }
+    },
+    "Extremadura": {
+      "mediterranean": {
+        "n": 2,
+        "bias_m": -3.016,
+        "mae_m": 3.016,
+        "rmse_m": 3.03,
+        "median_predicted_over_observed": 0.809
+      },
+      "galicia_transfer": {
+        "n": 2,
+        "bias_m": -3.541,
+        "mae_m": 3.541,
+        "rmse_m": 3.546,
+        "median_predicted_over_observed": 0.775
+      }
+    },
+    "Toledo": {
+      "mediterranean": {
+        "n": 9,
+        "bias_m": -0.994,
+        "mae_m": 2.597,
+        "rmse_m": 3.37,
+        "median_predicted_over_observed": 1.015
+      },
+      "galicia_transfer": {
+        "n": 9,
+        "bias_m": -1.376,
+        "mae_m": 2.728,
+        "rmse_m": 3.503,
+        "median_predicted_over_observed": 0.965
+      }
+    }
+  }
+}

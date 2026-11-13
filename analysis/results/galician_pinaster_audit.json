@@ -1,0 +1,116 @@
+{
+  "design": "Ourense and Pontevedra held out; trees >= 7.5 cm only for stem number and AGB; direct age=IFN4 FInfor 5 or 8; source 7 retained only with Fiabil 3/4; age shifts are scenarios",
+  "heldout_plots": 144,
+  "by_province": {
+    "Ourense": 86,
+    "Pontevedra": 58
+  },
+  "age_source_counts": {
+    "8": 95,
+    "7": 35,
+    "5": 14
+  },
+  "planted_plots": 82,
+  "eligible_historical_tree_rows": 0,
+  "plots_with_eligible_historical_rows": 0,
+  "all_age_sources": {
+    "default_agb_ratio": {
+      "plots": 144,
+      "median": 0.836,
+      "q25": 0.491,
+      "q75": 1.464
+    },
+    "measured_height_density_agb_ratio": {
+      "plots": 144,
+      "median": 0.974,
+      "q25": 0.711,
+      "q75": 1.386
+    }
+  },
+  "direct_age_only": {
+    "default_agb_ratio": {
+      "plots": 109,
+      "median": 0.835,
+      "q25": 0.486,
+      "q75": 1.501
+    },
+    "measured_height_density_agb_ratio": {
+      "plots": 109,
+      "median": 0.971,
+      "q25": 0.707,
+      "q75": 1.377
+    }
+  },
+  "age_shift_sensitivity": {
+    "-2": {
+      "default_agb_ratio": {
+        "plots": 144,
+        "median": 0.739,
+        "q25": 0.375,
+        "q75": 1.205
+      },
+      "measured_height_density_agb_ratio": {
+        "plots": 144,
+        "median": 0.974,
+        "q25": 0.711,
+        "q75": 1.386
+      }
+    },
+    "-1": {
+      "default_agb_ratio": {
+        "plots": 144,
+        "median": 0.795,
+        "q25": 0.417,
+        "q75": 1.329
+      },
+      "measured_height_density_agb_ratio": {
+        "plots": 144,
+        "median": 0.974,
+        "q25": 0.711,
+        "q75": 1.386
+      }
+    },
+    "0": {
+      "default_agb_ratio": {
+        "plots": 144,
+        "median": 0.836,
+        "q25": 0.491,
+        "q75": 1.464
+      },
+      "measured_height_density_agb_ratio": {
+        "plots": 144,
+        "median": 0.974,
+        "q25": 0.711,
+        "q75": 1.386
+      }
+    },
+    "1": {
+      "default_agb_ratio": {
+        "plots": 144,
+        "median": 0.878,
+        "q25": 0.529,
+        "q75": 1.669
+      },
+      "measured_height_density_agb_ratio": {
+        "plots": 144,
+        "median": 0.974,
+        "q25": 0.711,
+        "q75": 1.386
+      }
+    },
+    "2": {
+      "default_agb_ratio": {
+        "plots": 144,
+        "median": 0.909,
+        "q25": 0.581,
+        "q75": 1.817
+      },
+      "measured_height_density_agb_ratio": {
+        "plots": 144,
+        "median": 0.974,
+        "q25": 0.711,
+        "q75": 1.386
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "design": "Mature pooled 2007 height + Mediterranean IFN4 structure + shared allometry; fit Madrid/Salamanca, test other provinces",
+  "fit_n": 22,
+  "heldout_n": 16,
+  "fit_site_index_70_m": 18.711,
+  "fit_large_stems_per_ha": 381.547,
+  "heldout_by_province": {
+    "Toledo": 9,
+    "Ciudad Real": 3,
+    "Extremadura": 2,
+    "Cuenca": 2
+  },
+  "heldout_results": {
+    "defaults": {
+      "n": 16,
+      "bias_mg_ha": -19.113,
+      "mae_mg_ha": 45.093,
+      "rmse_mg_ha": 57.971,
+      "median_model_over_ifn": 0.728,
+      "ratio_iqr": [
+        0.612,
+        1.428
+      ]
+    },
+    "measured_height": {
+      "n": 16,
+      "bias_mg_ha": -1.947,
+      "mae_mg_ha": 28.344,
+      "rmse_mg_ha": 35.165,
+      "median_model_over_ifn": 0.969,
+      "ratio_iqr": [
+        0.762,
+        1.471
+      ]
+    },
+    "measured_density": {
+      "n": 16,
+      "bias_mg_ha": -20.68,
+      "mae_mg_ha": 31.863,
+      "rmse_mg_ha": 45.278,
+      "median_model_over_ifn": 0.86,
+      "ratio_iqr": [
+        0.55,
+        1.128
+      ]
+    },
+    "measured_height_and_density": {
+      "n": 16,
+      "bias_mg_ha": -1.705,
+      "mae_mg_ha": 15.843,
+      "rmse_mg_ha": 21.006,
+      "median_model_over_ifn": 0.923,
+      "ratio_iqr": [
+        0.809,
+        1.14
+      ]
+    }
+  },
+  "heldout_province_results": {
+    "Ciudad Real": {
+      "defaults": {
+        "n": 3,
+        "bias_mg_ha": -2.926,
+        "mae_mg_ha": 20.598,
+        "rmse_mg_ha": 21.051,
+        "median_model_over_ifn": 0.725,
+        "ratio_iqr": [
+          0.701,
+          1.334
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 3,
+        "bias_mg_ha": -1.591,
+        "mae_mg_ha": 5.075,
+        "rmse_mg_ha": 5.984,
+        "median_model_over_ifn": 0.96,
+        "ratio_iqr": [
+          0.905,
+          1.024
+        ]
+      }
+    },
+    "Cuenca": {
+      "defaults": {
+        "n": 2,
+        "bias_mg_ha": 26.03,
+        "mae_mg_ha": 26.03,
+        "rmse_mg_ha": 26.2,
+        "median_model_over_ifn": 2.224,
+        "ratio_iqr": [
+          2.195,
+          2.252
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 2,
+        "bias_mg_ha": -0.11,
+        "mae_mg_ha": 5.911,
+        "rmse_mg_ha": 5.912,
+        "median_model_over_ifn": 1.014,
+        "ratio_iqr": [
+          0.874,
+          1.154
+        ]
+      }
+    },
+    "Extremadura": {
+      "defaults": {
+        "n": 2,
+        "bias_mg_ha": -21.191,
+        "mae_mg_ha": 34.172,
+        "rmse_mg_ha": 40.209,
+        "median_model_over_ifn": 0.926,
+        "ratio_iqr": [
+          0.761,
+          1.091
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 2,
+        "bias_mg_ha": 40.602,
+        "mae_mg_ha": 40.602,
+        "rmse_mg_ha": 45.831,
+        "median_model_over_ifn": 1.417,
+        "ratio_iqr": [
+          1.399,
+          1.434
+        ]
+      }
+    },
+    "Toledo": {
+      "defaults": {
+        "n": 9,
+        "bias_mg_ha": -34.079,
+        "mae_mg_ha": 59.922,
+        "rmse_mg_ha": 72.903,
+        "median_model_over_ifn": 0.684,
+        "ratio_iqr": [
+          0.475,
+          1.125
+        ]
+      },
+      "measured_height_and_density": {
+        "n": 9,
+        "bias_mg_ha": -11.499,
+        "mae_mg_ha": 16.138,
+        "rmse_mg_ha": 17.262,
+        "median_model_over_ifn": 0.887,
+        "ratio_iqr": [
+          0.799,
+          0.931
+        ]
+      }
+    }
+  }
+}

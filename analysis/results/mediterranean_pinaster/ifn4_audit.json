@@ -1,0 +1,187 @@
+[
+  {
+    "province": "Albacete",
+    "screened_age_10plus": 1,
+    "pine_dominated_measured_with_h0": 1,
+    "recorded_planted": 0,
+    "age_source_counts": {
+      "5": 1
+    },
+    "whorl_or_borer_age": 1,
+    "whorl_or_borer_in_source_range": 0,
+    "all_in_source_age_range": 0,
+    "median_total_age": 20.0,
+    "median_h0_m": 8.5,
+    "median_si70_m": 20.509218044486005,
+    "si70_iqr_m": [
+      20.509218044486005,
+      20.509218044486005
+    ]
+  },
+  {
+    "province": "Ciudad Real",
+    "screened_age_10plus": 4,
+    "pine_dominated_measured_with_h0": 3,
+    "recorded_planted": 3,
+    "age_source_counts": {
+      "8": 3
+    },
+    "whorl_or_borer_age": 3,
+    "whorl_or_borer_in_source_range": 3,
+    "all_in_source_age_range": 3,
+    "median_total_age": 27.0,
+    "median_h0_m": 12.349070446504802,
+    "median_si70_m": 22.089460395935717,
+    "si70_iqr_m": [
+      20.695953204654643,
+      23.35013565285671
+    ]
+  },
+  {
+    "province": "Extremadura",
+    "screened_age_10plus": 8,
+    "pine_dominated_measured_with_h0": 6,
+    "recorded_planted": 5,
+    "age_source_counts": {
+      "7": 3,
+      "8": 3
+    },
+    "whorl_or_borer_age": 3,
+    "whorl_or_borer_in_source_range": 2,
+    "all_in_source_age_range": 5,
+    "median_total_age": 45.0,
+    "median_h0_m": 13.476557076053322,
+    "median_si70_m": 20.504263356977752,
+    "si70_iqr_m": [
+      16.12005976626659,
+      22.31676200461044
+    ]
+  },
+  {
+    "province": "Guadalajara",
+    "screened_age_10plus": 1,
+    "pine_dominated_measured_with_h0": 1,
+    "recorded_planted": 1,
+    "age_source_counts": {
+      "5": 1
+    },
+    "whorl_or_borer_age": 1,
+    "whorl_or_borer_in_source_range": 0,
+    "all_in_source_age_range": 0,
+    "median_total_age": 14.0,
+    "median_h0_m": 3.5999999,
+    "median_si70_m": 14.926087730449929,
+    "si70_iqr_m": [
+      14.926087730449929,
+      14.926087730449929
+    ]
+  },
+  {
+    "province": "Toledo",
+    "screened_age_10plus": 12,
+    "pine_dominated_measured_with_h0": 11,
+    "recorded_planted": 9,
+    "age_source_counts": {
+      "8": 9,
+      "5": 2
+    },
+    "whorl_or_borer_age": 11,
+    "whorl_or_borer_in_source_range": 9,
+    "all_in_source_age_range": 9,
+    "median_total_age": 40.0,
+    "median_h0_m": 13.010672833948803,
+    "median_si70_m": 18.498011122786902,
+    "si70_iqr_m": [
+      17.341884157072197,
+      22.02610843031622
+    ]
+  },
+  {
+    "province": "Ávila",
+    "screened_age_10plus": 1,
+    "pine_dominated_measured_with_h0": 0,
+    "recorded_planted": 0,
+    "age_source_counts": {},
+    "whorl_or_borer_age": 0,
+    "whorl_or_borer_in_source_range": 0,
+    "all_in_source_age_range": 0,
+    "median_total_age": null,
+    "median_h0_m": null,
+    "median_si70_m": null,
+    "si70_iqr_m": null
+  },
+  {
+    "province": "Madrid",
+    "screened_age_10plus": 13,
+    "pine_dominated_measured_with_h0": 13,
+    "recorded_planted": 11,
+    "age_source_counts": {
+      "5": 11,
+      "7": 1,
+      "6": 1
+    },
+    "whorl_or_borer_age": 11,
+    "whorl_or_borer_in_source_range": 11,
+    "all_in_source_age_range": 13,
+    "median_total_age": 45.0,
+    "median_h0_m": 12.204444529735516,
+    "median_si70_m": 17.039883125177834,
+    "si70_iqr_m": [
+      14.398879618880988,
+      18.70958210297975
+    ]
+  },
+  {
+    "province": "Salamanca",
+    "screened_age_10plus": 14,
+    "pine_dominated_measured_with_h0": 11,
+    "recorded_planted": 10,
+    "age_source_counts": {
+      "8": 11
+    },
+    "whorl_or_borer_age": 11,
+    "whorl_or_borer_in_source_range": 11,
+    "all_in_source_age_range": 11,
+    "median_total_age": 50.0,
+    "median_h0_m": 19.448826363156773,
+    "median_si70_m": 21.803083147093588,
+    "si70_iqr_m": [
+      20.765291632160064,
+      23.69586778596641
+    ]
+  },
+  {
+    "province": "Zamora",
+    "screened_age_10plus": 3,
+    "pine_dominated_measured_with_h0": 0,
+    "recorded_planted": 0,
+    "age_source_counts": {},
+    "whorl_or_borer_age": 0,
+    "whorl_or_borer_in_source_range": 0,
+    "all_in_source_age_range": 0,
+    "median_total_age": null,
+    "median_h0_m": null,
+    "median_si70_m": null,
+    "si70_iqr_m": null
+  },
+  {
+    "province": "Cuenca",
+    "screened_age_10plus": 2,
+    "pine_dominated_measured_with_h0": 2,
+    "recorded_planted": 2,
+    "age_source_counts": {
+      "8": 1,
+      "5": 1
+    },
+    "whorl_or_borer_age": 2,
+    "whorl_or_borer_in_source_range": 2,
+    "all_in_source_age_range": 2,
+    "median_total_age": 28.5,
+    "median_h0_m": 7.972078345137467,
+    "median_si70_m": 15.42826838099669,
+    "si70_iqr_m": [
+      15.146651951246236,
+      15.709884810747143
+    ]
+  }
+]

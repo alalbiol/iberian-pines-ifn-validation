@@ -1,0 +1,167 @@
+{
+  "design": "Strict linked top-100/ha survivor cohort; direct IFN4 age minus actual interval; source-region/age screens; no fit parameters",
+  "species": {
+    "pinus_halepensis": {
+      "plots": 7,
+      "planted": 7,
+      "by_province": {
+        "19": 3,
+        "43": 2,
+        "16": 1,
+        "25": 1
+      },
+      "age3_range": [
+        17.21,
+        34.51
+      ],
+      "published_curve": {
+        "plots": 7,
+        "bias_m": 0.795,
+        "mae_m": 0.8,
+        "rmse_m": 1.061
+      },
+      "no_growth": {
+        "plots": 7,
+        "bias_m": -2.534,
+        "mae_m": 2.534,
+        "rmse_m": 2.674
+      }
+    },
+    "pinus_nigra": {
+      "plots": 3,
+      "planted": 3,
+      "by_province": {
+        "28": 2,
+        "16": 1
+      },
+      "age3_range": [
+        32.17,
+        37.64
+      ],
+      "published_curve": {
+        "plots": 3,
+        "bias_m": 0.488,
+        "mae_m": 1.387,
+        "rmse_m": 1.388
+      },
+      "no_growth": {
+        "plots": 3,
+        "bias_m": -2.968,
+        "mae_m": 2.968,
+        "rmse_m": 3.073
+      }
+    },
+    "pinus_pinea": {
+      "plots": 5,
+      "planted": 5,
+      "by_province": {
+        "06": 5
+      },
+      "age3_range": [
+        24.96,
+        35.24
+      ],
+      "published_curve": {
+        "plots": 5,
+        "bias_m": 1.627,
+        "mae_m": 1.627,
+        "rmse_m": 1.686
+      },
+      "no_growth": {
+        "plots": 5,
+        "bias_m": -1.523,
+        "mae_m": 1.523,
+        "rmse_m": 1.715
+      }
+    },
+    "pinus_sylvestris": {
+      "plots": 59,
+      "planted": 57,
+      "by_province": {
+        "32": 41,
+        "27": 18
+      },
+      "age3_range": [
+        12.91,
+        38.96
+      ],
+      "published_curve": {
+        "plots": 59,
+        "bias_m": 1.147,
+        "mae_m": 1.427,
+        "rmse_m": 1.868
+      },
+      "no_growth": {
+        "plots": 59,
+        "bias_m": -3.079,
+        "mae_m": 3.099,
+        "rmse_m": 3.317
+      }
+    }
+  },
+  "young_afforestation_survivor_cohorts": {
+    "pinus_halepensis": {
+      "plots": 3,
+      "by_province": {
+        "19": 2,
+        "16": 1
+      },
+      "published": {
+        "plots": 3,
+        "bias_m": -1.243,
+        "mae_m": 1.243,
+        "rmse_m": 1.365
+      },
+      "no_growth": {
+        "plots": 3,
+        "bias_m": -2.221,
+        "mae_m": 2.221,
+        "rmse_m": 2.281
+      }
+    },
+    "pinus_nigra": {
+      "plots": 7,
+      "by_province": {
+        "25": 3,
+        "16": 2,
+        "28": 1,
+        "08": 1
+      },
+      "published": {
+        "plots": 7,
+        "bias_m": 2.874,
+        "mae_m": 2.874,
+        "rmse_m": 3.45
+      },
+      "no_growth": {
+        "plots": 7,
+        "bias_m": -2.721,
+        "mae_m": 2.721,
+        "rmse_m": 3.023
+      }
+    },
+    "pinus_sylvestris": {
+      "plots": 33,
+      "by_province": {
+        "32": 20,
+        "27": 5,
+        "28": 5,
+        "17": 1,
+        "37": 1,
+        "05": 1
+      },
+      "published": {
+        "plots": 33,
+        "bias_m": 1.903,
+        "mae_m": 2.045,
+        "rmse_m": 2.37
+      },
+      "no_growth": {
+        "plots": 33,
+        "bias_m": -2.962,
+        "mae_m": 2.962,
+        "rmse_m": 3.308
+      }
+    }
+  }
+}

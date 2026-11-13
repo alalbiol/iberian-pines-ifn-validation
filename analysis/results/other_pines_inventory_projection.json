@@ -1,0 +1,332 @@
+{
+  "design": "Pine-dominated IFN3→IFN4 plots without recorded target-pine cuts; growth, constant natural hazard, IFN sampling, fit-province mean new-tree AGB; other provinces held out; no age input",
+  "species": {
+    "Pinus sylvestris": {
+      "fit_plots": 182,
+      "heldout_plots": 327,
+      "heldout_interval_years": [
+        10.87,
+        17.81
+      ],
+      "fit_annual_natural_hazard": 0.006076947240821352,
+      "fit_annual_new_tree_agb_mg_ha": 1.4345956035984921,
+      "heldout_by_province": {
+        "19": 81,
+        "16": 62,
+        "08": 50,
+        "17": 27,
+        "32": 26,
+        "05": 25,
+        "27": 19,
+        "43": 19,
+        "49": 10,
+        "37": 3,
+        "10": 2,
+        "15": 1,
+        "29": 1,
+        "45": 1
+      },
+      "heldout_mean_new_tree_agb_mg_ha": 20.628,
+      "heldout_total_rmse_gain_over_initial_95pct": [
+        14.479,
+        17.405
+      ],
+      "heldout_ingrowth_rmse_gain_over_cohort_95pct": [
+        9.771,
+        12.151
+      ],
+      "heldout_old_cohort": {
+        "forecast": {
+          "plots": 327,
+          "bias_mg_ha": -5.733,
+          "mae_mg_ha": 8.789,
+          "rmse_mg_ha": 12.85
+        },
+        "initial_agb": {
+          "plots": 327,
+          "bias_mg_ha": -11.127,
+          "mae_mg_ha": 13.232,
+          "rmse_mg_ha": 18.024
+        }
+      },
+      "heldout_total": {
+        "forecast_with_fit_mean_entry": {
+          "plots": 327,
+          "bias_mg_ha": -4.289,
+          "mae_mg_ha": 17.608,
+          "rmse_mg_ha": 24.306
+        },
+        "cohort_only": {
+          "plots": 327,
+          "bias_mg_ha": -26.361,
+          "mae_mg_ha": 27.461,
+          "rmse_mg_ha": 35.31
+        },
+        "initial_agb": {
+          "plots": 327,
+          "bias_mg_ha": -31.755,
+          "mae_mg_ha": 32.482,
+          "rmse_mg_ha": 40.295
+        }
+      },
+      "heldout_supplied_cut_scenario": {
+        "plots": 200,
+        "forecast_old_cohort": {
+          "plots": 200,
+          "bias_mg_ha": -9.173,
+          "mae_mg_ha": 11.372,
+          "rmse_mg_ha": 16.183
+        },
+        "initial_less_cut": {
+          "plots": 200,
+          "bias_mg_ha": -14.268,
+          "mae_mg_ha": 15.705,
+          "rmse_mg_ha": 21.092
+        }
+      }
+    },
+    "Pinus pinea": {
+      "fit_plots": 71,
+      "heldout_plots": 167,
+      "heldout_interval_years": [
+        13.04,
+        17.44
+      ],
+      "fit_annual_natural_hazard": 0.004730952759216419,
+      "fit_annual_new_tree_agb_mg_ha": 1.1871946061958825,
+      "heldout_by_province": {
+        "14": 41,
+        "23": 26,
+        "16": 19,
+        "17": 13,
+        "05": 13,
+        "02": 9,
+        "49": 8,
+        "29": 8,
+        "13": 8,
+        "11": 7,
+        "45": 5,
+        "10": 5,
+        "08": 4,
+        "19": 1
+      },
+      "heldout_mean_new_tree_agb_mg_ha": 14.999,
+      "heldout_total_rmse_gain_over_initial_95pct": [
+        7.844,
+        17.657
+      ],
+      "heldout_ingrowth_rmse_gain_over_cohort_95pct": [
+        -1.716,
+        3.597
+      ],
+      "heldout_old_cohort": {
+        "forecast": {
+          "plots": 167,
+          "bias_mg_ha": 4.36,
+          "mae_mg_ha": 9.947,
+          "rmse_mg_ha": 17.452
+        },
+        "initial_agb": {
+          "plots": 167,
+          "bias_mg_ha": -13.215,
+          "mae_mg_ha": 16.565,
+          "rmse_mg_ha": 22.074
+        }
+      },
+      "heldout_total": {
+        "forecast_with_fit_mean_entry": {
+          "plots": 167,
+          "bias_mg_ha": 8.748,
+          "mae_mg_ha": 17.305,
+          "rmse_mg_ha": 23.949
+        },
+        "cohort_only": {
+          "plots": 167,
+          "bias_mg_ha": -10.639,
+          "mae_mg_ha": 17.552,
+          "rmse_mg_ha": 24.726
+        },
+        "initial_agb": {
+          "plots": 167,
+          "bias_mg_ha": -28.214,
+          "mae_mg_ha": 30.326,
+          "rmse_mg_ha": 36.712
+        }
+      },
+      "heldout_supplied_cut_scenario": {
+        "plots": 114,
+        "forecast_old_cohort": {
+          "plots": 114,
+          "bias_mg_ha": 0.575,
+          "mae_mg_ha": 6.991,
+          "rmse_mg_ha": 10.194
+        },
+        "initial_less_cut": {
+          "plots": 114,
+          "bias_mg_ha": -8.276,
+          "mae_mg_ha": 11.342,
+          "rmse_mg_ha": 14.902
+        }
+      }
+    },
+    "Pinus halepensis": {
+      "fit_plots": 283,
+      "heldout_plots": 433,
+      "heldout_interval_years": [
+        5.04,
+        21.42
+      ],
+      "fit_annual_natural_hazard": 0.005456223561553413,
+      "fit_annual_new_tree_agb_mg_ha": 0.7007679214458313,
+      "heldout_by_province": {
+        "43": 132,
+        "16": 92,
+        "23": 62,
+        "29": 49,
+        "25": 43,
+        "19": 24,
+        "17": 18,
+        "28": 9,
+        "11": 2,
+        "45": 2
+      },
+      "heldout_mean_new_tree_agb_mg_ha": 11.201,
+      "heldout_total_rmse_gain_over_initial_95pct": [
+        8.666,
+        12.645
+      ],
+      "heldout_ingrowth_rmse_gain_over_cohort_95pct": [
+        1.909,
+        3.8
+      ],
+      "heldout_old_cohort": {
+        "forecast": {
+          "plots": 433,
+          "bias_mg_ha": 0.374,
+          "mae_mg_ha": 7.708,
+          "rmse_mg_ha": 12.931
+        },
+        "initial_agb": {
+          "plots": 433,
+          "bias_mg_ha": -9.472,
+          "mae_mg_ha": 12.217,
+          "rmse_mg_ha": 17.335
+        }
+      },
+      "heldout_total": {
+        "forecast_with_fit_mean_entry": {
+          "plots": 433,
+          "bias_mg_ha": 0.072,
+          "mae_mg_ha": 12.902,
+          "rmse_mg_ha": 18.611
+        },
+        "cohort_only": {
+          "plots": 433,
+          "bias_mg_ha": -10.827,
+          "mae_mg_ha": 15.152,
+          "rmse_mg_ha": 21.5
+        },
+        "initial_agb": {
+          "plots": 433,
+          "bias_mg_ha": -20.673,
+          "mae_mg_ha": 22.389,
+          "rmse_mg_ha": 29.347
+        }
+      },
+      "heldout_supplied_cut_scenario": {
+        "plots": 96,
+        "forecast_old_cohort": {
+          "plots": 96,
+          "bias_mg_ha": -1.293,
+          "mae_mg_ha": 8.983,
+          "rmse_mg_ha": 13.336
+        },
+        "initial_less_cut": {
+          "plots": 96,
+          "bias_mg_ha": -11.061,
+          "mae_mg_ha": 13.518,
+          "rmse_mg_ha": 17.912
+        }
+      }
+    },
+    "Pinus nigra": {
+      "fit_plots": 283,
+      "heldout_plots": 287,
+      "heldout_interval_years": [
+        12.23,
+        17.8
+      ],
+      "fit_annual_natural_hazard": 0.002187010945228589,
+      "fit_annual_new_tree_agb_mg_ha": 0.8580391608084003,
+      "heldout_by_province": {
+        "19": 95,
+        "23": 88,
+        "02": 46,
+        "08": 28,
+        "43": 18,
+        "05": 5,
+        "28": 3,
+        "17": 2,
+        "49": 2
+      },
+      "heldout_mean_new_tree_agb_mg_ha": 17.259,
+      "heldout_total_rmse_gain_over_initial_95pct": [
+        14.59,
+        19.569
+      ],
+      "heldout_ingrowth_rmse_gain_over_cohort_95pct": [
+        5.296,
+        7.708
+      ],
+      "heldout_old_cohort": {
+        "forecast": {
+          "plots": 287,
+          "bias_mg_ha": -2.479,
+          "mae_mg_ha": 8.486,
+          "rmse_mg_ha": 14.519
+        },
+        "initial_agb": {
+          "plots": 287,
+          "bias_mg_ha": -14.985,
+          "mae_mg_ha": 16.645,
+          "rmse_mg_ha": 22.027
+        }
+      },
+      "heldout_total": {
+        "forecast_with_fit_mean_entry": {
+          "plots": 287,
+          "bias_mg_ha": -5.7,
+          "mae_mg_ha": 15.99,
+          "rmse_mg_ha": 23.778
+        },
+        "cohort_only": {
+          "plots": 287,
+          "bias_mg_ha": -19.738,
+          "mae_mg_ha": 22.34,
+          "rmse_mg_ha": 30.324
+        },
+        "initial_agb": {
+          "plots": 287,
+          "bias_mg_ha": -32.244,
+          "mae_mg_ha": 33.042,
+          "rmse_mg_ha": 40.934
+        }
+      },
+      "heldout_supplied_cut_scenario": {
+        "plots": 55,
+        "forecast_old_cohort": {
+          "plots": 55,
+          "bias_mg_ha": -6.147,
+          "mae_mg_ha": 13.692,
+          "rmse_mg_ha": 18.139
+        },
+        "initial_less_cut": {
+          "plots": 55,
+          "bias_mg_ha": -19.754,
+          "mae_mg_ha": 22.1,
+          "rmse_mg_ha": 26.107
+        }
+      }
+    }
+  }
+}

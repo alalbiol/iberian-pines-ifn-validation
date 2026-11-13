@@ -23,7 +23,7 @@ the absolute size), roughly monotonic in the drought index, clipped to a
 plausible range so a single bad year cannot blow up the curve.
 
 Status as of 2026-09-23, after reading both previously-blocked papers in full
-(PDFs supplied by the user, now in use_case_1_simulator/docs/):
+(PDFs supplied by the user, now in the original project reference library/):
 
 - **Quercus suber**: magnitude now REAL, not a placeholder. Camarero, J.J.,
   Sánchez-Miranda, A., Colangelo, M., Matías, L. (2024). "Climatic drivers of

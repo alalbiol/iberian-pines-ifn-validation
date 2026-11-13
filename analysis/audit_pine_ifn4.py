@@ -18,7 +18,7 @@ import pandas as pd
 IFN4_DIR = Path((os.environ.get("IFN_DATA_ROOT", os.path.expanduser("~/ifn-data")) + "/ifn4"))
 MDB_EXPORT = Path(os.environ.get("MDB_EXPORT", "mdb-export"))
 PINASTER_CODE = 26
-MODEL_DIR = Path(__file__).resolve().parents[1] / "use_case_1_simulator/agb_forecast_analysis"
+MODEL_DIR = Path(__file__).resolve().parents[1] / "models"
 sys.path.insert(0, str(MODEL_DIR))
 from ifn4_age_validation import (  # noqa: E402
     PLANTING_LAG_YEARS, load_aged_plots, measured_stands,

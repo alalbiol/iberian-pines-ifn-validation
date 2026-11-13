@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from evaluate_other_pine_stands import FIT_CODES  # noqa: E402
 from young_other_pines import PARAMETERS, aboveground_biomass_kg_ha, site_index_30  # noqa: E402

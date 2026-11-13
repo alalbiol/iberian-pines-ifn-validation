@@ -14,7 +14,7 @@ import pandas as pd
 from scipy.optimize import least_squares
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from evaluate_other_pine_height_remeasurement import PINEA_REGION  # noqa: E402
 from other_pine_dominant_height import REFERENCE_AGES, project_height  # noqa: E402

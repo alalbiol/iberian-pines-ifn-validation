@@ -9,7 +9,7 @@ import shutil
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ['README.md', 'LICENSE', 'LICENSE-DATA', 'DATA.md', 'REPRODUCING.md',
          'EOTDL.md', 'requirements.txt', 'requirements-lock.txt']
-DIRECTORIES = ['analysis', 'use_case_1_simulator', 'scripts', 'provenance', 'expected', 'tests']
+DIRECTORIES = ['analysis', 'models', 'scripts', 'provenance', 'expected', 'tests']
 SUFFIXES = {'.py', '.md', '.csv', '.json', '.geojson', '.png', '.pdf', '.txt'}
 
 

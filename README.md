@@ -52,14 +52,23 @@ The reproduction command recomputes sample sizes, RMSE, bias, and MAE, checks th
 
 ## Repository guide
 
-The `analysis/` directory contains the evaluation code, derived results, and figure-generation tools. Shared growth-model and inventory modules are in `use_case_1_simulator/agb_forecast_analysis/`.
+The `analysis/` directory contains the evaluation code, derived results, and figure-generation tools. Shared growth-model and inventory modules are in `models/`.
+
+```text
+analysis/     Evaluation scripts, derived results, and figures
+models/       Growth equations, fitted parameters, and inventory readers
+scripts/      Download, reproduction, and release tools
+expected/     Reference metrics used by the reproduction check
+provenance/   Input sources, checksums, and verification records
+tests/        Downloader tests
+```
 
 | Path | Contents |
 |---|---|
 | [`results/plot_level/`](analysis/results/plot_level/) | Held-out forecasts used in the figures and quick-start metrics |
 | [`results/`](analysis/results/) | Saved evaluation outputs, fitted-component diagnostics, and historical audit notes |
 | [`analysis scripts`](analysis/) | Inventory screening, model fitting, evaluation, and plot-level export |
-| [`model and inventory modules`](use_case_1_simulator/agb_forecast_analysis/) | Growth models, biomass equations, inventory readers, and tree matching |
+| [`model and inventory modules`](models/) | Growth models, biomass equations, inventory readers, and tree matching |
 | [`figure code`](analysis/figures/make_figures.py) | Manuscript figures from distributed forecasts |
 | [`DATA.md`](DATA.md) | Data sources, file layout, and column definitions |
 | [`REPRODUCING.md`](REPRODUCING.md) | Regeneration from the original inventory databases |

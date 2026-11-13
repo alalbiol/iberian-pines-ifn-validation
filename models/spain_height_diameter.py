@@ -9,7 +9,7 @@ Source: Vazquez-Veloso, Yang, Bullock & Bravo (2025), "One model to rule them
 all: A nationwide height-diameter model for 91 Spanish forest species,"
 Forest Ecology and Management 595, 122981.
 https://doi.org/10.1016/j.foreco.2025.122981 (open access, CC BY).
-PDF: use_case_1_simulator/docs/1-s2.0-S037811272500489X-main.pdf
+PDF: the original project reference library/1-s2.0-S037811272500489X-main.pdf
 Fit on 1.51M h-d pairs from the Spanish NFI (IFN2-4), so it uses the same
 dbh-over-bark convention as the Ruiz-Peinado biomass equations. Debarked cork
 oaks and resin-tapped pines were excluded from the fit.

@@ -11,7 +11,7 @@ literature default, and the result carries a warning saying what was assumed and
 to the number. When defaults are used, a low/high range is computed by re-running the model with
 the low/high ends of the ASSUMED inputs only (inputs Sylvestris gave are held fixed).
 
-DEFAULTS AND SOURCES (PDFs in use_case_1_simulator/docs/ where available):
+DEFAULTS AND SOURCES (PDFs in the original project reference library/ where available):
   Pinus pinaster (Galicia) — Xunta de Galicia silvicultural model PP2 (Orden 19/05/2014, annex I
     as amended by Orden 09/02/2021, DOG 39 of 26/02/2021): planting 3.5 x 2.5 to 3.5 x 3 m =
     1,140-952 plants/ha; first thinning at 15-18 y to 650-700 trees/ha; second at 20-25 y to

@@ -80,3 +80,10 @@ specified until a public image URL is available. The README includes a local fig
 - [Client installation](https://www.eotdl.com/docs/getting-started/install)
 
 Preparation does not assign a DOI, upload a dataset, or publish the GitHub repository.
+
+## GitHub About fields
+
+After authenticating with `gh auth login -h github.com`, run
+`python scripts/update_github_about.py` to set the repository description,
+website, and topics. The website points to this repository’s README until
+a public EOTDL dataset URL is available.

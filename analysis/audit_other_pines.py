@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from ifn4_age_validation import IFN4_DIR, _plot_key  # noqa: E402
 from ifn_remeasurement_validation import _mdb, _num, trees_per_ha  # noqa: E402

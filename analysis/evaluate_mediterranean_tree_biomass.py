@@ -15,7 +15,7 @@ import pandas as pd
 from scipy.optimize import minimize_scalar
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from audit_mediterranean_turnover import load_turnover  # noqa: E402
 from evaluate_mediterranean_expansion import expected_weight  # noqa: E402

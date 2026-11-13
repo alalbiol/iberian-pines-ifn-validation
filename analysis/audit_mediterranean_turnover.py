@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from evaluate_mediterranean_ingrowth import load_new_trees  # noqa: E402
 from fit_mediterranean_density import IFN3_DIR, PROVINCES, load_remeasurements  # noqa: E402

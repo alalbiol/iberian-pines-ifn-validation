@@ -64,7 +64,7 @@ Run these commands from the repository root:
 
 ```bash
 # Build strict tree links and their measurement intervals.
-python use_case_1_simulator/agb_forecast_analysis/ifn3_ifn4_pairs.py
+python models/ifn3_ifn4_pairs.py
 
 # Rebuild the four-other-pine age-screen table used by the evaluation.
 python analysis/audit_other_pines.py

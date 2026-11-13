@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from fit_other_pine_tree_growth import SPECIES, load_pairs  # noqa: E402
 from ifn_remeasurement_validation import trees_per_ha  # noqa: E402

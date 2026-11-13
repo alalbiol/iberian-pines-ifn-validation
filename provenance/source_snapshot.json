@@ -8,210 +8,210 @@
     {
       "path": "analysis/audit_galician_pinaster.py",
       "source_sha256": "3c58d8581012d536548ff04f25db4a8feab4502111d79e06f964998e45f54f04",
-      "packaged_sha256": "4d36a881550865e266388d75a2ef0626929026855911b66a6cd21aef196b6c7a"
+      "packaged_sha256": "52d30507b1a7b8ed144238936df8682b25dbb461f5c58ceed231fc685933b369"
     },
     {
       "path": "analysis/audit_mediterranean_pinaster.py",
       "source_sha256": "1bf9971bfa6fe8e582f0ac70b9cf9ff76f82abd95f0de78c52e308eda8004aa4",
-      "packaged_sha256": "472d6eef1f21be9ff16d86c66af8771714eb2663c2de271398e8417990b0c3f6"
+      "packaged_sha256": "7e383df3b3af34f326ef17a34361b68157af57b4d247f7d1e7000b8df57bb2f5"
     },
     {
       "path": "analysis/audit_mediterranean_turnover.py",
       "source_sha256": "a2f477782d6683ae6f056278c35158ee87a7e76b1511d9a9d224f743dd9844f2",
-      "packaged_sha256": "e69bfe20f3706cf835967c7a522f2cea672cf1e4ed738022601f0a2f5178430f"
+      "packaged_sha256": "1da1422190ab95b8b0df579d44914c784ceadeb30c441c0b0edd53f512a81714"
     },
     {
       "path": "analysis/audit_other_pines.py",
       "source_sha256": "af1983f02c7c3f682df3f5f5a1f198343c36b9dd41e8d4ea1aa06fd31ab1cc6d",
-      "packaged_sha256": "601d84e122b8db09537205a06de8b2d2565ccc8130629ea79cc332ec4a852da6"
+      "packaged_sha256": "eb61b536500acf09f13c45ba6365d2dc2dec4a4103bad72060b0948ade8073a3"
     },
     {
       "path": "analysis/audit_pine_ifn4.py",
       "source_sha256": "b9bdb9f93a9d5d7d553a20e626801dfdde1b69e930fee73d0e319644c98eda40",
-      "packaged_sha256": "b1d1f9f0396e0543a9c81682640cca014a069b8c3ad3d4ecfe6afb2b08a32339"
+      "packaged_sha256": "fd449c829a410bc1e1ff70acf58d104095d032ce12371439f13eabed00c9937c"
     },
     {
       "path": "analysis/evaluate_mediterranean_expansion.py",
       "source_sha256": "3a09d48a3ac1f516b968d983f7d34e2d29060214f47b97786fcfcc002bd762d9",
-      "packaged_sha256": "e22e962dd8d14bae23b84a4f41f72ed5f9d0fd41ecd6b7e26b1be450a91f79b5"
+      "packaged_sha256": "4a8c3505de27357c17ce1d34f003f9fc0e15f40d22b78ee1275b608968215ea6"
     },
     {
       "path": "analysis/evaluate_mediterranean_ifn3.py",
       "source_sha256": "c7fa05830f2d7034df328220185c1910f5c2a4d8725cab48e30fa3855df8249c",
-      "packaged_sha256": "85d9797854e845d107ba5f8d90fe0b014f1d89a769b6597cd23355e119c163ed"
+      "packaged_sha256": "addfc2fff35d8816a96dcaadc56e28ce7b77d0e3d49353b37e096b87037ffd6c"
     },
     {
       "path": "analysis/evaluate_mediterranean_ingrowth.py",
       "source_sha256": "a782476aecf8dfeed083071cdea1eb8e099adb1060fefa80a42416d081011162",
-      "packaged_sha256": "81b09e6de0a70eaecb859832363e1f1f38c4ac6b21fff09d5f8541e5c1e8f8fc"
+      "packaged_sha256": "950851c4fcaf85ee5fb58311609e42eee6f6585ba1033d9f5d29909f3508cfac"
     },
     {
       "path": "analysis/evaluate_mediterranean_pinaster.py",
       "source_sha256": "f6fe136e387179a408c9d297f6bd2d530b7bc39ae0c75484546e74be4dae7677",
-      "packaged_sha256": "50e4d0c32c254318b30ef897f404553c71a83144bc52510cc06a35b4e315f372"
+      "packaged_sha256": "6bfd8398abb72d081f4d8b95144e069dbc408bddf1e98dff57eac3a9d5ed01bb"
     },
     {
       "path": "analysis/evaluate_mediterranean_stand.py",
       "source_sha256": "2ad7d798f9aa2d6df91d17d0f012f9a37c5d6e5419ea5e0016cee0d29242aeaf",
-      "packaged_sha256": "3c2c66617c4fc2b0320fb441e67883613868836993a978e946d34d55af0c3df0"
+      "packaged_sha256": "9419ffabbcc9a19328fab465b6dbc4b9721bc5bba93928467cff2d7b5ae1ba3c"
     },
     {
       "path": "analysis/evaluate_mediterranean_tree_biomass.py",
       "source_sha256": "3f8fe3855e99c15777decc05f64b0e3f43844231e049304297c9e370c0715c51",
-      "packaged_sha256": "462ffa232af6616b2eba26c909ca356e276941b572786019d511bb93397d63a1"
+      "packaged_sha256": "95b9c415a3c05ecd4ac578a760f254dbc9216b6c9968601bae78218e3bd4e760"
     },
     {
       "path": "analysis/evaluate_other_pine_height_remeasurement.py",
       "source_sha256": "9bd8d703079c3e57c6df2b088fe506e7b5f1d667053eb196944a71b84b033771",
-      "packaged_sha256": "c7b0b7871c266089b410ab4100a75a57b8c6d579bb4c7ba5ab8d1c7892ab0765"
+      "packaged_sha256": "a0b1c8c28487804afe2d3d7b77dd00560cadbd6c0ab1b47569219bf94c7a2209"
     },
     {
       "path": "analysis/evaluate_other_pine_inventory_projection.py",
       "source_sha256": "f3c4ded3f71cce2957c58cb6d787d48c9fab0cf5b15e03e7f80348cfabd4776c",
-      "packaged_sha256": "13651fe77d316fc61ac58a3c65817da7f7219456045818c0b49778a955216cb9"
+      "packaged_sha256": "d810ec73caa36697d639ec4c1b2d77b35e3728e99604f787f174cc8e1fb2397a"
     },
     {
       "path": "analysis/evaluate_other_pine_stands.py",
       "source_sha256": "d2a035a02d88d058ab87ae9eaf745389c5a93ccd6346c2948da8e2c8ca111c86",
-      "packaged_sha256": "48c8c44c2dbfd083c459edb3481cdfbe5af7acd6dfe8c18e2cf25176a21f0975"
+      "packaged_sha256": "fd27663ac3d5de30384a621b1c087ac82e3d7020cac4746d6080848550f1d219"
     },
     {
       "path": "analysis/evaluate_young_afforestation.py",
       "source_sha256": "9ee3c419c0b7bcc8ee97a7217ef423a660a199e091e01a6469e513457cba4305",
-      "packaged_sha256": "fd32e4a4b163c327e6024a43f7e5c2c92cbb03d28de0182646f07974a3aef0fa"
+      "packaged_sha256": "51756cd519f138244a5dfe3a8653eed701427cd74ae69723d22fb585ad528ab2"
     },
     {
       "path": "analysis/evaluate_young_other_pines.py",
       "source_sha256": "77cd0aef28d7497c2b1cbeb8242c4b8b5cc41045de54b142307d151aeb9951bc",
-      "packaged_sha256": "21024b220db9c6d9448d72c2e09fd48a20f15dfabf354a0604c031752119df6b"
+      "packaged_sha256": "628630cd6db6d72b6e3b15bf997aab07c7b35685ad7305e2736cb54923223c1a"
     },
     {
       "path": "analysis/export_plot_level.py",
       "source_sha256": "1a374b93684f7793e4a84ceda73b5bb597786da6ae4ecc7ec8326d3490a81729",
-      "packaged_sha256": "ecec40b0b1dc0fcf96b46bd2c091cdd9aad280327fc9e7d9edf5fa4d843088a0"
+      "packaged_sha256": "b4cd27965e94fb0bd04e7162a4d8953e1c610ee7c311fa9e5ec1f785099d5a7b"
     },
     {
       "path": "analysis/fit_mediterranean_density.py",
       "source_sha256": "df26b1b06037900ca1f304985452cb0df65b933df7ea3561aa435133e504ca6b",
-      "packaged_sha256": "b80a144ab4f2a0fb2e774fee9bd00b4a3ebaa5268b20a1535f0f4b5a271816c2"
+      "packaged_sha256": "4e3c7f88c260f4ff2d65d22caed560cf389947cdd0e81c50ce54add2692547eb"
     },
     {
       "path": "analysis/fit_mediterranean_diameter.py",
       "source_sha256": "4012872e7a9edec5c1b4cb7e257105a5c0e293e18acfa0be4d267a0b7a5cd9ff",
-      "packaged_sha256": "d3336d78580f07e0d6b51447811cdae17b1dbbb22af1ba8452a8a8b30ce76407"
+      "packaged_sha256": "6e48729ef9f2eaad60aa40220720f3aed230a040d970d23ed5db5db0a17b456f"
     },
     {
       "path": "analysis/fit_other_pine_tree_growth.py",
       "source_sha256": "aed540ae43f76c687205edb6cead15242e32832dffb7ab317453b3fd67c28bea",
-      "packaged_sha256": "595f35ecedaebf067b176bd3b33297a906f2fda958ad3f70ca47a807c50be318"
+      "packaged_sha256": "267d1404989bbeae440c04f8781cc7906fd432fc7a68e21337f8da9e94d1f380"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/ifn3_ifn4_pairs.py",
+      "path": "models/ifn3_ifn4_pairs.py",
       "source_sha256": "bc148c74afa4964971729ec9e3100267675527bc6bc99fc716d6f8cb9ecc9fd5",
       "packaged_sha256": "71a6d1d1cf3f18b62f298a7f462391c282f78a90f967c82af9a2437a6833a87e"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/ifn4_age_validation.py",
+      "path": "models/ifn4_age_validation.py",
       "source_sha256": "d7cff7238c1dc397cf4e7173f3ab43b4577cecebdff43cdc2d47305ebd263992",
       "packaged_sha256": "fcc9b801db0d3686e9ce78123f7efdda2cbe8f358a864d7a97abc9f4fefe085d"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/ifn4_pine_calibration.py",
+      "path": "models/ifn4_pine_calibration.py",
       "source_sha256": "b79301abe9554ba0736a4a3f57bf94972de4705d89c28a473051cf6030a8ecc6",
       "packaged_sha256": "b79301abe9554ba0736a4a3f57bf94972de4705d89c28a473051cf6030a8ecc6"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/ifn_remeasurement_validation.py",
+      "path": "models/ifn_remeasurement_validation.py",
       "source_sha256": "bfdab7fa41bbd935d78e7b81b4e8bbbbfc7ca12f99a9c1d906163d1e0aa204c9",
       "packaged_sha256": "ebff8b64a957d1a1c5e8854f90b5bc31d81a8de536ea8d6b4948552f74fe3891"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/mediterranean_pinaster.py",
+      "path": "models/mediterranean_pinaster.py",
       "source_sha256": "9d7450f7ce3af8343d41f9e3e94b57dac9f5ccea9c83b7d71c2ca521918e2c3a",
       "packaged_sha256": "9d7450f7ce3af8343d41f9e3e94b57dac9f5ccea9c83b7d71c2ca521918e2c3a"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/mediterranean_pinaster_diameter.py",
+      "path": "models/mediterranean_pinaster_diameter.py",
       "source_sha256": "df799dde0764625dff1526317aa589140195ffe160c9c3b2f91e48ca83b54865",
       "packaged_sha256": "df799dde0764625dff1526317aa589140195ffe160c9c3b2f91e48ca83b54865"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/mediterranean_pinaster_ingrowth.py",
+      "path": "models/mediterranean_pinaster_ingrowth.py",
       "source_sha256": "58feb705d5ef92b46aae99a136e4477ef2afbd485608f61ca09fabed6ce2c3f7",
       "packaged_sha256": "58feb705d5ef92b46aae99a136e4477ef2afbd485608f61ca09fabed6ce2c3f7"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/mediterranean_pinaster_stand.py",
+      "path": "models/mediterranean_pinaster_stand.py",
       "source_sha256": "d8657e00dfb6c8d09e8fac4cd59008c6dc060e1635d3408a0c6e6fe95456b78f",
       "packaged_sha256": "d8657e00dfb6c8d09e8fac4cd59008c6dc060e1635d3408a0c6e6fe95456b78f"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/mediterranean_pinaster_structure.py",
+      "path": "models/mediterranean_pinaster_structure.py",
       "source_sha256": "0309a0d9999d9c111aa893d49425d3ec354f206b687f61e1b40ef187abd9109f",
       "packaged_sha256": "0309a0d9999d9c111aa893d49425d3ec354f206b687f61e1b40ef187abd9109f"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/mediterranean_pinaster_tree_forecast.py",
+      "path": "models/mediterranean_pinaster_tree_forecast.py",
       "source_sha256": "1fa7de553bf3921ee921faa36dfaa9a48167254c9f76e85442a1b388f8121f8f",
       "packaged_sha256": "1fa7de553bf3921ee921faa36dfaa9a48167254c9f76e85442a1b388f8121f8f"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/other_pine_dominant_height.py",
+      "path": "models/other_pine_dominant_height.py",
       "source_sha256": "6ee236913592036de81363e45034b6cae2f513f7086aecee1f814eb1cc2bca85",
       "packaged_sha256": "6ee236913592036de81363e45034b6cae2f513f7086aecee1f814eb1cc2bca85"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/other_pine_inventory_forecast.py",
+      "path": "models/other_pine_inventory_forecast.py",
       "source_sha256": "f06c0d2a1644043de0356f7586f116d3f9bb96dcad8fb1794e598447d5c027b3",
       "packaged_sha256": "f06c0d2a1644043de0356f7586f116d3f9bb96dcad8fb1794e598447d5c027b3"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/other_pine_stand.py",
+      "path": "models/other_pine_stand.py",
       "source_sha256": "5c037c282adc90b9f9dbd0408b3ec68df12dfa4d1df7583f2b6cc34f5bd02790",
       "packaged_sha256": "5c037c282adc90b9f9dbd0408b3ec68df12dfa4d1df7583f2b6cc34f5bd02790"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/other_pine_tree_growth.py",
+      "path": "models/other_pine_tree_growth.py",
       "source_sha256": "f5fa6a013f005cc809bd1442bcae0fcca958f0c79854478d24e1343d86e00fd0",
       "packaged_sha256": "f5fa6a013f005cc809bd1442bcae0fcca958f0c79854478d24e1343d86e00fd0"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/spain_biomass_equations.py",
+      "path": "models/spain_biomass_equations.py",
       "source_sha256": "e12860f558e668bed51e0376b642e1fc3b99f143c74458dc5dd8024911d39f29",
-      "packaged_sha256": "e12860f558e668bed51e0376b642e1fc3b99f143c74458dc5dd8024911d39f29"
+      "packaged_sha256": "c1aac0cdd24e9550afd852ee368fe6527eb548a64e40679a1f21a42485066d85"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/spain_climate_modifier.py",
+      "path": "models/spain_climate_modifier.py",
       "source_sha256": "807dc4f5e4ad3db325918b3bae5d4484193c994a7d9df095fe8240a899a82c55",
-      "packaged_sha256": "1eaaae90af85904fcbf9ffe083be9731e42bb29bf609d2ebae72098f7a658793"
+      "packaged_sha256": "8d342b6a759d82efaccf85048c85ea0635b9711f93e64f3c6ceb281d71d03a30"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/spain_growth_curves.py",
+      "path": "models/spain_growth_curves.py",
       "source_sha256": "1001377ca2c0b92f6753a71ac5ccfbffcac7665e42a25edda54733b933ce3603",
-      "packaged_sha256": "1001377ca2c0b92f6753a71ac5ccfbffcac7665e42a25edda54733b933ce3603"
+      "packaged_sha256": "3827678522757d10a930a07e6b3236b83ef838a9aedd49a506de225a7cd033b6"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/spain_height_diameter.py",
+      "path": "models/spain_height_diameter.py",
       "source_sha256": "a92d6704afa8e6c7d8ba0ccf45733a3f063f093e5c750f7833d60b371298a7b7",
-      "packaged_sha256": "a92d6704afa8e6c7d8ba0ccf45733a3f063f093e5c750f7833d60b371298a7b7"
+      "packaged_sha256": "88dba6d71f5f4bb7fc21aba37550e859ef3d613086d85c5f9d6de63341ca858e"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/spain_stand_agb.py",
+      "path": "models/spain_stand_agb.py",
       "source_sha256": "2d83a24b27275c6cf5a621e507de9675b71803954bc27b7db1f468a536c23ae0",
-      "packaged_sha256": "2d83a24b27275c6cf5a621e507de9675b71803954bc27b7db1f468a536c23ae0"
+      "packaged_sha256": "14a4648dc5c15a3b8beae295185dc10b6ddc826e3678947cb431d031807538ee"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/stand_structure_calibration.py",
+      "path": "models/stand_structure_calibration.py",
       "source_sha256": "b5663702dae2dd67abaf7f1800a70bf75a35ef311fe704034251fa523915daaf",
       "packaged_sha256": "3b343d95dba3562bff63d65107d95df6fb2860298083b9ec84c86c74ca97ae72"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/young_other_pines.py",
+      "path": "models/young_other_pines.py",
       "source_sha256": "96c024d6c6946a64ffefad3224ab5685e1f1fa56e796dcf2b88e86db9708c0cc",
       "packaged_sha256": "96c024d6c6946a64ffefad3224ab5685e1f1fa56e796dcf2b88e86db9708c0cc"
     },
     {
-      "path": "use_case_1_simulator/agb_forecast_analysis/young_pinaster_afforestation.py",
+      "path": "models/young_pinaster_afforestation.py",
       "source_sha256": "7e5672a55f54069564cfc80bd32322e8ae1f0532d78e0b0a9cc91fbaf56e7aba",
       "packaged_sha256": "7e5672a55f54069564cfc80bd32322e8ae1f0532d78e0b0a9cc91fbaf56e7aba"
     },
@@ -223,12 +223,12 @@
     {
       "path": "analysis/results/galician_pinaster_audit.md",
       "source_sha256": "159eb40d2ff913542b06395c733cdbcc9ba160c9c05cbe039b3ea46ba518d6a3",
-      "packaged_sha256": "b22fa1a0a4865d5cb9ed54382faa2e2e9e429bfb22df69c7707522b3647a4e78"
+      "packaged_sha256": "b1766e463f1f7bf2890e69cc3c9165c2991eb931edcc0835836b4fcbe376cb70"
     },
     {
       "path": "analysis/results/mediterranean_pinaster/README.md",
       "source_sha256": "68147deb270581991fcc219c1f849132a30b1f210237a1b935d505a0a6439394",
-      "packaged_sha256": "3107d1dc793b80c7d6d29138b3f657e39cdd290812721193cf8bb9e5dad3a66b"
+      "packaged_sha256": "a6b1fb4a43c313aa78b37619a26c8bbc526165a19fb4f715dd6ae0359b8c7d31"
     },
     {
       "path": "analysis/results/mediterranean_pinaster/heldout_diameter.json",
@@ -438,7 +438,7 @@
     {
       "path": "analysis/figures/fig1_design.pdf",
       "source_sha256": "bd23afcd0f16cb0a77a3db7df4e383378c185901b0a3003f255788e871c9642e",
-      "packaged_sha256": "166435395e0805c074f752fbce87d2c1539dddfb10e422c452049cd91574e5d5"
+      "packaged_sha256": "fe4c6aaea84aeec5ba74f1792d0e5d9ceb8fecd38c89ebf879b149b47553e348"
     },
     {
       "path": "analysis/figures/fig1_design.png",
@@ -448,7 +448,7 @@
     {
       "path": "analysis/figures/fig2_age_only.pdf",
       "source_sha256": "1c32b653580a3f489f3a07246b56fc1fd5c6c9e641895591748a03db408b7ad1",
-      "packaged_sha256": "e40a47da84035f3b572f7fa14267c01690d29593c42258fd381deb41ddb03144"
+      "packaged_sha256": "2083d05f4e4544a7bf4a79f05227ea44b78cd0b67d965247c611e172d86e3df1"
     },
     {
       "path": "analysis/figures/fig2_age_only.png",
@@ -458,7 +458,7 @@
     {
       "path": "analysis/figures/fig3_measured_tree.pdf",
       "source_sha256": "6a68ac887379f74c204636cc0269093474389231d7b5931a106652fbbe43852d",
-      "packaged_sha256": "d55402af333c314e895fcc3f54a967274d5c09efdf8c83c56693687266605afd"
+      "packaged_sha256": "30004005c4c1e8385d950c05e1cc69c0d15d593e07771002a49082c373d04296"
     },
     {
       "path": "analysis/figures/fig3_measured_tree.png",
@@ -468,7 +468,7 @@
     {
       "path": "analysis/figures/fig4_bias_by_province.pdf",
       "source_sha256": "6c130f0c64818f9ef97e9c6d965ffb31f0d0242a80880585022481bce7412518",
-      "packaged_sha256": "149487e234bdb49ad3cdf2c1278a7686d728c3679a83874c1720979d658554b6"
+      "packaged_sha256": "f4ac5f07912af6d014d44cca609d43cb8d4e341a10fe38076dbd3cf13c45800e"
     },
     {
       "path": "analysis/figures/fig4_bias_by_province.png",
@@ -481,5 +481,5 @@
       "packaged_sha256": "8f98593047303e92e59be972aee758ca50061e913a4c0e197d1923baea2f7ca7"
     }
   ],
-  "packaging_update": "2026-11-13: Analysis tools, results, and figures organized under analysis/. Reproduction and raw-data export verified after relocation."
+  "packaging_update": "2026-11-13: Standalone layout uses analysis/ and models/. Imports, reproduction, and raw-inventory export verified after relocation."
 }

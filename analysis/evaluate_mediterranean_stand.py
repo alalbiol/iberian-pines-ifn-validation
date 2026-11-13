@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from evaluate_mediterranean_pinaster import FIT_PROVINCES, load_eligible  # noqa: E402
 from mediterranean_pinaster import site_index_70  # noqa: E402

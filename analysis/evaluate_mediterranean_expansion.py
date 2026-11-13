@@ -14,7 +14,7 @@ import pandas as pd
 from scipy.stats import norm
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from audit_mediterranean_turnover import load_turnover  # noqa: E402
 from evaluate_mediterranean_pinaster import FIT_PROVINCES  # noqa: E402

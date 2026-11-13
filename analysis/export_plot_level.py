@@ -14,7 +14,7 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 sys.path.insert(0, str(HERE))
 OUT = HERE / "results" / "plot_level"
 OUT.mkdir(parents=True, exist_ok=True)

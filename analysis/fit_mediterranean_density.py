@@ -17,7 +17,7 @@ import pandas as pd
 from scipy.optimize import least_squares
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "use_case_1_simulator/agb_forecast_analysis"))
+sys.path.insert(0, str(ROOT / "models"))
 
 from evaluate_mediterranean_pinaster import FIT_PROVINCES  # noqa: E402
 from ifn4_age_validation import IFN4_DIR, _plot_key  # noqa: E402

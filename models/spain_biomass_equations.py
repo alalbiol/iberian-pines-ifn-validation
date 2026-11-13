@@ -8,10 +8,10 @@ for Spanish national-forest-inventory-compatible biomass equations, same
 research group as the T3 growth papers:
   - Pine: Ruiz-Peinado, del Rio & Montero (2011), "New models for estimating
     the carbon sink capacity of Spanish softwood species," Forest Systems
-    20(1):176-188. PDF: use_case_1_simulator/docs/ruiz_peinado_2011_softwood_biomass.pdf
+    20(1):176-188. PDF: the original project reference library/ruiz_peinado_2011_softwood_biomass.pdf
   - Oaks: Ruiz-Peinado, Montero & del Rio (2012), "Biomass models to estimate
     carbon stocks for hardwood tree species," Forest Systems 21(1):42-52.
-    PDF: use_case_1_simulator/docs/ruiz_peinado_2012_hardwood_biomass.pdf
+    PDF: the original project reference library/ruiz_peinado_2012_hardwood_biomass.pdf
 
 Both papers fit weight (kg, dry) as a function of diameter at breast height
 (d, cm) and/or total height (h, m), per species, per biomass component (stem,

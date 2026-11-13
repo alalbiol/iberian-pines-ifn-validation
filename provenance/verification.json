@@ -11,7 +11,8 @@
     "young_mediterranean_reference.json": "Exact match to source snapshot after full export",
     "inventory_downloader": "2026-11-13: Downloaded and extracted all 42 databases from MITECO into an empty directory; all hashes match the original study inputs. Five downloader unit tests passed.",
     "figure_directory_cleanup": "2026-11-13: Figures placed in the analysis figure directory; full metrics and figure reproduction passed. Manuscript sources are excluded from this repository.",
-    "analysis_layout": "2026-11-13: All analysis modules import; metrics and figures reproduce; full plot-level export from local inventories matches the previous files byte for byte."
+    "analysis_layout": "2026-11-13: All analysis modules import; metrics and figures reproduce; full plot-level export from local inventories matches the previous files byte for byte.",
+    "models_layout": "2026-11-13: Shared modules moved to models/. All analysis imports, reference metrics, figures, and downloader tests pass. Raw-inventory forecast exports match previous files byte for byte."
   },
   "limitations": [
     "Historical exploratory results were copied, not all rerun"

@@ -1,7 +1,7 @@
 """
 Runnable implementations of the T3 growth-curve equations for the 3 Sylvestris
 species, transcribed directly from the papers now in
-use_case_1_simulator/docs/ (see sylvestris_species_growth_plan.md, "T3
+the original project reference library/ (see sylvestris_species_growth_plan.md, "T3
 results" for the full citations and caveats). Each function is checked
 against a number quoted directly in its source paper (see `if __name__ ==
 "__main__"` at the bottom) — this catches transcription typos, it does NOT
@@ -210,7 +210,7 @@ def quercus_suber_from_site_class(site_class: str, t: float) -> float:
 # --- Quercus suber DIAMETER (Sánchez-González, Tomé & Montero 2005, Ann. For. Sci. 62:633-643) ---
 # Closes T9's cork oak gap: the height->diameter inversion does not work in dehesa
 # (see spain_height_diameter.py), so diameter comes from this paper's own dominant-tree
-# diameter-growth model instead. PDF: use_case_1_simulator/docs/f5074.pdf. Stem analysis of
+# diameter-growth model instead. PDF: the original project reference library/f5074.pdf. Stem analysis of
 # 85 dominant trees (Los Alcornocales + Catalonia), one model for both regions.
 #   Height, eq. 12 (McDill-Amateis): h2 = 20.7216 / (1 - (1 - 20.7216/h1) * (t1/t2)**1.4486).
 #     Used ONLY to compute this paper's site index (dominant height at 80 years; classes

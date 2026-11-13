@@ -4,8 +4,8 @@ The current code produces the 144-plot Ourense/Pontevedra IFN4 result
 (corrected; see below). Run from the repository root with the `sim_case1` environment:
 
 ```bash
-python use_case_1_simulator/agb_forecast_analysis/ifn4_pine_calibration.py
-python use_case_1_simulator/agb_forecast_analysis/ifn4_age_validation.py
+python models/ifn4_pine_calibration.py
+python models/ifn4_age_validation.py
 python analysis/audit_galician_pinaster.py
 ```
 

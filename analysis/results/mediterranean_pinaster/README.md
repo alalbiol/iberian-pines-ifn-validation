@@ -27,7 +27,7 @@ python analysis/evaluate_mediterranean_thinning_scenario.py
 The corresponding JSON files here are the captured outputs. Inputs are
 `/media/HD/Data/ifn4/*.accdb`, `/media/HD/Data/ifn3/pXX/Ifn3pXX.accdb` and
 `/media/HD/Data/ifn_validation/pairs34_p*.csv`. The latter were built by
-`use_case_1_simulator/agb_forecast_analysis/ifn3_ifn4_pairs.py` using
+`models/ifn3_ifn4_pairs.py` using
 species, bearing and distance checks. Source age/method/origin definitions
 are in the local MITECO IFN4 field database manual, annexes 8–10.
 
@@ -39,7 +39,7 @@ et al. (2005), and is used only to quantify regional transfer. See
 `../../paper_plan.md` for the interpretation and limitations.
 
 The mature stand prototype is
-`use_case_1_simulator/agb_forecast_analysis/mediterranean_pinaster_stand.py`.
+`models/mediterranean_pinaster_stand.py`.
 It combines the published height projection with IFN4-fitted dominant
 diameter, mean/dominant biomass ratio, and Ruiz-Peinado tree allometry.
 The IFN4 fit used Madrid and Salamanca. On 16 other-province known-age
@@ -113,7 +113,7 @@ any future individual-tree validation; future cuts and survival remain
 unknown inputs or processes.
 
 The prospective inventory-anchored tree-list API is
-`use_case_1_simulator/agb_forecast_analysis/mediterranean_pinaster_tree_forecast.py`.
+`models/mediterranean_pinaster_tree_forecast.py`.
 It takes measured pine DBH and height, a projection interval, and optional
 per-tree thinning fractions supplied by the user. Optional initial basal
 area and quadratic mean diameter activate the published ingrowth component
